@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="252" viewBox="0 0 440 252" fill="none" role="img" aria-label="StatStriker (StatStriker): Premier League match predictor. A weekly pipeline retrains a three-model ensemble and serves it through FastAPI. 5 stars.">
+<title>StatStriker (StatStriker): Premier League match predictor. A weekly pipeline retrains a three-model ensemble and serves it through FastAPI. 5 stars.</title>
+<style>.tw{animation:tw 5s ease-in-out infinite}@keyframes tw{0%,100%{opacity:1}50%{opacity:.2}}.sweep{animation:sw 9s ease-in-out infinite}@keyframes sw{0%{transform:translateX(-200px)}45%,100%{transform:translateX(640px)}}</style>
+<defs>
+<radialGradient id="spot-p0" cx="0.0" cy="0.0" r="0.9"><animate attributeName="cx" values="0.0;0.5;0.0" dur="22s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><stop offset="0" stop-color="#2E2E2E"/><stop offset=".45" stop-color="#121212"/><stop offset="1" stop-color="#050505"/></radialGradient>
+<filter id="grain-p0" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .09"/></feComponentTransfer></filter>
+<clipPath id="clip-p0"><rect width="440" height="252" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#clip-p0)"><rect width="440" height="252" fill="url(#spot-p0)"/><rect width="440" height="252" filter="url(#grain-p0)"/></g>
+<rect x=".5" y=".5" width="439" height="251" rx="13.5" stroke="#2A2A2A"/>
+
+<defs><linearGradient id="sw-p0" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".05"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<clipPath id="cc-p0"><rect width="440" height="252" rx="14"/></clipPath></defs>
+<g clip-path="url(#cc-p0)"><rect class="sweep" style="animation-delay:0.0s" x="0" y="0" width="160" height="252" fill="url(#sw-p0)" transform="skewX(-20)"/></g>
+<circle class="tw" style="animation-delay:5.4s;animation-duration:6.5s" cx="274.8" cy="76.0" r="0.75" fill="#FFFFFF" fill-opacity="0.28"/><circle cx="386.0" cy="79.4" r="0.39" fill="#FFFFFF" fill-opacity="0.29"/><circle class="tw" style="animation-delay:6.6s;animation-duration:4.7s" cx="258.1" cy="97.1" r="0.52" fill="#FFFFFF" fill-opacity="0.41"/><circle cx="284.7" cy="63.9" r="0.45" fill="#FFFFFF" fill-opacity="0.25"/><circle class="tw" style="animation-delay:1.5s;animation-duration:7.8s" cx="356.5" cy="98.4" r="0.66" fill="#FFFFFF" fill-opacity="0.46"/><circle cx="389.1" cy="63.1" r="0.71" fill="#FFFFFF" fill-opacity="0.17"/><circle class="tw" style="animation-delay:5.4s;animation-duration:5.8s" cx="251.0" cy="73.4" r="0.46" fill="#FFFFFF" fill-opacity="0.44"/><circle cx="405.3" cy="66.4" r="0.60" fill="#FFFFFF" fill-opacity="0.36"/><circle class="tw" style="animation-delay:3.9s;animation-duration:7.8s" cx="403.4" cy="61.6" r="0.69" fill="#FFFFFF" fill-opacity="0.39"/>
+<circle cx="33" cy="37" r="7" stroke="#6E6E6E" stroke-opacity=".7"/><circle cx="33" cy="37" r="1.6" fill="#EDEDEA"/><g><animateTransform attributeName="transform" type="rotate" from="0 33 37" to="360 33 37" dur="5.0s" repeatCount="indefinite"/><circle cx="40" cy="37" r="2" fill="#FFFFFF"/></g>
+<text x="48" y="42" text-anchor="start" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.4" fill="#6E6E6E" >P/01</text>
+<rect x="358" y="27" width="58" height="21" rx="2" stroke="#A8A8A8" stroke-opacity=".6"/>
+<text x="387.0" y="42" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="1.6" fill="#EDEDEA" >MLOPS</text>
+<text x="25" y="86" font-family="Georgia,'Times New Roman',Times,serif" font-size="27" letter-spacing="-.4" fill="#FFFFFF">StatStriker</text>
+<text x="26" y="122" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" fill="#EDEDEA">Premier League match predictor. A weekly</text><text x="26" y="145" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" fill="#EDEDEA">pipeline retrains a three-model ensemble and</text><text x="26" y="168" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" fill="#EDEDEA">serves it through FastAPI.</text>
+<line x1="26" y1="198" x2="414" y2="198" stroke="#2A2A2A"/>
+<text x="26" y="225" text-anchor="start" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="0.4" fill="#A8A8A8" >Python  ·  scikit-learn  ·  FastAPI  ·  Docker</text>
+<text x="414" y="225" text-anchor="end" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" letter-spacing="0" fill="#EDEDEA" >★ 5</text>
+</svg>

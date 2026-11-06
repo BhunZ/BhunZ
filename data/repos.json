@@ -1,0 +1,66 @@
+[
+ {
+  "name": "a8-hbt-datathon-the_gridbreaker",
+  "stargazers_count": 0,
+  "fork": false,
+  "language": "Jupyter Notebook",
+  "languages": {
+   "Jupyter Notebook": 634673,
+   "Python": 7671
+  }
+ },
+ {
+  "name": "binance-market-pipeline",
+  "stargazers_count": 0,
+  "fork": false,
+  "language": "Python",
+  "languages": {
+   "Python": 117198,
+   "Shell": 1370
+  }
+ },
+ {
+  "name": "football-match-prediction-poisson",
+  "stargazers_count": 2,
+  "fork": false,
+  "language": "Jupyter Notebook",
+  "languages": {
+   "Jupyter Notebook": 2697614,
+   "Python": 34540
+  }
+ },
+ {
+  "name": "stanford-nlp-tutor",
+  "stargazers_count": 0,
+  "fork": false,
+  "language": "Jupyter Notebook",
+  "languages": {
+   "Jupyter Notebook": 700185,
+   "Python": 638557,
+   "TypeScript": 81104,
+   "CSS": 4663,
+   "HTML": 727,
+   "JavaScript": 682
+  }
+ },
+ {
+  "name": "StatStriker",
+  "stargazers_count": 5,
+  "fork": false,
+  "language": "Python",
+  "languages": {
+   "Python": 378672,
+   "HTML": 132183
+  }
+ },
+ {
+  "name": "Vietnam-Data-Job-Market-Analysis",
+  "stargazers_count": 0,
+  "fork": false,
+  "language": "Python",
+  "languages": {
+   "Python": 460528,
+   "Dockerfile": 2897
+  }
+ }
+]

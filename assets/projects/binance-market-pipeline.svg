@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="252" viewBox="0 0 440 252" fill="none" role="img" aria-label="Binance Market Pipeline (binance-market-pipeline): Batch (Airflow → dbt) and streaming (Kafka) views of one market, reconciled minute by minute.">
+<title>Binance Market Pipeline (binance-market-pipeline): Batch (Airflow → dbt) and streaming (Kafka) views of one market, reconciled minute by minute.</title>
+<style>.tw{animation:tw 5s ease-in-out infinite}@keyframes tw{0%,100%{opacity:1}50%{opacity:.2}}.sweep{animation:sw 9s ease-in-out infinite}@keyframes sw{0%{transform:translateX(-200px)}45%,100%{transform:translateX(640px)}}</style>
+<defs>
+<radialGradient id="spot-p2" cx="0.0" cy="0.0" r="0.9"><animate attributeName="cx" values="0.0;0.5;0.0" dur="22s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><stop offset="0" stop-color="#2E2E2E"/><stop offset=".45" stop-color="#121212"/><stop offset="1" stop-color="#050505"/></radialGradient>
+<filter id="grain-p2" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .09"/></feComponentTransfer></filter>
+<clipPath id="clip-p2"><rect width="440" height="252" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#clip-p2)"><rect width="440" height="252" fill="url(#spot-p2)"/><rect width="440" height="252" filter="url(#grain-p2)"/></g>
+<rect x=".5" y=".5" width="439" height="251" rx="13.5" stroke="#2A2A2A"/>
+
+<defs><linearGradient id="sw-p2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".05"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<clipPath id="cc-p2"><rect width="440" height="252" rx="14"/></clipPath></defs>
+<g clip-path="url(#cc-p2)"><rect class="sweep" style="animation-delay:2.6s" x="0" y="0" width="160" height="252" fill="url(#sw-p2)" transform="skewX(-20)"/></g>
+<circle class="tw" style="animation-delay:1.2s;animation-duration:6.6s" cx="275.2" cy="83.1" r="0.68" fill="#FFFFFF" fill-opacity="0.27"/><circle cx="355.0" cy="80.9" r="0.37" fill="#FFFFFF" fill-opacity="0.32"/><circle class="tw" style="animation-delay:6.2s;animation-duration:6.7s" cx="355.3" cy="78.9" r="0.56" fill="#FFFFFF" fill-opacity="0.21"/><circle cx="271.8" cy="91.6" r="0.73" fill="#FFFFFF" fill-opacity="0.35"/><circle class="tw" style="animation-delay:1.6s;animation-duration:5.7s" cx="325.1" cy="78.0" r="0.43" fill="#FFFFFF" fill-opacity="0.36"/><circle cx="357.1" cy="85.5" r="0.49" fill="#FFFFFF" fill-opacity="0.15"/><circle class="tw" style="animation-delay:3.6s;animation-duration:6.7s" cx="306.6" cy="86.3" r="0.59" fill="#FFFFFF" fill-opacity="0.27"/><circle cx="404.3" cy="63.3" r="0.46" fill="#FFFFFF" fill-opacity="0.34"/><circle class="tw" style="animation-delay:3.9s;animation-duration:5.2s" cx="357.3" cy="75.0" r="0.72" fill="#FFFFFF" fill-opacity="0.46"/>
+<circle cx="33" cy="37" r="7" stroke="#6E6E6E" stroke-opacity=".7"/><circle cx="33" cy="37" r="1.6" fill="#EDEDEA"/><g><animateTransform attributeName="transform" type="rotate" from="120 33 37" to="480 33 37" dur="8.4s" repeatCount="indefinite"/><circle cx="40" cy="37" r="2" fill="#FFFFFF"/></g>
+<text x="48" y="42" text-anchor="start" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.4" fill="#6E6E6E" >P/03</text>
+<rect x="328" y="27" width="88" height="21" rx="2" stroke="#A8A8A8" stroke-opacity=".6"/>
+<text x="371.8" y="42" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="1.6" fill="#EDEDEA" >STREAMING</text>
+<text x="25" y="86" font-family="Georgia,'Times New Roman',Times,serif" font-size="27" letter-spacing="-.4" fill="#FFFFFF">Binance Market Pipeline</text>
+<text x="26" y="122" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" fill="#EDEDEA">Batch (Airflow → dbt) and streaming (Kafka)</text><text x="26" y="145" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" fill="#EDEDEA">views of one market, reconciled minute by</text><text x="26" y="168" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" fill="#EDEDEA">minute.</text>
+<line x1="26" y1="198" x2="414" y2="198" stroke="#2A2A2A"/>
+<text x="26" y="225" text-anchor="start" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="0.4" fill="#A8A8A8" >Airflow  ·  dbt  ·  Kafka  ·  Postgres</text>
+
+</svg>
