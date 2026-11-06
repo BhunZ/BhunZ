@@ -36,7 +36,7 @@
 <text x="48" y="52" text-anchor="start" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="2.4" fill="#6E6E6E" >THE YEAR, AFTER DARK</text>
 <text x="44" y="112" font-family="Georgia,'Times New Roman',Times,serif" font-size="58" letter-spacing="-2" fill="#FFFFFF">281</text>
 <text x="48" y="138" font-family="Georgia,'Times New Roman',Times,serif" font-style="italic" font-size="16" fill="#A8A8A8">commits, one lit window each</text>
-<text x="48" y="162" text-anchor="start" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" letter-spacing="1.4" fill="#EDEDEA" >35 ACTIVE DAYS  ·  4-DAY STREAK  ·  PEAK 82</text>
+<text x="48" y="162" text-anchor="start" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" letter-spacing="1.4" fill="#EDEDEA" >34 ACTIVE DAYS  ·  4-DAY STREAK  ·  PEAK 82</text>
 <text x="48" y="496" text-anchor="start" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" letter-spacing="1.6" fill="#6E6E6E" >ONE BUILDING PER WEEK · HEIGHT = COMMITS THAT WEEK</text>
 <text x="852" y="496" text-anchor="end" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" letter-spacing="1.6" fill="#6E6E6E" >REBUILT DAILY · @BHUNZ</text>
 </svg>

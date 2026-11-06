@@ -26,6 +26,7 @@ USER = "BhunZ"
 
 # ───────────────────────────── CONTENT ─────────────────────────────
 FIRST, LAST = "Bao Hung", "Nguyen"
+FULL_NAME = "Nguyễn Đức Bảo Hưng"
 ROLE = "DATA ENGINEER  ·  ANALYTICS & ML PIPELINES"
 SLOGAN = ("Stream of consciousness,", "batch of conscience.")
 CITY = "HO CHI MINH CITY"
@@ -268,14 +269,15 @@ def hero(D):
 <g class="fade">
 <text x="52" y="164" font-family="{SERIF}" font-size="62" letter-spacing="-1.5" fill="url(#chrome)">{e(FIRST)}</text>
 <text x="52" y="228" font-family="{SERIF}" font-style="italic" font-size="62" letter-spacing="-1.5" fill="url(#chrome)">{e(LAST)}<tspan fill="{SILVER}" font-style="normal">.</tspan></text>
-{caps(56, 270, ROLE, size=11, fill=SILVER, spacing=2.2)}
-<text font-family="{SERIF}" font-style="italic" font-size="23" fill="{PAPER}"><tspan x="50" y="320"><tspan fill="{ASH}" font-size="34" dy="6">“</tspan><tspan dy="-6">{e(SLOGAN[0])}</tspan></tspan><tspan x="66" y="350">{e(SLOGAN[1])}<tspan fill="{ASH}" font-size="34" dy="6">”</tspan></tspan></text>
+<text x="57" y="267" font-family="{SERIF}" font-style="italic" font-size="15.5" fill="{ASH}"><tspan fill="{SILVER}">— </tspan>{e(FULL_NAME)}</text>
+{caps(56, 294, ROLE, size=11, fill=SILVER, spacing=2.2)}
+<text font-family="{SERIF}" font-style="italic" font-size="23" fill="{PAPER}"><tspan x="50" y="336"><tspan fill="{ASH}" font-size="34" dy="6">“</tspan><tspan dy="-6">{e(SLOGAN[0])}</tspan></tspan><tspan x="66" y="364">{e(SLOGAN[1])}<tspan fill="{ASH}" font-size="34" dy="6">”</tspan></tspan></text>
 </g>
-{signature(46, 362, 92, uid='hero', delay=1.2)}
+{signature(46, 368, 88, uid='hero', delay=1.2)}
 {caps(844, 446, "365 DAYS · ONE STAR EACH · BRIGHTER = MORE COMMITS", size=9.5, anchor="end", spacing=1.6)}
 {hairline('bot', 56, 844, 470, opacity=.35)}
 {stat_txt}"""
-    return doc(W, h, f"{FIRST} {LAST}, {ROLE.title()}. “{' '.join(SLOGAN)}” A galaxy of {D['total']} contributions.", body, style)
+    return doc(W, h, f"{FIRST} {LAST} ({FULL_NAME}), {ROLE.title()}. “{' '.join(SLOGAN)}” A galaxy of {D['total']} contributions.", body, style)
 
 
 # ──────────────────────────── MOTION ───────────────────────────────
