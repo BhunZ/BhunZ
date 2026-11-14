@@ -8,44 +8,33 @@ import json, os, re, subprocess, time, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "assets2")
-UA = "news-explainer-build/2.0 (non-commercial educational video research)"
+UA = "BhunZ-news-explainer/2.0 (baohung.clone@gmail.com) python-urllib/3.12"   # Wikimedia UA policy (owner-approved contact)
 API = "https://commons.wikimedia.org/w/api.php"
 OK_LIC = re.compile(r"^(public domain|pd|cc0|cc by(-sa)? ?\d(\.\d)?|cc by(-sa)?)", re.I)
 
 PHOTO_Q = {
-    "huang": ["Jensen Huang Computex", "Jensen Huang GTC", "Jensen Huang keynote", "黃仁勳", "黄仁勋",
-              "Jensen Huang Taiwan", "Jensen Huang White House", "Jensen Huang 2018", "Jensen Huang 2019",
-              "Jensen Huang 2023", "Jensen Huang 2024", "Jensen Huang 2025", "Jensen Huang"],
-    "singapore": ["Singapore skyline night", "Marina Bay Singapore night"],
-    "kl": ["Kuala Lumpur skyline night"],
-    "datacenter": ["data center server room", "server racks datacenter"],
-    "gpu": ["Nvidia GPU", "graphics card circuit board", "Nvidia H100"],
-    "wafer": ["silicon wafer", "semiconductor wafer"],
-    "cleanroom": ["semiconductor clean room"],
-    "port": ["container port Singapore", "container terminal night"],
-    "capitol": ["United States Capitol dome", "United States Capitol night"],
-    "hearing": ["Rayburn House Office Building hearing room", "congressional hearing room empty"],
-    "nvidia_hq": ["Nvidia headquarters Santa Clara", "Nvidia Voyager building"],
-    "ticker": ["stock ticker Nasdaq MarketSite", "Nasdaq MarketSite"],
-    "tower": ["glass office tower", "glass skyscraper facade"],
-    "rain": ["rain on window glass"],
+    "huang": ["Jensen Huang GTC", "Jensen Huang Computex 2023", "Jensen Huang Computex 2024", "黃仁勳 2024", "Jensen Huang 2019"],
 }
-VIDEO_Q = ["data center", "server room", "computer servers", "Singapore night timelapse", "Singapore skyline",
-           "Kuala Lumpur timelapse", "container port", "container ship port", "United States Capitol",
-           "stock market ticker", "rain window", "circuit board", "semiconductor", "city traffic night timelapse",
-           "skyscraper", "typing keyboard", "clean room"]
+VIDEO_Q = ["Petronas Towers", "Kuala Lumpur skyline", "container terminal", "Port of Singapore", "United States Capitol",
+           "Washington D.C. timelapse", "stock exchange", "rain drops window", "skyscraper glass", "city lights timelapse",
+           "printed circuit board", "silicon wafer"]
 
 
 def get(params):
-    params.update({"format": "json", "formatversion": 2})
+    """API GET that honours Wikimedia's Retry-After on 429 (rate-limit best practice)."""
+    import urllib.error
+    params.update({"format": "json", "formatversion": 2, "maxlag": 5})
     url = API + "?" + urllib.parse.urlencode(params)
-    for i in range(6):
+    for i in range(12):
         try:
-            time.sleep(4.0)
+            time.sleep(3.0)
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             return json.load(urllib.request.urlopen(req, timeout=40))
+        except urllib.error.HTTPError as e:
+            wait = int(e.headers.get("Retry-After") or 30) + 2
+            print(f"  429/err {e.code}: waiting {wait}s", flush=True); time.sleep(wait); err = e
         except Exception as e:
-            print("  api retry", i, e, flush=True); time.sleep(60 * (i + 1)); err = e
+            time.sleep(10); err = e
     raise err
 
 
@@ -106,7 +95,7 @@ def main():
         for pg in search(q, "video", 10):
             if pg["title"] in seen or "videoinfo" not in pg:
                 continue
-            if len([k for k in reg if reg[k]["cat"] == q]) >= 3:
+            if len([k for k in reg if reg[k]["cat"] == q]) >= 2:
                 break
             vi = pg["videoinfo"][0]; md = meta(vi)
             if not OK_LIC.match(md["license"]):
@@ -136,7 +125,7 @@ def main():
             for pg in search(q, "photo"):
                 if pg["title"] in seen or "imageinfo" not in pg:
                     continue
-                if len([k for k in reg if k.startswith(cat + "_")]) >= (16 if cat == "huang" else 4):
+                if len([k for k in reg if k.startswith(cat + "_") and not reg[k].get("rejected")]) >= (22 if cat == "huang" else 4):
                     break
                 ii = pg["imageinfo"][0]; md = meta(ii)
                 if not OK_LIC.match(md["license"]) or ii["width"] < 1000:

@@ -1,0 +1,78 @@
+{
+ "commons_dc_aisle": {
+  "reviewed": true
+ },
+ "huang_04": {
+  "rejected": "crowd of unrelated people (faces)"
+ },
+ "huang_05": {
+  "rejected": "crowd of unrelated people (faces)"
+ },
+ "huang_09": {
+  "rejected": "crowd of unrelated people (faces)"
+ },
+ "huang_10": {
+  "rejected": "crowd of unrelated people (faces)"
+ },
+ "vid_01": {
+  "reviewed": true,
+  "clip_starts": [
+   3.0,
+   8.0,
+   13.0
+  ]
+ },
+ "vid_02": {
+  "reviewed": true,
+  "clip_starts": [
+   1.0,
+   9.0,
+   15.0
+  ]
+ },
+ "vid_03": {
+  "reviewed": true,
+  "clip_starts": [
+   0.5,
+   12.5,
+   16.0
+  ]
+ },
+ "vid_08": {
+  "rejected": "military vessel; off-topic, could imply an unsupported angle"
+ },
+ "vid_04": {
+  "reviewed": true,
+  "clip_starts": [
+   0.5,
+   6.0,
+   12.0
+  ]
+ },
+ "vid_05": {
+  "reviewed": true,
+  "clip_starts": [
+   0.5,
+   8.0,
+   14.0
+  ]
+ },
+ "vid_06": {
+  "reviewed": true,
+  "clip_starts": [
+   0.5,
+   6.0,
+   15.5
+  ],
+  "note": "Port of Cork footage, used only as generic port imagery (never labelled as an Asian port)"
+ },
+ "vid_07": {
+  "reviewed": true,
+  "clip_starts": [
+   0.5,
+   6.0,
+   12.0
+  ],
+  "note": "Port of Cork footage, used only as generic port imagery (never labelled as an Asian port)"
+ }
+}

@@ -4,150 +4,191 @@
   1080,
   1920
  ],
- "duration": 89.8149,
+ "duration": 179.8649,
  "beats": [
   {
-   "id": "b01",
+   "id": "s01",
    "start": 0.0,
-   "end": 2.938,
-   "dur": 2.938,
-   "narration_words": "Two weeks ago Jensen Huang was running Nvidia",
+   "end": 3.298,
+   "narration_words": "On November eleventh Nvidia's board accepted",
    "caption_emphasis": [
-    "Jensen",
-    "Huang",
-    "Nvidia"
+    "NOV. 11",
+    "NVIDIA'S"
    ],
-   "visual_type": "gpu",
+   "visual_type": "BG video + FRONT 8k_cover (slam at 0.67s); FRONT 8k_resign (slam at 2.79s, zoom 2.4x)",
    "asset_path_or_spec": {
-    "label": "NVIDIA \u00b7 PRESIDENT & CEO",
-    "push_d": 6.0
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 1.5,
+    "crop": null,
+    "desat": null
    },
-   "motion": "slow 5% push-in on GPU illustration",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "sub_hit",
-     "t": 0.0
-    }
-   ],
+   "sfx": [],
    "ledger_ids": [
     "B6a"
    ]
   },
   {
-   "id": "b02",
-   "start": 2.938,
-   "end": 4.35,
-   "dur": 1.412,
-   "narration_words": "This week he resigned",
+   "id": "s02",
+   "start": 3.298,
+   "end": 7.135,
+   "narration_words": "Jensen Huang's resignation Effective immediately",
    "caption_emphasis": [
-    "resigned"
+    "JENSEN",
+    "HUANG'S",
+    "RESIGNATION"
    ],
-   "visual_type": "gpu",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "stamp_at": 0.747,
-    "t_off": 2.94,
-    "push_d": 6.0
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 1.5,
+    "crop": null,
+    "desat": null
    },
-   "motion": "push continues; RESIGNED stamp slams, image desaturates",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "stamp",
-     "t": 3.685
-    }
-   ],
+   "sfx": [],
    "ledger_ids": [
     "B6a"
    ]
   },
   {
-   "id": "b03",
-   "start": 4.35,
-   "end": 6.27,
-   "dur": 1.92,
-   "narration_words": "The filing gives no reason",
+   "id": "s03",
+   "start": 7.135,
+   "end": 9.935,
+   "narration_words": "He co-founded the company in nineteen ninety-three and",
+   "caption_emphasis": [
+    "1993"
+   ],
+   "visual_type": "BG photo",
+   "asset_path_or_spec": {
+    "back": "assets2/photos/huang_13.jpg",
+    "back_id": "huang_13",
+    "clip_start": null,
+    "crop": null,
+    "desat": 0.75
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B6a",
+    "N10"
+   ]
+  },
+  {
+   "id": "s04",
+   "start": 9.935,
+   "end": 11.91,
+   "narration_words": "ran it for thirty-three years",
+   "caption_emphasis": [
+    "33 YEARS"
+   ],
+   "visual_type": "BG photo",
+   "asset_path_or_spec": {
+    "back": "assets2/photos/huang_14.jpg",
+    "back_id": "huang_14",
+    "clip_start": null,
+    "crop": null,
+    "desat": 0.75
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N10"
+   ]
+  },
+  {
+   "id": "s05",
+   "start": 11.91,
+   "end": 14.185,
+   "narration_words": "The filing gives no reason This is",
    "caption_emphasis": [],
-   "visual_type": "doc8k",
+   "visual_type": "BG video + FRONT 8k_cover (slam at 12.08s, zoom 1.25x); MID printed card huang_06",
    "asset_path_or_spec": {
-    "reason_at": 0.835
+    "back": "assets2/broll/nasa_boards.mp4",
+    "back_id": "nasa_boards",
+    "clip_start": 1.5,
+    "crop": null,
+    "desat": null
    },
-   "motion": "document slides up, 5% push; 'reason: none' tag pops",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
    "overlay": null,
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 4.35
+     "t": 11.91
     }
    ],
    "ledger_ids": [
-    "B6a"
+    "B6a",
+    "N10"
    ]
   },
   {
-   "id": "b04",
-   "start": 6.27,
-   "end": 7.608,
-   "dur": 1.338,
-   "narration_words": "Start with Megaspeed",
+   "id": "s06",
+   "start": 14.185,
+   "end": 16.81,
+   "narration_words": "what is confirmed What has been reported",
    "caption_emphasis": [
-    "Megaspeed"
+    "CONFIRMED",
+    "REPORTED"
    ],
-   "visual_type": "photo",
+   "visual_type": "BG video + FRONT ex991_top (slam at 14.52s); FRONT hl_cbs_investigation (slam at 15.91s)",
    "asset_path_or_spec": {
-    "img": "singapore.jpg",
-    "kicker": "SINGAPORE",
-    "title": "MEGASPEED INTERNATIONAL",
-    "crop": [
-     500,
-     0,
-     900,
-     1280
-    ],
-    "dim": 0.35,
-    "credit": "Photo: Someformofhuman, CC BY-SA 3.0, Wikimedia Commons"
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 1.5,
+    "crop": null,
+    "desat": null
    },
-   "motion": "Ken Burns push on skyline; title rises",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "whoosh",
-     "t": 6.27
-    }
-   ],
-   "ledger_ids": [
-    "B1a"
-   ]
+   "sfx": [],
+   "ledger_ids": []
   },
   {
-   "id": "b05",
-   "start": 7.608,
-   "end": 10.383,
-   "dur": 2.775,
-   "narration_words": "A Singapore cloud firm and Nvidia customer",
+   "id": "s07",
+   "start": 16.81,
+   "end": 18.83,
+   "narration_words": "And what is only alleged",
    "caption_emphasis": [
-    "Nvidia"
+    "ALLEGED"
    ],
-   "visual_type": "photo",
+   "visual_type": "BG video + FRONT hl_nyt_1029 (slam at 17.29s)",
    "asset_path_or_spec": {
-    "img": "singapore.jpg",
-    "crop": [
-     900,
-     150,
-     900,
-     1100
-    ],
-    "pan": 0.6,
-    "chips": [
-     "SINGAPORE-BASED",
-     "CLOUD COMPUTING",
-     "NVIDIA CUSTOMER"
-    ],
-    "chip_y": 380,
-    "dim": 0.3,
-    "credit": "Photo: Someformofhuman, CC BY-SA 3.0, Wikimedia Commons"
+    "back": "assets2/broll/nasa_boards.mp4",
+    "back_id": "nasa_boards",
+    "clip_start": 5.2,
+    "crop": null,
+    "desat": null
    },
-   "motion": "slow pan right; chips pop in",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": []
+  },
+  {
+   "id": "s08",
+   "start": 18.83,
+   "end": 20.892,
+   "narration_words": "The story runs through Megaspeed",
+   "caption_emphasis": [
+    "MEGASPEED"
+   ],
+   "visual_type": "BG video + FRONT hl_cbs_megaspeed (slam at 19.93s, zoom 1.5x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/vid_01.mp4",
+    "back_id": "vid_01",
+    "clip_start": 3.0,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
@@ -155,71 +196,69 @@
    ]
   },
   {
-   "id": "b06",
-   "start": 10.383,
-   "end": 12.707,
-   "dur": 2.324,
-   "narration_words": "Trade records cited by The New York Times",
+   "id": "s09",
+   "start": 20.892,
+   "end": 24.293,
+   "narration_words": "A Singapore-based cloud company and an Nvidia customer",
    "caption_emphasis": [
-    "Times"
+    "NVIDIA"
    ],
-   "visual_type": "card",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "kicker": "CITED BY THE NEW YORK TIMES",
-    "title": "TRADE RECORDS",
-    "tsize": 130,
-    "lines": [
-     [
-      "Purchases by Megaspeed's Malaysian affiliate, Speedmatrix",
-      "muted"
-     ]
-    ]
+    "back": "assets2/broll/vid_02.mp4",
+    "back_id": "vid_02",
+    "clip_start": 1.0,
+    "crop": null,
+    "desat": null
    },
-   "motion": "card pops in",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "slap",
-     "t": 10.383
-    }
-   ],
+   "sfx": [],
    "ledger_ids": [
+    "B1a"
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 24.293,
+   "end": 26.017,
+   "narration_words": "According to The New York Times",
+   "caption_emphasis": [
+    "NEW YORK TIMES"
+   ],
+   "visual_type": "BG photo + FRONT hl_nyt_2025 (slam at 24.32s, zoom 1.5x)",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 1.5,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B1a",
     "B2a"
    ]
   },
   {
-   "id": "b07",
-   "start": 12.707,
-   "end": 14.633,
-   "dur": 1.926,
-   "narration_words": "show its Malaysian affiliate bought at least",
-   "caption_emphasis": [],
-   "visual_type": "map",
-   "asset_path_or_spec": {
-    "stage": 1
-   },
-   "motion": "map: SG pin, arrow draws to Johor",
-   "overlay": null,
-   "sfx": [
-    {
-     "sfx": "whoosh",
-     "t": 12.707
-    }
+   "id": "s11",
+   "start": 26.017,
+   "end": 28.105,
+   "narration_words": "Megaspeed's Malaysian affiliate has spent",
+   "caption_emphasis": [
+    "MEGASPEED'S"
    ],
-   "ledger_ids": [
-    "B2a"
-   ]
-  },
-  {
-   "id": "b08",
-   "start": 14.633,
-   "end": 17.67,
-   "dur": 3.037,
-   "narration_words": "four point eight billion dollars of Nvidia-based gear",
-   "caption_emphasis": [],
-   "visual_type": "counter",
-   "asset_path_or_spec": {},
-   "motion": "counter 0\u21924.8B; server racks stack in",
+   "visual_type": "BG video + FRONT cbs_48 (slam at 27.84s, zoom 1.9x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/vid_03.mp4",
+    "back_id": "vid_03",
+    "clip_start": 0.5,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
@@ -227,251 +266,376 @@
    ]
   },
   {
-   "id": "b09",
-   "start": 17.67,
-   "end": 19.808,
-   "dur": 2.138,
-   "narration_words": "Singapore police are investigating",
-   "caption_emphasis": [],
-   "visual_type": "map",
+   "id": "s12",
+   "start": 28.105,
+   "end": 30.98,
+   "narration_words": "four point eight billion dollars on A.I. chips",
+   "caption_emphasis": [
+    "$4.8 BILLION"
+   ],
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "stage": 2
+    "back": "assets2/broll/nasa_boards.mp4",
+    "back_id": "nasa_boards",
+    "clip_start": 8.9,
+    "crop": null,
+    "desat": null
    },
-   "motion": "camera pulls out; dashed amber arrow to 'China?'",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B2a"
+   ]
+  },
+  {
+   "id": "s13",
+   "start": 30.98,
+   "end": 32.93,
+   "narration_words": "since June twenty twenty-four",
+   "caption_emphasis": [
+    "JUNE 2024"
+   ],
+   "visual_type": "BG video",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 5.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B2a"
+   ]
+  },
+  {
+   "id": "s14",
+   "start": 32.93,
+   "end": 35.117,
+   "narration_words": "U.S. officials have been investigating whether some",
+   "caption_emphasis": [],
+   "visual_type": "BG video + FRONT __stamp__ (slam at 33.97s, zoom 1.8x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 5.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 32.93
+    }
+   ],
+   "ledger_ids": [
+    "B2a",
+    "N5"
+   ]
+  },
+  {
+   "id": "s15",
+   "start": 35.117,
+   "end": 37.418,
+   "narration_words": "of that hardware ended up in China",
+   "caption_emphasis": [],
+   "visual_type": "BG video",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 5.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
    "sfx": [],
+   "ledger_ids": [
+    "N5"
+   ]
+  },
+  {
+   "id": "s16",
+   "start": 37.418,
+   "end": 40.03,
+   "narration_words": "Singapore police are investigating the company",
+   "caption_emphasis": [],
+   "visual_type": "BG video",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/vid_01.mp4",
+    "back_id": "vid_01",
+    "clip_start": 8.0,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: zoom",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 37.418
+    }
+   ],
    "ledger_ids": [
     "B2c",
     "N5"
    ]
   },
   {
-   "id": "b10",
-   "start": 19.808,
-   "end": 21.495,
-   "dur": 1.687,
-   "narration_words": "Megaspeed denies wrongdoing",
-   "caption_emphasis": [
-    "Megaspeed",
-    "denies"
-   ],
-   "visual_type": "denied",
-   "asset_path_or_spec": {
-    "who": "MEGASPEED",
-    "when": "Company statement",
-    "stamp_at": 0.597,
-    "quotes": [
-     "Denies wrongdoing",
-     "Says reviews by U.S. and Malaysian authorities, and by Nvidia, found no violations"
-    ]
-   },
-   "motion": "card slides up; DENIED stamp",
-   "overlay": null,
-   "sfx": [
-    {
-     "sfx": "stamp",
-     "t": 20.405
-    }
-   ],
-   "ledger_ids": [
-    "B2b"
-   ]
-  },
-  {
-   "id": "b11",
-   "start": 21.495,
-   "end": 23.665,
-   "dur": 2.17,
-   "narration_words": "and says it follows export rules",
+   "id": "s17",
+   "start": 40.03,
+   "end": 42.405,
+   "narration_words": "for suspected breaches of local law",
    "caption_emphasis": [],
-   "visual_type": "card",
+   "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "kicker": "MEGASPEED STATEMENT",
-    "kcolor": "red",
-    "glow": "red",
-    "lines": [
-     [
-      "\u201cfully within the bounds of all applicable export control regulations\u201d",
-      "quote"
-     ],
-     [
-      "Megaspeed, on its operations",
-      "muted"
-     ]
-    ]
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 5.2,
+    "crop": null,
+    "desat": null
    },
-   "motion": "quote card pop",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
-    "B2b"
+    "B2c"
    ]
   },
   {
-   "id": "b12",
-   "start": 23.665,
-   "end": 25.865,
-   "dur": 2.2,
-   "narration_words": "On October twenty-ninth the Times reported",
+   "id": "s18",
+   "start": 42.405,
+   "end": 45.155,
+   "narration_words": "Megaspeed denies wrongdoing It says it",
    "caption_emphasis": [
-    "Times"
+    "MEGASPEED",
+    "DENIES"
    ],
-   "visual_type": "headline",
+   "visual_type": "BG video + FRONT hl_nbc_megaspeed (slam at 42.44s, zoom 1.6x)",
    "asset_path_or_spec": {
-    "outlet": "The New York Times",
-    "date": "Oct 29, 2026",
-    "text": "Reported: U.S. intelligence officials believe a former Megaspeed executive is a Chinese intelligence asset.",
-    "foot": "OUR SUMMARY OF THE REPORT, NOT ITS HEADLINE"
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 8.9,
+    "crop": null,
+    "desat": null
    },
-   "motion": "paper card slaps in, slight tilt",
-   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: slide",
+   "overlay": null,
    "sfx": [
     {
-     "sfx": "slap",
-     "t": 23.665
+     "sfx": "whoosh",
+     "t": 42.405
     }
    ],
    "ledger_ids": [
-    "B3a"
+    "B2b",
+    "B2c",
+    "N9"
    ]
   },
   {
-   "id": "b13",
-   "start": 25.865,
-   "end": 27.902,
-   "dur": 2.037,
-   "narration_words": "that U.S. intelligence officials believe",
+   "id": "s19",
+   "start": 45.155,
+   "end": 48.23,
+   "narration_words": "takes export rules extremely seriously",
    "caption_emphasis": [],
-   "visual_type": "card",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "kicker": "ANONYMOUS SOURCES \u00b7 ALLEGED",
-    "kcolor": "amber",
-    "glow": "amber",
-    "title": "U.S. INTELLIGENCE OFFICIALS",
-    "lines": [
-     [
-      "reportedly believe\u2026",
-      "muted"
-     ]
-    ]
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 8.9,
+    "crop": null,
+    "desat": null
    },
-   "motion": "card pop; glitch on 'intelligence'",
-   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
-   "sfx": [
-    {
-     "sfx": "glitch",
-     "t": 26.55
-    }
-   ],
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
    "ledger_ids": [
-    "B3a"
+    "B2b",
+    "N9"
    ]
   },
   {
-   "id": "b14",
-   "start": 27.902,
-   "end": 29.315,
-   "dur": 1.413,
-   "narration_words": "Alice Huang a former",
-   "caption_emphasis": [
-    "Alice",
-    "Huang"
-   ],
-   "visual_type": "silhouette",
+   "id": "s20",
+   "start": 48.23,
+   "end": 51.05,
+   "narration_words": "and will cooperate with U.S. authorities",
+   "caption_emphasis": [],
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "label_at": 0.2
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 8.9,
+    "crop": null,
+    "desat": null
    },
-   "motion": "neutral silhouette card; label fades in",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B2b",
+    "N9"
+   ]
+  },
+  {
+   "id": "s21",
+   "start": 51.05,
+   "end": 53.488,
+   "narration_words": "On October twenty-ninth the Times reported that",
+   "caption_emphasis": [
+    "OCT. 29",
+    "REPORTED"
+   ],
+   "visual_type": "BG photo + FRONT hl_nyt_1029 (slam at 51.20s, zoom 1.6x)",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 8.9,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
    "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 27.902
+     "t": 51.05
     }
    ],
    "ledger_ids": [
-    "B3e"
+    "B2b",
+    "B3a",
+    "B3e",
+    "N9"
    ]
   },
   {
-   "id": "b15",
-   "start": 29.315,
-   "end": 31.59,
-   "dur": 2.275,
-   "narration_words": "Megaspeed executive and no relation",
-   "caption_emphasis": [
-    "Megaspeed"
-   ],
-   "visual_type": "silhouette",
+   "id": "s22",
+   "start": 53.488,
+   "end": 55.238,
+   "narration_words": "U.S. intelligence officials believe",
+   "caption_emphasis": [],
+   "visual_type": "BG video + FRONT hl_cbs_investigation (slam at 53.52s, zoom 1.5x)",
    "asset_path_or_spec": {
-    "label_at": -1,
-    "zoom": 1.05
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 12.600000000000001,
+    "crop": null,
+    "desat": null
    },
-   "motion": "tighter reframe of silhouette card",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
    "sfx": [],
    "ledger_ids": [
+    "B3a",
     "B3e"
    ]
   },
   {
-   "id": "b16",
-   "start": 31.59,
-   "end": 33.74,
-   "dur": 2.15,
+   "id": "s23",
+   "start": 55.238,
+   "end": 59.175,
+   "narration_words": "Alice Huang a former Megaspeed executive and no relation",
+   "caption_emphasis": [
+    "ALICE",
+    "HUANG",
+    "MEGASPEED"
+   ],
+   "visual_type": "BG video + CARD silhouette",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_globe.mp4",
+    "back_id": "nasa_globe",
+    "clip_start": 1.5,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [],
+   "ledger_ids": [
+    "B3a",
+    "B3e"
+   ]
+  },
+  {
+   "id": "s24",
+   "start": 59.175,
+   "end": 61.325,
    "narration_words": "is a Chinese intelligence asset",
    "caption_emphasis": [],
-   "visual_type": "card",
+   "visual_type": "BG video + FRONT hl_cbs_investigation (slam at 59.20s, zoom 1.7x)",
    "asset_path_or_spec": {
-    "kicker": "ALLEGED",
-    "kcolor": "amber",
-    "glow": "amber",
-    "title": "NOT PROVEN",
-    "tsize": 150,
-    "tcolor": "amber",
-    "lines": [
-     [
-      "The reported view of U.S. intelligence officials, per The New York Times.",
-      "muted"
-     ],
-     [
-      "China denies it.",
-      "body"
-     ]
-    ]
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 12.600000000000001,
+    "crop": null,
+    "desat": null
    },
-   "motion": "type card pop; glitch on 'intelligence'",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: zoom",
    "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
    "sfx": [
     {
-     "sfx": "glitch",
-     "t": 32.4
+     "sfx": "whoosh",
+     "t": 59.175
     }
    ],
    "ledger_ids": [
     "B3a",
-    "B3c"
+    "B3e"
    ]
   },
   {
-   "id": "b17",
-   "start": 33.74,
-   "end": 35.953,
-   "dur": 2.213,
-   "narration_words": "It said she was close to Jensen Huang",
+   "id": "s25",
+   "start": 61.325,
+   "end": 62.738,
+   "narration_words": "The Times also reported she",
    "caption_emphasis": [
-    "Jensen",
-    "Huang"
+    "REPORTED"
    ],
-   "visual_type": "card",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "kicker": "ALSO REPORTED BY THE TIMES",
-    "kcolor": "amber",
-    "glow": "amber",
-    "title": "A CLOSE RELATIONSHIP WITH JENSEN HUANG",
-    "tsize": 92
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 12.600000000000001,
+    "crop": null,
+    "desat": null
    },
-   "motion": "type card pop",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 61.325
+    }
+   ],
+   "ledger_ids": [
+    "B3a",
+    "B3e"
+   ]
+  },
+  {
+   "id": "s26",
+   "start": 62.738,
+   "end": 64.487,
+   "narration_words": "was close to Jensen Huang",
+   "caption_emphasis": [
+    "JENSEN",
+    "HUANG"
+   ],
+   "visual_type": "BG photo",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 12.600000000000001,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
    "sfx": [],
    "ledger_ids": [
@@ -479,146 +643,238 @@
    ]
   },
   {
-   "id": "b18",
-   "start": 35.953,
-   "end": 38.953,
-   "dur": 3.0,
-   "narration_words": "Nvidia called his interactions not unusual",
+   "id": "s27",
+   "start": 64.487,
+   "end": 66.987,
+   "narration_words": "An Nvidia spokesperson said his interactions with her",
    "caption_emphasis": [
-    "Nvidia",
-    "not",
-    "unusual"
+    "NVIDIA"
    ],
-   "visual_type": "denied",
+   "visual_type": "BG video + FRONT tc_notunusual (slam at 64.63s, zoom 1.9x)",
    "asset_path_or_spec": {
-    "who": "NVIDIA",
-    "when": "Statement \u00b7 Oct 29, 2026",
-    "stamp_at": 1.772,
-    "quotes": [
-     "Interactions \u201cnot unusual\u201d",
-     "Megaspeed is one of many regional cloud customers; diversion claims \u201cinvestigated and debunked\u201d"
-    ]
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 16.3,
+    "crop": null,
+    "desat": null
    },
-   "motion": "card slides up; DENIED stamp",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: slide",
    "overlay": null,
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 35.953
-    },
-    {
-     "sfx": "stamp",
-     "t": 37.725
+     "t": 64.487
     }
    ],
+   "ledger_ids": [
+    "B3a",
+    "B3b"
+   ]
+  },
+  {
+   "id": "s28",
+   "start": 66.987,
+   "end": 69.65,
+   "narration_words": "were not unusual or unexpected and that",
+   "caption_emphasis": [
+    "\u201cNOT",
+    "UNUSUAL",
+    "UNEXPECTED.\u201d"
+   ],
+   "visual_type": "BG video",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 16.3,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
    "ledger_ids": [
     "B3b"
    ]
   },
   {
-   "id": "b19",
-   "start": 38.953,
-   "end": 41.985,
-   "dur": 3.032,
-   "narration_words": "China's foreign ministry called the claims groundless",
-   "caption_emphasis": [
-    "groundless"
-   ],
-   "visual_type": "denied",
+   "id": "s29",
+   "start": 69.65,
+   "end": 72.625,
+   "narration_words": "meetings with customers are part of a C-E-O's job",
+   "caption_emphasis": [],
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "who": "CHINA'S FOREIGN MINISTRY",
-    "when": "Briefing \u00b7 Oct 30, 2026",
-    "stamp_at": 1.972,
-    "quotes": [
-     "\u201cgroundless speculation\u201d",
-     "Says the report aims to smear China"
-    ]
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.3,
+    "crop": null,
+    "desat": null
    },
-   "motion": "card slides up; DENIED stamp",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "stamp",
-     "t": 40.925
-    }
+   "sfx": [],
+   "ledger_ids": [
+    "B3b"
+   ]
+  },
+  {
+   "id": "s30",
+   "start": 72.625,
+   "end": 76.2,
+   "narration_words": "China's foreign ministry called the report unsubstantiated",
+   "caption_emphasis": [
+    "\u201cUNSUBSTANTIATED.\u201d"
    ],
+   "visual_type": "BG photo + FRONT mfa_answer (slam at 72.66s, zoom 1.6x)",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 16.3,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B3b",
+    "B3c"
+   ]
+  },
+  {
+   "id": "s31",
+   "start": 76.2,
+   "end": 78.995,
+   "narration_words": "And nothing but smears against China",
+   "caption_emphasis": [
+    "SMEARS"
+   ],
+   "visual_type": "BG video + FRONT hl_nbc_megaspeed (slam at 76.48s)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 20.0,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
    "ledger_ids": [
     "B3c"
    ]
   },
   {
-   "id": "b20",
-   "start": 41.985,
-   "end": 44.285,
-   "dur": 2.3,
-   "narration_words": "On November eighth Huang told employees",
+   "id": "s32",
+   "start": 78.995,
+   "end": 80.657,
+   "narration_words": "Ten days later on November eighth",
    "caption_emphasis": [
-    "Huang"
+    "NOV. 8"
    ],
-   "visual_type": "card",
+   "visual_type": "BG video + FRONT nv_msg_title (slam at 79.76s, zoom 1.3x)",
    "asset_path_or_spec": {
-    "kicker": "NOV 8, 2026",
-    "title": "EMAIL TO NVIDIA EMPLOYEES",
-    "tsize": 104,
-    "lines": [
-     [
-      "Jensen Huang",
-      "muted"
-     ]
-    ]
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 20.0,
+    "crop": null,
+    "desat": null
    },
-   "motion": "card pop",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
    "overlay": null,
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 41.985
+     "t": 78.995
     }
    ],
    "ledger_ids": [
+    "B3c",
     "B4a"
    ]
   },
   {
-   "id": "b21",
-   "start": 44.285,
-   "end": 46.185,
-   "dur": 1.9,
-   "narration_words": "I was unfaithful to my wife",
-   "caption_emphasis": [],
-   "visual_type": "letter",
+   "id": "s33",
+   "start": 80.657,
+   "end": 83.12,
+   "narration_words": "Huang emailed Nvidia's employees",
+   "caption_emphasis": [
+    "HUANG",
+    "NVIDIA'S"
+   ],
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "type_from": 0.06,
-    "type_to": 1.86
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 20.0,
+    "crop": null,
+    "desat": null
    },
-   "motion": "letter card; quote types on",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "type",
-     "t": 44.345,
-     "t_end": 46.145
-    }
-   ],
+   "sfx": [],
    "ledger_ids": [
     "B4a"
    ]
   },
   {
-   "id": "b22",
-   "start": 46.185,
-   "end": 47.31,
-   "dur": 1.125,
+   "id": "s34",
+   "start": 83.12,
+   "end": 85.295,
+   "narration_words": "I was unfaithful to my wife he wrote",
+   "caption_emphasis": [],
+   "visual_type": "BG photo + FRONT nv_msg_quote (slam at 83.15s)",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 20.0,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4a"
+   ]
+  },
+  {
+   "id": "s35",
+   "start": 85.295,
+   "end": 86.37,
    "narration_words": "He named no one",
    "caption_emphasis": [],
-   "visual_type": "letter",
+   "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "typed": true,
-    "enter": false,
-    "note": "NAMED NO ONE",
-    "note_at": 0.05
+    "back": "assets2/photos/huang_12.jpg",
+    "back_id": "huang_12",
+    "clip_start": null,
+    "crop": null,
+    "desat": 0.5
    },
-   "motion": "note tag pops on letter",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4a",
+    "B4b"
+   ]
+  },
+  {
+   "id": "s36",
+   "start": 86.37,
+   "end": 88.07,
+   "narration_words": "But he addressed the national security",
+   "caption_emphasis": [],
+   "visual_type": "BG video + FRONT nv_msg_natsec (slam at 86.54s, zoom 1.7x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 23.700000000000003,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: cut",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
@@ -626,19 +882,20 @@
    ]
   },
   {
-   "id": "b23",
-   "start": 47.31,
-   "end": 49.61,
-   "dur": 2.3,
-   "narration_words": "But he linked it to the national security reports",
+   "id": "s37",
+   "start": 88.07,
+   "end": 90.295,
+   "narration_words": "concerns raised in news reports",
    "caption_emphasis": [],
-   "visual_type": "card",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "kicker": "IN THE SAME EMAIL",
-    "title": "LINKED IT TO THE NATIONAL-SECURITY CONCERNS IN NEWS REPORTS",
-    "tsize": 82
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 23.700000000000003,
+    "crop": null,
+    "desat": null
    },
-   "motion": "type card pop",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
@@ -646,25 +903,20 @@
    ]
   },
   {
-   "id": "b24",
-   "start": 49.61,
-   "end": 51.185,
-   "dur": 1.575,
-   "narration_words": "and pledged to cooperate",
+   "id": "s38",
+   "start": 90.295,
+   "end": 92.27,
+   "narration_words": "And said he would cooperate fully",
    "caption_emphasis": [],
-   "visual_type": "card",
+   "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "kicker": "HUANG",
-    "title": "PLEDGED TO COOPERATE",
-    "tsize": 116,
-    "lines": [
-     [
-      "with the board's review",
-      "muted"
-     ]
-    ]
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 23.700000000000003,
+    "crop": null,
+    "desat": null
    },
-   "motion": "type card pop",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
@@ -672,65 +924,94 @@
    ]
   },
   {
-   "id": "b25",
-   "start": 51.185,
-   "end": 53.335,
-   "dur": 2.15,
-   "narration_words": "The board opened an independent probe",
-   "caption_emphasis": [],
-   "visual_type": "board",
-   "asset_path_or_spec": {},
-   "motion": "diagram builds top-down",
+   "id": "s39",
+   "start": 92.27,
+   "end": 93.995,
+   "narration_words": "The same day Nvidia's board",
+   "caption_emphasis": [
+    "NVIDIA'S"
+   ],
+   "visual_type": "BG video + FRONT nv_board_title (slam at 92.75s, zoom 1.2x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 23.700000000000003,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: slide",
    "overlay": null,
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 51.185
+     "t": 92.27
     }
    ],
+   "ledger_ids": [
+    "B4b",
+    "B4c"
+   ]
+  },
+  {
+   "id": "s40",
+   "start": 93.995,
+   "end": 96.22,
+   "narration_words": "opened an independent investigation",
+   "caption_emphasis": [],
+   "visual_type": "BG video + FRONT nv_board_inv (slam at 94.36s, zoom 1.6x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 27.400000000000002,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
    "ledger_ids": [
     "B4c"
    ]
   },
   {
-   "id": "b26",
-   "start": 53.335,
-   "end": 55.035,
-   "dur": 1.7,
-   "narration_words": "It said it has no reason to believe",
+   "id": "s41",
+   "start": 96.22,
+   "end": 97.77,
+   "narration_words": "It said it had no reason to believe",
    "caption_emphasis": [],
-   "visual_type": "boardquote",
+   "visual_type": "BG video + FRONT nv_board_noreason (slam at 96.61s, zoom 1.8x)",
    "asset_path_or_spec": {
-    "hl": [],
-    "push_d": 5.3
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 27.400000000000002,
+    "crop": null,
+    "desat": null
    },
-   "motion": "quote card slides in",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
+    "B4c",
     "B4d"
    ]
   },
   {
-   "id": "b27",
-   "start": 55.035,
-   "end": 56.71,
-   "dur": 1.675,
-   "narration_words": "national security or Nvidia",
+   "id": "s42",
+   "start": 97.77,
+   "end": 101.407,
+   "narration_words": "national security or Nvidia secrets were compromised",
    "caption_emphasis": [
-    "Nvidia"
+    "NVIDIA"
    ],
-   "visual_type": "boardquote",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "hl": [
-     "national",
-     "security"
-    ],
-    "enter": false,
-    "t_off": 1.7,
-    "push_d": 5.3
+    "back": "assets2/broll/nasa_boards.mp4",
+    "back_id": "nasa_boards",
+    "clip_start": 12.600000000000001,
+    "crop": null,
+    "desat": null
    },
-   "motion": "highlight 'national security'",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
@@ -738,346 +1019,682 @@
    ]
   },
   {
-   "id": "b28",
-   "start": 56.71,
-   "end": 58.655,
-   "dur": 1.945,
-   "narration_words": "secrets were compromised",
+   "id": "s43",
+   "start": 101.407,
+   "end": 103.595,
+   "narration_words": "A company spokesperson said Huang was committed",
+   "caption_emphasis": [
+    "HUANG"
+   ],
+   "visual_type": "BG video + FRONT cbs_pledge (slam at 101.55s, zoom 1.8x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 27.400000000000002,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4d",
+    "N6"
+   ]
+  },
+  {
+   "id": "s44",
+   "start": 103.595,
+   "end": 107.07,
+   "narration_words": "to continuing as C-E-O without interruption",
    "caption_emphasis": [],
-   "visual_type": "boardquote",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "hl": [
-     "nvidia",
-     "secrets",
-     "compromised"
-    ],
-    "enter": false,
-    "t_off": 3.375,
-    "push_d": 5.3
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 31.1,
+    "crop": null,
+    "desat": null
    },
-   "motion": "highlight 'NVIDIA secrets \u2026 compromised'",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
-    "B4d"
+    "N6"
    ]
   },
   {
-   "id": "b29",
-   "start": 58.655,
-   "end": 61.38,
-   "dur": 2.725,
-   "narration_words": "The Times reports the Justice Department has taken over a",
-   "caption_emphasis": [
-    "Times"
-   ],
-   "visual_type": "card",
+   "id": "s45",
+   "start": 107.07,
+   "end": 110.045,
+   "narration_words": "Two days later the board's independent directors",
+   "caption_emphasis": [],
+   "visual_type": "BG video + FRONT nv_indep (slam at 109.24s, zoom 2.2x)",
    "asset_path_or_spec": {
-    "kicker": "REPORTED BY THE NEW YORK TIMES",
-    "kcolor": "amber",
-    "glow": "amber",
-    "title": "JUSTICE DEPARTMENT TAKES OVER FEDERAL MEGASPEED PROBE",
-    "tsize": 84,
-    "lines": [
-     [
-      "DOJ does not comment on ongoing investigations",
-      "muted"
-     ]
-    ]
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 31.1,
+    "crop": null,
+    "desat": null
    },
-   "motion": "card pop; tension riser starts",
-   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
+   "overlay": null,
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 58.655
-    },
-    {
-     "sfx": "riser",
-     "t": 58.655,
-     "t_end": 63.165
+     "t": 107.07
     }
    ],
    "ledger_ids": [
-    "B5b"
+    "B5a",
+    "N6"
    ]
   },
   {
-   "id": "b30",
-   "start": 61.38,
-   "end": 63.105,
-   "dur": 1.725,
-   "narration_words": "federal Megaspeed probe",
+   "id": "s46",
+   "start": 110.045,
+   "end": 113.765,
+   "narration_words": "hired the law firm Wachtell Lipton to investigate",
    "caption_emphasis": [
-    "Megaspeed"
+    "WACHTELL LIPTON"
    ],
-   "visual_type": "status",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "rows": [
-     [
-      "Singapore police",
-      "Investigation ongoing (MHA)",
-      "green"
-     ],
-     [
-      "U.S. Justice Department",
-      "Criminal inquiry, as reported",
-      "amber"
-     ],
-     [
-      "Charges",
-      "None reported",
-      "muted"
-     ]
-    ]
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 31.1,
+    "crop": null,
+    "desat": null
    },
-   "motion": "rows slide in",
-   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
    "sfx": [],
    "ledger_ids": [
-    "B2c",
+    "B5a"
+   ]
+  },
+  {
+   "id": "s47",
+   "start": 113.765,
+   "end": 115.365,
+   "narration_words": "The Times reported that the Justice",
+   "caption_emphasis": [
+    "REPORTED"
+   ],
+   "visual_type": "BG video + FRONT tc_doj (slam at 114.88s, zoom 1.8x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 34.800000000000004,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: cut",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B5a",
     "B5b"
    ]
   },
   {
-   "id": "b31",
-   "start": 63.105,
-   "end": 65.142,
-   "dur": 2.037,
-   "narration_words": "On November eleventh the board accepted",
+   "id": "s48",
+   "start": 115.365,
+   "end": 118.603,
+   "narration_words": "Department had taken over a federal probe of Megaspeed",
+   "caption_emphasis": [
+    "MEGASPEED"
+   ],
+   "visual_type": "BG photo",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 27.400000000000002,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B5b"
+   ]
+  },
+  {
+   "id": "s49",
+   "start": 118.603,
+   "end": 120.765,
+   "narration_words": "Then on November eleventh three",
+   "caption_emphasis": [
+    "NOV. 11"
+   ],
+   "visual_type": "BG video + FRONT hl_tc_resigns (slam at 119.25s, zoom 1.3x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 34.800000000000004,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 118.603
+    }
+   ],
+   "ledger_ids": [
+    "B5b",
+    "B6a",
+    "N6"
+   ]
+  },
+  {
+   "id": "s50",
+   "start": 120.765,
+   "end": 122.215,
+   "narration_words": "days after that pledge",
    "caption_emphasis": [],
-   "visual_type": "doc8k",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "date_at": 0.61
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 34.800000000000004,
+    "crop": null,
+    "desat": null
    },
-   "motion": "8-K recreation slides up; date tag",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "sub_hit",
-     "t": 63.105
-    }
-   ],
+   "sfx": [],
    "ledger_ids": [
-    "B6a"
+    "B6a",
+    "N6"
    ]
   },
   {
-   "id": "b32",
-   "start": 65.142,
-   "end": 66.73,
-   "dur": 1.588,
-   "narration_words": "Huang's resignation",
+   "id": "s51",
+   "start": 122.215,
+   "end": 124.615,
+   "narration_words": "the board accepted his resignation",
    "caption_emphasis": [
-    "Huang's",
-    "resignation"
+    "RESIGNATION"
    ],
-   "visual_type": "doc8k",
+   "visual_type": "BG photo + FRONT 8k_resign (slam at 122.34s, zoom 2.4x)",
    "asset_path_or_spec": {
-    "highlight_at": 0.0,
-    "stamp_at": 0.473
+    "back": "assets2/photos/huang_03.jpg",
+    "back_id": "huang_03",
+    "clip_start": null,
+    "crop": null,
+    "desat": 0.6
    },
-   "motion": "highlight swipe over 'accepted the resignation'; RESIGNED stamp",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "stamp",
-     "t": 65.615
-    }
-   ],
+   "sfx": [],
    "ledger_ids": [
-    "B6a"
+    "B6a",
+    "N6"
    ]
   },
   {
-   "id": "b33",
-   "start": 66.73,
-   "end": 68.042,
-   "dur": 1.312,
-   "narration_words": "CFO Colette Kress",
+   "id": "s52",
+   "start": 124.615,
+   "end": 126.19,
+   "narration_words": "Chief financial officer Colette",
    "caption_emphasis": [
-    "CFO",
-    "Colette",
-    "Kress"
+    "COLETTE"
    ],
-   "visual_type": "headline",
+   "visual_type": "BG video + FRONT 8k_kress (slam at 125.46s, zoom 2.5x)",
    "asset_path_or_spec": {
-    "outlet": "TechCrunch",
-    "date": "Nov 12, 2026",
-    "text": "\u201cNvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO\u201d",
-    "foot": "HEADLINE AS PUBLISHED, RECREATED AS TEXT"
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 38.5,
+    "crop": null,
+    "desat": null
    },
-   "motion": "paper card slaps in",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: slide",
    "overlay": null,
    "sfx": [
     {
-     "sfx": "slap",
-     "t": 66.73
+     "sfx": "whoosh",
+     "t": 124.615
     }
    ],
+   "ledger_ids": [
+    "B6a",
+    "B6b",
+    "N6"
+   ]
+  },
+  {
+   "id": "s53",
+   "start": 126.19,
+   "end": 128.052,
+   "narration_words": "Kress became interim C-E-O.",
+   "caption_emphasis": [
+    "KRESS"
+   ],
+   "visual_type": "BG video + FRONT 8k_kress_role (slam at 126.62s, zoom 2.5x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 38.5,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
    "ledger_ids": [
     "B6b"
    ]
   },
   {
-   "id": "b34",
-   "start": 68.042,
-   "end": 69.8,
-   "dur": 1.758,
-   "narration_words": "is interim CEO",
+   "id": "s54",
+   "start": 128.052,
+   "end": 130.44,
+   "narration_words": "Longtime director Harvey Jones became",
    "caption_emphasis": [
-    "CEO"
+    "HARVEY",
+    "JONES"
    ],
-   "visual_type": "orgchart",
-   "asset_path_or_spec": {},
-   "motion": "three role cards stack in",
+   "visual_type": "BG video + FRONT 8k_jones (slam at 129.04s, zoom 2.5x); MID printed card huang_11",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 38.5,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
-    "B6a",
     "B6b",
     "B6c"
    ]
   },
   {
-   "id": "b35",
-   "start": 69.8,
-   "end": 72.712,
-   "dur": 2.912,
-   "narration_words": "House committees want a closed-door interview in December",
+   "id": "s55",
+   "start": 130.44,
+   "end": 132.865,
+   "narration_words": "Nvidia's first-ever board chair",
    "caption_emphasis": [
-    "December"
+    "NVIDIA'S"
    ],
-   "visual_type": "headline",
+   "visual_type": "BG photo + MID printed card huang_11",
    "asset_path_or_spec": {
-    "outlet": "CNN",
-    "date": "Nov 11, 2026",
-    "bgimg": "capitol.jpg",
-    "crop": [
-     400,
-     120,
-     1120,
-     560
-    ],
-    "text": "\u201cJensen Huang summoned to testify before Congress after resigning as Nvidia CEO\u201d",
-    "foot": "HEADLINE AS PUBLISHED, RECREATED AS TEXT"
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 31.1,
+    "crop": null,
+    "desat": null
    },
-   "motion": "paper card over blurred Capitol",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B6c"
+   ]
+  },
+  {
+   "id": "s56",
+   "start": 132.865,
+   "end": 135.052,
+   "narration_words": "On November twelfth Nvidia's shares",
+   "caption_emphasis": [
+    "NOV. 12",
+    "NVIDIA'S"
+   ],
+   "visual_type": "BG video + FRONT hl_yahoo_1112 (slam at 133.03s, zoom 1.4x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 42.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B6c",
+    "N8"
+   ]
+  },
+  {
+   "id": "s57",
+   "start": 135.052,
+   "end": 137.14,
+   "narration_words": "fell as much as fourteen percent",
+   "caption_emphasis": [
+    "14%"
+   ],
+   "visual_type": "BG video",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 42.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N8"
+   ]
+  },
+  {
+   "id": "s58",
+   "start": 137.14,
+   "end": 140.04,
+   "narration_words": "before closing down about four percent",
+   "caption_emphasis": [
+    "4%"
+   ],
+   "visual_type": "BG photo + FRONT yahoo_close (slam at 137.17s, zoom 1.9x)",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 34.800000000000004,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N8"
+   ]
+  },
+  {
+   "id": "s59",
+   "start": 140.04,
+   "end": 141.777,
+   "narration_words": "A day later its market value",
+   "caption_emphasis": [],
+   "visual_type": "BG video + FRONT hl_nyt_wallst (slam at 140.32s, zoom 1.4x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 42.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N8"
+   ]
+  },
+  {
+   "id": "s60",
+   "start": 141.777,
+   "end": 144.277,
+   "narration_words": "closed below four trillion dollars for",
+   "caption_emphasis": [
+    "$4 TRILLION"
+   ],
+   "visual_type": "BG video",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 45.900000000000006,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N8"
+   ]
+  },
+  {
+   "id": "s61",
+   "start": 144.277,
+   "end": 147.41,
+   "narration_words": "the first time since July twenty twenty-five",
+   "caption_emphasis": [
+    "JULY 2025"
+   ],
+   "visual_type": "BG photo",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 38.5,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N8"
+   ]
+  },
+  {
+   "id": "s62",
+   "start": 147.41,
+   "end": 149.873,
+   "narration_words": "On November fourth the Republican chairs of",
+   "caption_emphasis": [
+    "NOV. 4"
+   ],
+   "visual_type": "BG photo + FRONT house_letter_top (slam at 147.55s, zoom 1.9x)",
+   "asset_path_or_spec": {
+    "back": "assets/commons/capitol.jpg",
+    "back_id": "v1_capitol",
+    "clip_start": 1.5,
+    "crop": [
+     300,
+     80,
+     1300,
+     600
+    ],
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
    "overlay": null,
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 69.8
-    },
-    {
-     "sfx": "slap",
-     "t": 69.9
+     "t": 147.41
     }
    ],
    "ledger_ids": [
-    "B7b"
+    "B7a",
+    "N8"
    ]
   },
   {
-   "id": "b36",
-   "start": 72.712,
-   "end": 75.275,
-   "dur": 2.563,
-   "narration_words": "Huang reportedly agreed in principle",
-   "caption_emphasis": [
-    "Huang"
-   ],
-   "visual_type": "photo",
+   "id": "s63",
+   "start": 149.873,
+   "end": 151.422,
+   "narration_words": "three House committees had asked",
+   "caption_emphasis": [],
+   "visual_type": "BG photo + FRONT house_letter_date (slam at 150.91s, zoom 2.0x)",
    "asset_path_or_spec": {
-    "img": "capitol.jpg",
+    "back": "assets/commons/capitol.jpg",
+    "back_id": "v1_capitol",
+    "clip_start": 5.2,
     "crop": [
-     560,
-     150,
-     800,
-     520
+     300,
+     80,
+     1300,
+     600
     ],
-    "kicker": "REPORTED",
-    "kcolor": "amber",
-    "title": "AGREED IN PRINCIPLE",
-    "chips": [
-     "CLOSED-DOOR INTERVIEW",
-     "DATE UNDER NEGOTIATION"
-    ],
-    "chip_y": 660,
-    "dim": 0.35,
-    "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"
+    "desat": null
    },
-   "motion": "Ken Burns on Capitol dome",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
+    "B7a"
+   ]
+  },
+  {
+   "id": "s64",
+   "start": 151.422,
+   "end": 153.672,
+   "narration_words": "Huang for a closed-door briefing",
+   "caption_emphasis": [
+    "HUANG"
+   ],
+   "visual_type": "BG photo",
+   "asset_path_or_spec": {
+    "back": "assets/commons/capitol.jpg",
+    "back_id": "v1_capitol",
+    "clip_start": 8.9,
+    "crop": [
+     300,
+     80,
+     1300,
+     600
+    ],
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B7a"
+   ]
+  },
+  {
+   "id": "s65",
+   "start": 153.672,
+   "end": 156.197,
+   "narration_words": "House committees want a closed-door interview",
+   "caption_emphasis": [],
+   "visual_type": "BG photo + FRONT hl_tc_testify (slam at 153.99s, zoom 2.0x)",
+   "asset_path_or_spec": {
+    "back": "assets/commons/capitol.jpg",
+    "back_id": "v1_capitol",
+    "clip_start": 12.600000000000001,
+    "crop": [
+     300,
+     80,
+     1300,
+     600
+    ],
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: slide",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 153.672
+    }
+   ],
+   "ledger_ids": [
+    "B7a",
+    "B7b",
     "B7c"
    ]
   },
   {
-   "id": "b37",
-   "start": 75.275,
-   "end": 76.687,
-   "dur": 1.412,
+   "id": "s66",
+   "start": 156.197,
+   "end": 158.56,
+   "narration_words": "Huang reportedly agreed The date",
+   "caption_emphasis": [
+    "HUANG"
+   ],
+   "visual_type": "BG photo",
+   "asset_path_or_spec": {
+    "back": "assets2/photos/huang_01.jpg",
+    "back_id": "huang_01",
+    "clip_start": null,
+    "crop": null,
+    "desat": 0.4
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B7b",
+    "B7c"
+   ]
+  },
+  {
+   "id": "s67",
+   "start": 158.56,
+   "end": 160.485,
+   "narration_words": "is still being negotiated",
+   "caption_emphasis": [],
+   "visual_type": "BG photo",
+   "asset_path_or_spec": {
+    "back": "assets/commons/capitol.jpg",
+    "back_id": "v1_capitol",
+    "clip_start": 16.3,
+    "crop": [
+     300,
+     80,
+     1300,
+     600
+    ],
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B7b",
+    "B7c"
+   ]
+  },
+  {
+   "id": "s68",
+   "start": 160.485,
+   "end": 162.022,
    "narration_words": "Senators from both parties",
    "caption_emphasis": [],
-   "visual_type": "photo",
+   "visual_type": "BG photo + MID printed card huang_15",
    "asset_path_or_spec": {
-    "img": "capitol.jpg",
+    "back": "assets/commons/capitol.jpg",
+    "back_id": "v1_capitol",
+    "clip_start": 20.0,
     "crop": [
-     180,
-     160,
-     1560,
-     520
+     300,
+     80,
+     1300,
+     600
     ],
-    "pan": -0.6,
-    "kicker": "BIPARTISAN PRESSURE",
-    "title": "TESTIMONY EXPECTED",
-    "tsize": 96,
-    "dim": 0.4,
-    "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"
+    "desat": null
    },
-   "motion": "slow pan across Capitol",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: cut",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "whoosh",
-     "t": 75.275
-    }
-   ],
+   "sfx": [],
    "ledger_ids": [
+    "B7b",
+    "B7c",
     "B7e"
    ]
   },
   {
-   "id": "b37b",
-   "start": 76.687,
-   "end": 78.72,
-   "dur": 2.033,
+   "id": "s69",
+   "start": 162.022,
+   "end": 164.405,
    "narration_words": "are reportedly pressing too",
    "caption_emphasis": [],
-   "visual_type": "photo",
+   "visual_type": "BG photo + MID printed card huang_15",
    "asset_path_or_spec": {
-    "img": "capitol.jpg",
+    "back": "assets/commons/capitol.jpg",
+    "back_id": "v1_capitol",
+    "clip_start": 23.700000000000003,
     "crop": [
-     700,
-     160,
-     900,
-     520
+     300,
+     80,
+     1300,
+     600
     ],
-    "pan": 0.5,
-    "kicker": "REPORTED",
-    "kcolor": "amber",
-    "chips": [
-     "HOUSE: INTERVIEW DEMANDED",
-     "SENATE BANKING: TESTIMONY REQUEST",
-     "LETTER TO DOJ, COMMERCE, STATE, DNI"
-    ],
-    "chip_y": 400,
-    "dim": 0.45,
-    "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"
+    "desat": null
    },
-   "motion": "tighter crop on the dome; chips pop in",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
@@ -1085,154 +1702,166 @@
    ]
   },
   {
-   "id": "b38",
-   "start": 78.72,
-   "end": 81.532,
-   "dur": 2.812,
-   "narration_words": "None of the espionage allegations has been proven",
+   "id": "s70",
+   "start": 164.405,
+   "end": 165.48,
+   "narration_words": "None of the espionage",
    "caption_emphasis": [
-    "None",
-    "proven"
+    "NONE"
    ],
-   "visual_type": "alleged",
-   "asset_path_or_spec": {},
-   "motion": "two columns slide in",
-   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "visual_type": "BG video + CARD summary",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_globe.mp4",
+    "back_id": "nasa_globe",
+    "clip_start": 5.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B3a",
+    "B5b",
+    "B7e"
+   ]
+  },
+  {
+   "id": "s71",
+   "start": 165.48,
+   "end": 167.392,
+   "narration_words": "allegations has been proven",
+   "caption_emphasis": [
+    "PROVEN"
+   ],
+   "visual_type": "BG photo + CARD summary",
+   "asset_path_or_spec": {
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 42.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B3a",
+    "B5b"
+   ]
+  },
+  {
+   "id": "s72",
+   "start": 167.392,
+   "end": 168.792,
+   "narration_words": "Here's what to watch",
+   "caption_emphasis": [],
+   "visual_type": "BG video",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 45.900000000000006,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
+   "overlay": null,
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 78.72
+     "t": 167.392
     }
    ],
    "ledger_ids": [
     "B3a",
+    "B4c",
+    "B5a",
     "B5b",
-    "B4d"
-   ]
-  },
-  {
-   "id": "b39",
-   "start": 81.532,
-   "end": 82.67,
-   "dur": 1.138,
-   "narration_words": "Here's what to watch",
-   "caption_emphasis": [],
-   "visual_type": "watch",
-   "asset_path_or_spec": {
-    "cards": [
-     [
-      "NOV",
-      "17",
-      "Nvidia earnings",
-      "Q3 fiscal 2027 results",
-      false
-     ],
-     [
-      "EARLY",
-      "DEC",
-      "Congress interview",
-      "Requested; date being negotiated",
-      false
-     ]
-    ],
-    "delay": 0.15
-   },
-   "motion": "calendar cards slide in (dim)",
-   "overlay": null,
-   "sfx": [],
-   "ledger_ids": [
-    "N3",
-    "B7c"
-   ]
-  },
-  {
-   "id": "b40",
-   "start": 82.67,
-   "end": 85.095,
-   "dur": 2.425,
-   "narration_words": "Nvidia's earnings on November seventeenth",
-   "caption_emphasis": [
-    "Nvidia's"
-   ],
-   "visual_type": "watch",
-   "asset_path_or_spec": {
-    "cards": [
-     [
-      "NOV",
-      "17",
-      "Nvidia earnings",
-      "Q3 fiscal 2027 results",
-      true
-     ],
-     [
-      "EARLY",
-      "DEC",
-      "Congress interview",
-      "Requested; date being negotiated",
-      false
-     ]
-    ]
-   },
-   "motion": "earnings card lights up",
-   "overlay": null,
-   "sfx": [],
-   "ledger_ids": [
+    "B7c",
     "N3"
    ]
   },
   {
-   "id": "b41",
-   "start": 85.095,
-   "end": 86.855,
-   "dur": 1.76,
-   "narration_words": "And Huang's testimony",
+   "id": "s73",
+   "start": 168.792,
+   "end": 171.43,
+   "narration_words": "Nvidia's earnings on November seventeenth",
    "caption_emphasis": [
-    "Huang's"
+    "NVIDIA'S",
+    "NOV. 17"
    ],
-   "visual_type": "watch",
+   "visual_type": "BG video + FRONT nv_earnings (slam at 168.82s, zoom 1.9x)",
    "asset_path_or_spec": {
-    "cards": [
-     [
-      "NOV",
-      "17",
-      "Nvidia earnings",
-      "Q3 fiscal 2027 results",
-      false
-     ],
-     [
-      "EARLY",
-      "DEC",
-      "Congress interview",
-      "Requested; date being negotiated",
-      true
-     ]
-    ]
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 45.900000000000006,
+    "crop": null,
+    "desat": null
    },
-   "motion": "testimony card lights up",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
-    "B7c"
+    "B4c",
+    "B5a",
+    "B7c",
+    "N3"
    ]
   },
   {
-   "id": "b42",
-   "start": 86.855,
-   "end": 89.815,
-   "dur": 2.96,
-   "narration_words": "",
+   "id": "s74",
+   "start": 171.43,
+   "end": 173.23,
+   "narration_words": "The board's investigation",
    "caption_emphasis": [],
-   "visual_type": "end",
-   "asset_path_or_spec": {},
-   "motion": "end card fades in",
+   "visual_type": "BG video + FRONT nv_indep (slam at 171.46s)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 49.6,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
    "overlay": null,
-   "sfx": [
-    {
-     "sfx": "sub_hit",
-     "t": 86.855
-    }
+   "sfx": [],
+   "ledger_ids": [
+    "B4c",
+    "B5a",
+    "B7c",
+    "N3"
+   ]
+  },
+  {
+   "id": "s75",
+   "start": 173.23,
+   "end": 175.205,
+   "narration_words": "And Huang's testimony",
+   "caption_emphasis": [
+    "HUANG'S"
    ],
-   "ledger_ids": []
+   "visual_type": "BG photo + FRONT hl_tc_testify (slam at 173.44s)",
+   "asset_path_or_spec": {
+    "back": "assets/commons/capitol.jpg",
+    "back_id": "v1_capitol",
+    "clip_start": 27.400000000000002,
+    "crop": [
+     300,
+     80,
+     1300,
+     600
+    ],
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4c",
+    "B5a",
+    "B7c",
+    "N3"
+   ]
   }
  ]
 }

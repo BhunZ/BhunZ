@@ -160,10 +160,23 @@ class Comp:
         items = [it for it in g["items"] if it["at"] <= t]
         if not items:
             return
+        stamps = [it for it in items if it["cut"] == "__stamp__"]
+        items = [it for it in items if it["cut"] != "__stamp__"]
+        for it in stamps:                                   # stamp-only beat (e.g. ALLEGED over port footage)
+            colr = {"green": GREEN, "amber": AMBER}.get(it.get("stamp_color"), RED)
+            stamp(c, it["stamp"], 540, 700, 150, colr, prog(t - it["at"], 0, 0.3), rot=-8, under=(0.1, 0.1, 0.1))
+        if not items:
+            return
+        for it in items:
+            if "_rect" not in it:
+                self._place(it)
         cur = items[-1]
         lt = t - cur["at"]
         # camera: zoom 1.0 -> zmax onto the current item's focus phrase
         zmax = cur.get("zoom", 1.8) if cur.get("focus_px") else 1.0
+        fl = self.cuts[cur["cut"]].get("focus_lines_px") or []
+        if len(fl) > 1:
+            zmax = min(zmax, 0.95 * W / max(1.0, cur["_s"] * (max(l[0] + l[2] for l in fl) - min(l[0] for l in fl))))
         zk = ease_in_out(prog(lt, 0.30, max(0.6, min(1.4, cur.get("hold", 1.6) - 0.35))))
         z = 1.0 + (zmax - 1.0) * zk
         px, py = self.cam_drift
@@ -215,12 +228,17 @@ class Comp:
         if is_cur and cut.get("focus_px") and it.get("highlight", True):
             hk = prog(lt, 0.45, 8 / 30)
             if hk > 0:
-                fx, fy, fw, fh = cut["focus_px"]
                 s = it["_s"]
                 hp = skia.Paint(AntiAlias=True); hp.setColor4f(col((1.0, 0.86, 0.15), 0.55)); hp.setBlendMode(skia.BlendMode.kMultiply)
-                c.drawRect(skia.Rect.MakeXYWH(-dw / 2 + fx * s - 4, -dh / 2 + fy * s - 3, (fw * s + 8) * ease_out(hk), fh * s + 6), hp)
+                lines = cut.get("focus_lines_px") or [cut["focus_px"]]
+                tot = sum(l[2] for l in lines); done = ease_out(hk) * tot
+                for fx, fy, fw, fh in lines:                    # swipe line by line, left -> right
+                    wv = max(0.0, min(fw, done)); done -= fw
+                    if wv > 0:
+                        c.drawRect(skia.Rect.MakeXYWH(-dw / 2 + fx * s - 4, -dh / 2 + fy * s - 3, wv * s + 8, fh * s + 6), hp)
         if it.get("stamp"):
-            stamp(c, it["stamp"], dw * 0.18, dh * 0.15, 96, RED, prog(lt, it.get("stamp_at", 0.25), 0.3), rot=-9, under=(0.95, 0.95, 0.93))
+            colr = {"green": GREEN, "amber": AMBER}.get(it.get("stamp_color"), RED)
+            stamp(c, it["stamp"], dw * 0.36, dh * 0.5 + 6, 70, colr, prog(lt, it.get("stamp_at", 0.25), 0.3), rot=-9, under=(0.95, 0.95, 0.93))
         c.restore()
         self.layer_rects.append((x, y, dw, dh))
 
