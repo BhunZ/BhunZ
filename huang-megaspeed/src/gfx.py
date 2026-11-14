@@ -212,10 +212,12 @@ def stamp(c, s, x, y, size, color, t, rot=-8, a=1.0, under=None):
     """Animated rubber stamp centred at (x, y); t in [0,1] = slam progress."""
     if t <= 0:
         return
-    k = 1.0 + 0.9 * (1 - ease_out(t * 1.25))           # 1.9 -> 1.0
     al = a * clamp(t * 4)
     f = font("black", size)
     w = text_w(s, f)
+    # slam from up to 1.9x, but never let the stamp leave the text-safe column
+    room = 2 * min(x - SAFE_X0, SAFE_X1 - x) / ((w + size * 0.56) * 1.02)
+    k = 1.0 + (min(1.9, max(room, 1.0)) - 1.0) * (1 - ease_out(t * 1.25))
     c.save()
     c.translate(x, y); c.rotate(rot); c.scale(k, k)
     pad = size * 0.28

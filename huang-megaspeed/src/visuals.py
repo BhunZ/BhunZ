@@ -187,7 +187,7 @@ def v_card(c, lt, d, p):
         kicker(c, p["kicker"], y, p.get("kcolor", GREEN), e); y += 90
     if p.get("title"):
         f = font("disp", p.get("tsize", 96))
-        for ln in wrap(p["title"], f, COL_W):
+        for ln in wrap(p["title"], f, COL_W / 1.04):   # leave room for the 3% push-in
             draw_text(c, ln, SAFE_X0, y + f.getSize() * 0.8, f, p.get("tcolor", INK), e)
             y += f.getSize() * 1.05
         y += 30

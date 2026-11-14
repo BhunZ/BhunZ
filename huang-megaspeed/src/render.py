@@ -21,6 +21,9 @@ VIS = {"gpu": V.v_gpu, "doc8k": V.v_doc8k, "photo": V.v_photo, "card": V.v_card,
        "orgchart": V.v_orgchart, "alleged": V.v_alleged, "watch": V.v_watch, "end": V.v_end}
 CAP_Y = 1185            # caption centre: inside the middle third (640..1280)
 CAP_BASE = 100
+# Measured: Kokoro word starts lead the audible onset by ~50-70 ms (energy-onset and Whisper checks),
+# so captions are displayed 60 ms after the TTS timestamp.
+CAP_OFFSET = 0.06
 
 
 def colorize(v):
@@ -58,7 +61,7 @@ class Renderer:
     def caption_at(self, t):
         f = round(t * FPS)
         for ev in self.caps:
-            if round(ev["s"] * FPS) <= f < round(ev["hide"] * FPS):
+            if round((ev["s"] + CAP_OFFSET) * FPS) <= f < round((ev["hide"] + CAP_OFFSET) * FPS):
                 return ev
         return None
 
@@ -66,7 +69,7 @@ class Renderer:
         ev = self.caption_at(t)
         if not ev:
             return
-        lt = t - ev["s"]
+        lt = t - (ev["s"] + CAP_OFFSET)
         emph = ev["style"] is not None
         size = CAP_BASE * (1.4 if emph else 1.0)
         f = font("black", size)
