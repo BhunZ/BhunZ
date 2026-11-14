@@ -188,7 +188,7 @@ def v_card(c, lt, d, p):
     if p.get("title"):
         f = font("disp", p.get("tsize", 96))
         for ln in wrap(p["title"], f, COL_W / 1.04):   # leave room for the 3% push-in
-            draw_text(c, ln, SAFE_X0, y + f.getSize() * 0.8, f, p.get("tcolor", INK), e)
+            draw_text(c, ln, SAFE_X0, y + f.getSize() * 0.8, f, p.get("tcolor", INK), e, max_w=COL_W / 1.04)
             y += f.getSize() * 1.05
         y += 30
     for i, item in enumerate(p.get("lines", [])):

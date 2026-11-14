@@ -76,7 +76,8 @@ cap_boxes_ok = all(640 <= 1185 <= 1280 for _ in [0])
 import cv2
 casc = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 prof = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_profileface.xml")
-tmp = os.path.join(B, "qc_frames"); os.makedirs(tmp, exist_ok=True)
+import shutil
+tmp = os.path.join(B, "qc_frames"); shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", OUT, "-vf", "fps=2,scale=540:960", os.path.join(tmp, "f%04d.png")], check=True)
 faces = []
 for fn in sorted(os.listdir(tmp)):
