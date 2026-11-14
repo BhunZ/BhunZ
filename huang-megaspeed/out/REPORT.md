@@ -1,83 +1,59 @@
-# Final report — Huang / Megaspeed explainer
+# Final report: v2 documentary cut
 
-As of 2026-11-14. Branch `ccr-bf443029-plmqpt`, folder `huang-megaspeed/`.
+As of **2026-11-14**. Branch `ccr-bf443029-plmqpt`, folder `huang-megaspeed/`.
 
 ## Deliverables
 | File | Notes |
 |---|---|
-| `out/huang_megaspeed.mp4` | 1080×1920, 30 fps, H.264 at about 7 Mbps (2-pass) plus AAC 256k. **89.81 s**, 81 MB. This is the upload version; GitHub limits files to 100 MB. A CRF-17 master can be regenerated with `src/render.py` (it is about 320 MB, so it is not committed). |
-| `out/description.txt` | Two-sentence summary, the required disclaimer, full source URLs, and the AI disclosure. |
-| `out/credits.json` | Every asset with its URL, author, licence and how the licence was verified. |
-| `research/ledger.md`, `research/sources.md` | Claim ledger (IDs B1a–B7e, N1–N5, X1–X5) and source list. |
-| `research/script.md` | The tagged script and the VO version. |
-| `storyboard.json` | 43 beats with every field in your schema. |
-| `out/qc_report.json` | Machine-readable QC with per-sentence attribution rows. |
-| `out/stills/` | Checkpoint C stills and the contact sheet. |
+| `out/huang_megaspeed.mp4` | 1080×1920, 30 fps, **3:00.7**. H.264 at about 3.8 Mbps (2-pass) plus AAC 160k, 89 MB (sized to fit GitHub's 100 MB file limit). A higher-bitrate master can be rebuilt with `src/render2.py`. |
+| `out/description.txt` | Two-sentence summary, the required disclaimer, 26 source URLs, every CC BY/BY-SA attribution, and the AI disclosure. |
+| `out/credits.json` | 50 assets, each with URL, author, licence and how it was verified. |
+| `out/qc_report.json` | Full machine-readable QC. |
+| `research/ledger.md` | v1 ledger plus the v2 section: primary-source upgrades and new rows N6, N8, N9, N10. |
+| `research/script_v2.md` | The 31-sentence documentary script with ledger tags. |
+| `storyboard.json` | 75 background segments, each with the active front/mid/card layers, ledger IDs, sfx and motion. |
+| `out/v2_checkpoint/` | Asset contact sheet and six key stills. |
 
-## QC (measured on the final MP4)
-| # | Check | Result | Evidence |
-|---|---|---|---|
-| 1 | Every narration sentence maps to a ledger ID with the right attribution wording | **PASS** | 20 of 20 sentences mapped. Every REPORTED/ALLEGED sentence carries attribution. Sentence 20 inherits "reportedly" from sentence 17 (same ID, B7c). Spoken text matches the approved script at 0.97 similarity; the differences are numbers spelled out for speech. |
-| 2 | All four counterpoints present | **PASS** | Board: "no reason to believe…" · Huang: "pledged to cooperate" · China: "groundless" · Megaspeed: "denies wrongdoing". |
-| 3 | No face of Alice Huang, no family members, no unrelated people | **PASS** | Haar face detection (frontal and profile) at 2 fps over 180 frames: one hit, a "6" in the $4.8B counter (b08), which I checked by eye as a false positive. No faces in any asset. Photos are cropped to exclude people. On screen and in the narration: no "spy", "agent", "honeytrap", "seduction", "slept" or "affair". The only family reference is Huang's own quoted sentence, which you required. |
-| 4 | No scraped news/TV/film footage; every asset in credits.json with its licence | **PASS** | 3 assets on disk, all credited: Capitol (PD), Marina Bay Sands (CC BY-SA 3.0), Natural Earth via world-atlas (PD/ISC). |
-| 5 | Caption sync ≤ 80 ms; no captions in the UI safe zones | **PASS** | Against acoustic word onsets: median 16 ms, p90 33 ms, **max 72 ms** (n=16). Frame quantisation ≤ 16.6 ms. Safe zones: every visible text box logged on 1,347 frames, with 0 boxes past x = 950 or y = 1574. ⚠️ See the caveat below. |
-| 6 | Loudness about −14 LUFS, true peak ≤ −1 dBTP | **PASS** | **−14.0 LUFS integrated, −1.5 dBTP**, measured on the AAC audio in the final MP4. Music is ducked 11.9 dB (median) under the voice. |
-| 7 | Duration 75–90 s | **PASS** | 89.81 s. Beats run 1.13–3.04 s, with 43 beats. |
+## QC (measured on the final MP4): all pass
+| # | Check | Result |
+|---|---|---|
+| 1 | Every sentence maps to a ledger ID with matching attribution | **PASS**. 31/31 sentences. "CNBC reported" was added to the market sentence because N8 is class REPORTED. |
+| 2 | Four counterpoints | **PASS**. Board "no reason to believe…", Huang "would cooperate fully", China "unsubstantiated", Megaspeed "denies wrongdoing". |
+| 3 | No face of Alice Huang, no family, no unrelated people | **PASS**. 61 face-detector hits at 2 fps. Each is either a Jensen Huang photo on an allowed beat or a false positive on hardware or windows, eye-checked per asset (`assets2/face_review.json`). No Huang photo appears during the Alice Huang lines. The NYT "Spy Plot" headline never shares a frame with a person. Alice Huang appears only as a silhouette card. |
+| 4 | Every asset credited, with a licence allowing this use | **PASS**. 31 screenshots, 16 Commons (CC BY / BY-SA / PD), 3 NASA (PD). |
+| 5 | Caption sync ≤ 80 ms; captions clear of the bottom 18% | **PASS**. Caption-to-audio-onset drift: median 16 ms, max 67 ms. Captions centred at 55% height; lowest caption edge at y = 1123 against a limit of 1574. |
+| 6 | Loudness | **PASS**. **−14.1 LUFS, −1.3 dBTP**. |
+| 7 | Format | **PASS**. 1080×1920, 30 fps, 180.7 s. |
+| 8 | No recreated or look-alike documents | **PASS**. All 31 document cuts come from real browser screenshots. The only drawn cards are the three you allowed: silhouette, alleged-vs-proven summary, end card. |
+| 9 | Full-bleed: ≤ 15% empty background at 1 fps | **PASS**. Worst frame 12.1% solid or black void outside the document layers. ⚠ See note. |
+| 10 | ≥ 45 scene cuts | **PASS**. **76** scene changes (> 0.25). |
 
-**Caption-sync caveat.** Kokoro's own timestamps start about 50–70 ms before the audible onset, so captions are displayed 60 ms after them (`CAP_OFFSET`). A second check, Whisper word timestamps on the final mix, shows a median of 80 ms and p90 of 180 ms. Whisper's timestamps are known to run early and disagree with the onset measurement by about 60 ms, so I used the acoustic onsets as the pass criterion. The onset check only covers the 16 words that follow a pause; words in continuous speech can't be measured that way.
+**Note on check 9.** I tested two metrics.
+- **Void/solid metric (the pass criterion):** counts solid fills and black voids outside the documents. It passes, at worst 12.1%.
+- **Strict texture metric:** flags any smooth 16 px area. It still flags 39 frames, because it treats natural sky, water and night city as "empty".
 
-## Tools, packages and API keys
-- **API keys used: none.** `ELEVENLABS_API_KEY`, `PEXELS_API_KEY` and `PIXABAY_API_KEY` were all unset.
-- **Narration:** Kokoro-82M (`kokoro` 0.9.4, `misaki` 0.9.4, spaCy 3.8 with `en_core_web_sm`), voice `af_heart`, speed 1.2, on torch 2.15 (CPU).
-- **Timing check:** `faster-whisper` 1.2.1 with the `small.en` model.
-- **Visuals:** `skia-python` 144, Pillow, numpy. Rendered frame by frame in Python and piped to ffmpeg/x264. **Why this stack:** it runs without a browser, is deterministic, and uses one toolchain for graphics and audio DSP.
-- **Audio:** numpy/scipy synthesis and mixing, then ffmpeg `loudnorm` two-pass (linear) and `ebur128` measurement.
-- **QC:** `opencv-python-headless` 4.14 (Haar cascades).
-- **System:** apt `libegl1` and `libgl1` (needed by skia). Map data from `npm pack world-atlas@2.0.2`. Fonts already on the machine: Inter, JetBrains Mono, DejaVu Serif.
-- **Research:** web search only. Direct page fetches were blocked by the environment's network policy (see the limitations below).
+To get the void metric passing I removed footage rather than tuning the threshold. Dropped: a dark cabinet-door clip, a hazy-sky clip, and a black-space NASA globe. I also fixed clips that faded in from black or looped back to title cards. Both numbers are in `qc_report.json`.
 
-## Estimated API cost
-**$0 in third-party API spend.** Kokoro, Whisper, the music and the effects all ran locally, and Wikimedia downloads are free. The only cost is this Claude session's own usage, which I can't measure from inside the session.
+## What changed from the approved v2 script (all accuracy-driven)
+- **Sentence 12:** the wording now matches Nvidia's on-record quote: *"not unusual or unexpected… meetings with customers are part of a CEO's job"*.
+- **Sentence 13:** "unsubstantiated", the word in the official MFA transcript, replaces "groundless".
+- **Sentence 25:** "CNBC reported" added, because N8 is REPORTED.
 
-## Beats where a desired visual became a generated graphic
-| Beat | Wanted | Used instead | Why |
-|---|---|---|---|
-| b03, b31, b32 | Screenshot of the 8-K on sec.gov | Typographic recreation, labelled "Recreated from…", quoting only the verified sentence; the rest is grey placeholder bars | sec.gov returned HTTP 403 to this environment. |
-| — | NVDA line chart, Nov 6–13 | **Skipped**, as the brief says | Yahoo returned 429, Nasdaq timed out, Stooq served an anti-bot page. |
-| b12 | NYT headline card | A card labelled "our summary of the report, not its headline" | I could not verify the Times' headline text. |
-| b01–b02 | Generic GPU stock footage | GPU illustration drawn in code, with no logo | No stock API keys. |
-| b07, b09 | Map | Natural Earth map drawn in code | As intended. |
-| b25, b29, b30 | DOJ or Nvidia imagery | Diagrams and status cards | Avoids official seals and logos. |
-| b14, b15 | Alice Huang | Neutral silhouette card with your label | As required. |
+## Assets and access
+- **B-roll:** 7 Wikimedia Commons videos (Singapore ×2, KL, port ×2, Capitol dome, Washington Monument) plus 3 NASA data-center segments. Every clip was reviewed frame by frame, with clean start points recorded in `assets2/review.json`.
+  - **Rejected:** January 6 footage featuring a named senator, warships, stock-exchange ceremonies with identifiable people, YouTuber presenter footage, a Google-watermarked clip, and a "CC0" Internet Archive item that was actually a game trailer. The Internet Archive was dropped as a source.
+  - **Port of Cork aerials** are used only as generic port imagery and never labelled as an Asian port.
+- **Photos:** 9 Huang photos (CC BY / BY-SA) from Stanford 2026, Computex 2010 and 2016, and a 2023 Taiwan event, with face-centred 9:16 crops that exclude the audience. 4 crowd shots were rejected. Plus 2 PD/CC photos (Capitol, Singapore).
+- **Documents:** real screenshots of the SEC 8-K and Ex. 99.1 (sec.gov, using your email in the User-Agent), 5 Nvidia newsroom pages, the China MFA transcript and the House letter. **Headlines:** NYT, CBS, NBC, TechCrunch and Yahoo/Motley Fool, cropped to masthead, headline and byline, with article photos removed.
+- **Blocked automation, so not used and not recreated:** CNBC, SCMP, Fortune, Axios, Reuters, AP, the Singapore Home Affairs ministry, The Hill and Forbes.
+- **Your email** went into exactly two places: the sec.gov and Wikimedia User-Agent headers, as both sites' policies require. Nowhere else.
 
-## Claims dropped or softened because they couldn't be verified
-- **B3d:** Huang told Bloomberg the business was "normal". Dropped; the only source was an aggregator.
-- **B7d:** testimony "before Thanksgiving". Dropped. The requested dates (Dec 1 / early December) are after Thanksgiving. The video says "December" and "reportedly agreed in principle".
-- **B2b:** "complies with all applicable laws". Replaced with "says it follows export rules", which matches the documented wording about export control regulations.
-- **B4e:** Huang personally denied compromising secrets. Replaced with "pledged to cooperate" (your option a). The only source was a CNBC live-blog summary.
-- **B6a:** "effective immediately". Not used; I never saw it verbatim.
-- **B5a:** Wachtell Lipton. Not narrated; the only source is Quartz.
-- **N1:** Singapore's passport and re-entry findings. Not used, to avoid extra claims about a private individual.
-- **N4:** the Attorney General saying DOJ has "no conclusion". Not used; single source.
-- **X1–X5:** excluded on purpose. These are the Reuters report that Huang misled Nvidia's lawyers, the other-relationship reports, the lawyer's contact with Commerce, the $7.5B and $4.6B figures, and the Alibaba claims.
+## Tools, keys and cost
+- **Packages:** Kokoro-82M TTS, faster-whisper, Playwright/Chromium, skia-python, numpy/scipy/Pillow, OpenCV (QC) and ffmpeg.
+- **API keys used: none.** Pexels was paused.
+- **API spend: $0.** Everything ran locally. Wikimedia, NASA, SEC and the news sites are free to access.
 
-## Deviations from the brief or the approved plan
-1. **Speed 1.2× instead of 1.05×.** At 1.05× the approved script ran past 90 s.
-2. **One word added after approval:** "Senators from both parties are **reportedly** pressing too." QC found that B7e is class REPORTED and the sentence had no attribution. The script is now **221 words**, one over the 220 cap.
-3. **Female voice (`af_heart`).** It is Kokoro's highest-rated voice.
-4. **43 beats instead of 42.** Beat b37 was split to stay under 3 s.
-5. **Nvidia's card is stamped "DENIED".** Nvidia's statement was a rebuttal ("not unusual"; diversion claims "investigated and debunked"). Change the word in `src/beats.py` (b18) if you want "DISPUTES".
-
-## Known limitations
-- **Research rests on search-result excerpts, not full articles.** The environment's network policy refused direct fetches of news sites and sec.gov, and both requests to widen it were rejected by the environments service. Rows marked ⚠️ in the ledger should be checked by a person before publishing, especially the exact 8-K wording and the board-statement quote.
-- **The story is moving fast.** The end card says "As of Nov 14, 2026". Re-verify before posting if more than a day or two passes.
-- **Licence obligation:** the Marina Bay Sands photo is CC BY-SA 3.0. It is credited on screen in b04 and b05, on the end card, and in the description.
-
-## Re-running
-```
-python src/tts.py [S1..S7]   # re-record one section
-python src/timeline.py && python src/beats.py
-python src/audio.py && python src/render.py --video
-ffmpeg … (see this file's history)  &&  python src/qc.py
-```
+## Limitations
+- **The B-roll is real but modest.** Commons has few stock-style clips, and its rate limit capped collection. Some clips repeat at different offsets.
+- **Headline screenshots are third-party pages** shown briefly with attribution for commentary. That's your call; it's noted in the credits.
+- **The story moves daily.** The end card says "As of Nov 14, 2026", so re-verify before posting if time passes.
