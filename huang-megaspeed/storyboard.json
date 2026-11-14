@@ -4,7 +4,7 @@
   1080,
   1920
  ],
- "duration": 89.1149,
+ "duration": 89.8149,
  "beats": [
   {
    "id": "b01",
@@ -981,8 +981,8 @@
   {
    "id": "b36",
    "start": 72.712,
-   "end": 75.25,
-   "dur": 2.538,
+   "end": 75.275,
+   "dur": 2.563,
    "narration_words": "Huang reportedly agreed in principle",
    "caption_emphasis": [
     "Huang"
@@ -1016,10 +1016,10 @@
   },
   {
    "id": "b37",
-   "start": 75.25,
-   "end": 78.02,
-   "dur": 2.77,
-   "narration_words": "Senators from both parties are pressing too",
+   "start": 75.275,
+   "end": 76.687,
+   "dur": 1.412,
+   "narration_words": "Senators from both parties",
    "caption_emphasis": [],
    "visual_type": "photo",
    "asset_path_or_spec": {
@@ -1034,12 +1034,6 @@
     "kicker": "BIPARTISAN PRESSURE",
     "title": "TESTIMONY EXPECTED",
     "tsize": 96,
-    "chips": [
-     "HOUSE: INTERVIEW DEMANDED",
-     "SENATE BANKING: REQUEST",
-     "LETTER TO DOJ, COMMERCE, STATE, DNI"
-    ],
-    "chip_y": 650,
     "dim": 0.4,
     "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"
    },
@@ -1048,7 +1042,7 @@
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 75.25
+     "t": 75.275
     }
    ],
    "ledger_ids": [
@@ -1056,9 +1050,44 @@
    ]
   },
   {
+   "id": "b37b",
+   "start": 76.687,
+   "end": 78.72,
+   "dur": 2.033,
+   "narration_words": "are reportedly pressing too",
+   "caption_emphasis": [],
+   "visual_type": "photo",
+   "asset_path_or_spec": {
+    "img": "capitol.jpg",
+    "crop": [
+     700,
+     160,
+     900,
+     520
+    ],
+    "pan": 0.5,
+    "kicker": "REPORTED",
+    "kcolor": "amber",
+    "chips": [
+     "HOUSE: INTERVIEW DEMANDED",
+     "SENATE BANKING: TESTIMONY REQUEST",
+     "LETTER TO DOJ, COMMERCE, STATE, DNI"
+    ],
+    "chip_y": 400,
+    "dim": 0.45,
+    "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"
+   },
+   "motion": "tighter crop on the dome; chips pop in",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B7e"
+   ]
+  },
+  {
    "id": "b38",
-   "start": 78.02,
-   "end": 80.832,
+   "start": 78.72,
+   "end": 81.532,
    "dur": 2.812,
    "narration_words": "None of the espionage allegations has been proven",
    "caption_emphasis": [
@@ -1072,7 +1101,7 @@
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 78.02
+     "t": 78.72
     }
    ],
    "ledger_ids": [
@@ -1083,8 +1112,8 @@
   },
   {
    "id": "b39",
-   "start": 80.832,
-   "end": 81.97,
+   "start": 81.532,
+   "end": 82.67,
    "dur": 1.138,
    "narration_words": "Here's what to watch",
    "caption_emphasis": [],
@@ -1118,8 +1147,8 @@
   },
   {
    "id": "b40",
-   "start": 81.97,
-   "end": 84.395,
+   "start": 82.67,
+   "end": 85.095,
    "dur": 2.425,
    "narration_words": "Nvidia's earnings on November seventeenth",
    "caption_emphasis": [
@@ -1153,8 +1182,8 @@
   },
   {
    "id": "b41",
-   "start": 84.395,
-   "end": 86.155,
+   "start": 85.095,
+   "end": 86.855,
    "dur": 1.76,
    "narration_words": "And Huang's testimony",
    "caption_emphasis": [
@@ -1188,8 +1217,8 @@
   },
   {
    "id": "b42",
-   "start": 86.155,
-   "end": 89.115,
+   "start": 86.855,
+   "end": 89.815,
    "dur": 2.96,
    "narration_words": "",
    "caption_emphasis": [],
@@ -1200,7 +1229,7 @@
    "sfx": [
     {
      "sfx": "sub_hit",
-     "t": 86.155
+     "t": 86.855
     }
    ],
    "ledger_ids": []

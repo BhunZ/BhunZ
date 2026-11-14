@@ -1,0 +1,60 @@
+{
+  "project": "Huang / Megaspeed news explainer",
+  "as_of": "2026-11-14",
+  "assets": [
+    {
+      "file": "assets/commons/capitol.jpg",
+      "used_in_beats": ["b35", "b36", "b37", "b37b"],
+      "title": "United States Capitol west front edit2.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/United_States_Capitol_west_front_edit2.jpg/1920px-United_States_Capitol_west_front_edit2.jpg",
+      "author": "Architect of the Capitol (derivative work: O.J.)",
+      "license": "Public domain",
+      "license_verified_via": "Wikimedia Commons API extmetadata (LicenseShortName), 2026-11-14",
+      "notes": "Cropped above the steps so the small, unidentifiable pedestrians are not in frame."
+    },
+    {
+      "file": "assets/commons/singapore.jpg",
+      "used_in_beats": ["b04", "b05"],
+      "title": "Marina Bay Sands in the evening - 20101120.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg/1920px-Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
+      "author": "Someformofhuman",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_via": "Wikimedia Commons API extmetadata (LicenseShortName), 2026-11-14",
+      "notes": "Cropped, graded and zoomed (Ken Burns). Credited on screen in b04/b05 and on the end card. Under CC BY-SA, the adapted frames carry the same licence."
+    },
+    {
+      "file": "assets/data/countries-10m.json",
+      "used_in_beats": ["b07", "b09"],
+      "title": "world-atlas 2.0.2 (countries-10m TopoJSON)",
+      "source_url": "https://www.npmjs.com/package/world-atlas",
+      "author": "Mike Bostock; derived from Natural Earth",
+      "license": "ISC (package); Natural Earth data is public domain",
+      "license_verified_via": "LICENSE file in the npm tarball"
+    }
+  ],
+  "generated_in_code": {
+    "visuals": "All other visuals are drawn in code (src/visuals.py, src/mapviz.py): the GPU illustration (no logos), the recreated 8-K document card, typographic headline cards, the silhouette card, DENIED cards, the counter, server-rack icons, diagrams, the calendar and the end card.",
+    "headline_cards": [
+      {"beat": "b12", "outlet": "The New York Times", "date": "2026-10-29", "type": "our summary of the report, labelled as such; not the outlet's headline"},
+      {"beat": "b33", "outlet": "TechCrunch", "date": "2026-11-12", "quoted_headline": "Nvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO", "words": 12, "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"},
+      {"beat": "b35", "outlet": "CNN", "date": "2026-11-11", "quoted_headline": "Jensen Huang summoned to testify before Congress after resigning as Nvidia CEO", "words": 12, "url": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"}
+    ],
+    "music": "Synthesized in code (src/audio.py): detuned-saw drone on D/A, sub pulse, and a riser before the resignation reveal.",
+    "sfx": "Synthesized in code (src/audio.py): whoosh, paper slap, typewriter clicks, stamp hit, glitch, sub hit.",
+    "narration": "AI-generated with Kokoro-82M (hexgrad/Kokoro-82M, Apache-2.0), voice af_heart, speed 1.2."
+  },
+  "fonts": [
+    {"name": "Inter / Inter Display", "license": "SIL Open Font License 1.1"},
+    {"name": "JetBrains Mono", "license": "SIL Open Font License 1.1"},
+    {"name": "DejaVu Serif", "license": "Bitstream Vera / DejaVu free license"}
+  ],
+  "not_used": [
+    "No video or audio from YouTube, TikTok, X, news sites, TV, films or podcasts.",
+    "No news-agency photos (Getty, AP, Reuters, AFP).",
+    "No screenshots of articles. The SEC 8-K is a typographic recreation, because sec.gov returned HTTP 403 to this environment.",
+    "No Pexels/Pixabay stock (no API keys set)."
+  ]
+}

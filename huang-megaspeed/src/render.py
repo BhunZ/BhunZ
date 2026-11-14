@@ -83,6 +83,7 @@ class Renderer:
             off = 9 * (1 - lt / 0.22)
             c.drawString(ev["text"], x - off, y, f, paint((1, 0.1, 0.2), 0.7))
             c.drawString(ev["text"], x + off, y, f, paint((0.1, 0.9, 1.0), 0.7))
+        log_text(c, ev["text"], x, y, w, size, 1)
         c.drawString(ev["text"], x, y, f, paint(colr, 1))
         c.restore()
 

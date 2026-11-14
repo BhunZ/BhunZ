@@ -77,14 +77,16 @@ BEATS = [
                         "chips": ["CLOSED-DOOR INTERVIEW", "DATE UNDER NEGOTIATION"], "chip_y": 660, "dim": 0.35,
                         "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"}, False, [], ["B7c"], "Ken Burns on Capitol dome"),
  ("b37", 199, "photo", {"img": "capitol.jpg", "crop": [180, 160, 1560, 520], "pan": -0.6, "kicker": "BIPARTISAN PRESSURE", "title": "TESTIMONY EXPECTED", "tsize": 96,
-                        "chips": ["HOUSE: INTERVIEW DEMANDED", "SENATE BANKING: REQUEST", "LETTER TO DOJ, COMMERCE, STATE, DNI"], "chip_y": 650, "dim": 0.4,
-                        "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"}, False, ["whoosh@0"], ["B7e"], "slow pan across Capitol"),
- ("b38", 206, "alleged", {}, True, ["whoosh@0"], ["B3a", "B5b", "B4d"], "two columns slide in"),
- ("b39", 214, "watch", {"cards": [["NOV", "17", "Nvidia earnings", "Q3 fiscal 2027 results", False],
+                        "dim": 0.4, "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"}, False, ["whoosh@0"], ["B7e"], "slow pan across Capitol"),
+ ("b37b", 203, "photo", {"img": "capitol.jpg", "crop": [700, 160, 900, 520], "pan": 0.5, "kicker": "REPORTED", "kcolor": "amber",
+                        "chips": ["HOUSE: INTERVIEW DEMANDED", "SENATE BANKING: TESTIMONY REQUEST", "LETTER TO DOJ, COMMERCE, STATE, DNI"], "chip_y": 400, "dim": 0.45,
+                        "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"}, False, [], ["B7e"], "tighter crop on the dome; chips pop in"),
+ ("b38", 207, "alleged", {}, True, ["whoosh@0"], ["B3a", "B5b", "B4d"], "two columns slide in"),
+ ("b39", 215, "watch", {"cards": [["NOV", "17", "Nvidia earnings", "Q3 fiscal 2027 results", False],
                                   ["EARLY", "DEC", "Congress interview", "Requested; date being negotiated", False]], "delay": 0.15}, False, [], ["N3", "B7c"], "calendar cards slide in (dim)"),
- ("b40", 218, "watch", {"cards": [["NOV", "17", "Nvidia earnings", "Q3 fiscal 2027 results", True],
+ ("b40", 219, "watch", {"cards": [["NOV", "17", "Nvidia earnings", "Q3 fiscal 2027 results", True],
                                   ["EARLY", "DEC", "Congress interview", "Requested; date being negotiated", False]]}, False, [], ["N3"], "earnings card lights up"),
- ("b41", 223, "watch", {"cards": [["NOV", "17", "Nvidia earnings", "Q3 fiscal 2027 results", False],
+ ("b41", 224, "watch", {"cards": [["NOV", "17", "Nvidia earnings", "Q3 fiscal 2027 results", False],
                                   ["EARLY", "DEC", "Congress interview", "Requested; date being negotiated", True]]}, False, [], ["B7c"], "testimony card lights up"),
  ("b42", "end", "end", {}, False, ["sub_hit@0"], [], "end card fades in"),
 ]
@@ -96,7 +98,7 @@ CAPTION_GROUPS = {
     64: (65, "OCT. 29", G),
     110: (111, "NOV. 8", G),
     173: (174, "NOV. 11", G),
-    221: (222, "NOV. 17", G),
+    222: (223, "NOV. 17", G),
 }
 CAPTION_TEXT = {115: "“I", 120: "WIFE.”", 100: "“NOT", 101: "UNUSUAL.”"}
 EMPH = {

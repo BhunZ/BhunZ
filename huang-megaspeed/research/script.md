@@ -32,7 +32,7 @@ As of 2026-11-14. Defaults applied: counterpoint 2 uses option (a), Megaspeed's 
 
 **OPEN QUESTIONS**
 17. House committees want a closed-door interview in December; Huang reportedly agreed in principle. [B7b, B7c]
-18. Senators from both parties are pressing too. [B7e]
+18. Senators from both parties are reportedly pressing too. [B7e]  *("reportedly" added at QC: B7e is class REPORTED)*
 
 **CLOSE**
 19. None of the espionage allegations has been proven. [B3a (class ALLEGED), B5b (no charges reported)]
@@ -69,7 +69,7 @@ Numbers are spelled out, sentences are short, and initialisms are spelled for sp
 
 **S5 fall:** The Times reports the Justice Department has taken over a federal Megaspeed probe. On November eleventh, the board accepted Huang's resignation. C-F-O Colette Kress is interim C-E-O.
 
-**S6 open:** House committees want a closed-door interview in December. Huang reportedly agreed, in principle. Senators from both parties are pressing too.
+**S6 open:** House committees want a closed-door interview in December. Huang reportedly agreed, in principle. Senators from both parties are reportedly pressing too.
 
 **S7 close:** None of the espionage allegations has been proven. Here's what to watch: Nvidia's earnings on November seventeenth. And Huang's testimony.
 

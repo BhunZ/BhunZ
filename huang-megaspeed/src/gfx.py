@@ -91,6 +91,16 @@ def prog(t, t0, dur):
 
 
 # ---------- text ----------
+TEXT_LOG = None   # set to a list to record device-space bounding boxes of every visible text draw (QC)
+
+
+def log_text(c, s, x, y, w, size, a):
+    if TEXT_LOG is None or a <= 0.02 or not s.strip():
+        return
+    r = c.getTotalMatrix().mapRect(skia.Rect.MakeLTRB(x, y - size * 0.78, x + w, y + size * 0.22))
+    TEXT_LOG.append((r.left(), r.top(), r.right(), r.bottom(), s))
+
+
 def text_w(s, f):
     return f.measureText(s)
 
@@ -106,6 +116,7 @@ def draw_text(c, s, x, y, f, color=INK, a=1.0, align="left", shadow=False, max_w
         x = x - w / 2
     elif align == "right":
         x = x - w
+    log_text(c, s, x, y, w, f.getSize(), a)
     if shadow:
         c.drawString(s, x, y + 4, f, paint((0, 0, 0), 0.55 * a, blur=10))
     c.drawString(s, x, y, f, paint(color, a))
@@ -147,6 +158,7 @@ def pill(c, s, x, y, f, fg, bg, a=1.0, pad=(18, 10), outline=False, align="left"
         rrect(c, x, y, w + pad[0] * 2, h, h / 2, bg, a, stroke=3)
     else:
         rrect(c, x, y, w + pad[0] * 2, h, h / 2, bg, a)
+    log_text(c, s, x + pad[0], y + pad[1] + f.getSize() * 0.80, w, f.getSize(), a)
     c.drawString(s, x + pad[0], y + pad[1] + f.getSize() * 0.80, f, paint(fg, a))
     return w + pad[0] * 2, h
 
@@ -208,6 +220,7 @@ def stamp(c, s, x, y, size, color, t, rot=-8, a=1.0, under=None):
     c.translate(x, y); c.rotate(rot); c.scale(k, k)
     pad = size * 0.28
     rrect(c, -w / 2 - pad, -size * 0.62 - pad * 0.6, w + 2 * pad, size * 1.24 + pad * 1.2, 14, color, al, stroke=size * 0.09)
+    log_text(c, s, -w / 2, size * 0.36, w, size, al)
     c.drawString(s, -w / 2, size * 0.36, f, paint(color, al))
     # distressed specks (deterministic)
     rng = np.random.default_rng(len(s) * 7 + int(size))

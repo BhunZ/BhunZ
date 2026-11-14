@@ -35,7 +35,7 @@ SECTIONS = {
     "S5": ("The Times reports the Justice Department has taken over a federal Megaspeed probe. "
            "On November eleventh, the board accepted Huang's resignation. CFO Colette Kress is interim CEO."),
     "S6": ("House committees want a closed-door interview in December. Huang reportedly agreed, in principle. "
-           "Senators from both parties are pressing too."),
+           "Senators from both parties are reportedly pressing too."),
     "S7": ("None of the espionage allegations has been proven. Here's what to watch: "
            "Nvidia's earnings on November seventeenth. And Huang's testimony."),
 }
