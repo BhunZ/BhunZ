@@ -336,8 +336,8 @@
  "3_no_faces_people_family_or_insinuation": {
   "pass": true,
   "detail": {
-   "face_hits_2fps": 47,
-   "explained": 47,
+   "face_hits_2fps": 60,
+   "explained": 60,
    "unexplained": [],
    "nyt_spy_headline_over_person": [],
    "huang_photo_during_alice_lines": [],
@@ -399,47 +399,47 @@
   "pass": false,
   "detail": {
    "frames_checked": 176,
-   "worst_empty_frac": 0.701,
+   "worst_empty_frac": 0.743,
    "violations": [
     {
      "t": 0.0,
-     "empty_frac": 0.384
-    },
-    {
-     "t": 1.0,
-     "empty_frac": 0.469
-    },
-    {
-     "t": 2.0,
-     "empty_frac": 0.399
-    },
-    {
-     "t": 3.0,
-     "empty_frac": 0.232
-    },
-    {
-     "t": 7.0,
-     "empty_frac": 0.168
+     "empty_frac": 0.186
     },
     {
      "t": 8.0,
-     "empty_frac": 0.29
+     "empty_frac": 0.262
     },
     {
      "t": 9.0,
-     "empty_frac": 0.283
+     "empty_frac": 0.268
     },
     {
      "t": 10.0,
-     "empty_frac": 0.356
-    },
-    {
-     "t": 11.0,
-     "empty_frac": 0.288
+     "empty_frac": 0.264
     },
     {
      "t": 12.0,
-     "empty_frac": 0.191
+     "empty_frac": 0.188
+    },
+    {
+     "t": 14.0,
+     "empty_frac": 0.212
+    },
+    {
+     "t": 15.0,
+     "empty_frac": 0.404
+    },
+    {
+     "t": 16.0,
+     "empty_frac": 0.287
+    },
+    {
+     "t": 19.0,
+     "empty_frac": 0.332
+    },
+    {
+     "t": 20.0,
+     "empty_frac": 0.181
     }
    ]
   }
@@ -447,7 +447,7 @@
  "10_scene_cuts_ge_45": {
   "pass": true,
   "detail": {
-   "scene_changes_gt_0.25": 85
+   "scene_changes_gt_0.25": 80
   }
  }
 }

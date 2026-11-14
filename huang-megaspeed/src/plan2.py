@@ -6,7 +6,7 @@ Rules encoded here (see research/ledger.md):
 - The NYT Oct 29 headline ("...Spy Plot") is only shown over B-roll, never over a photo of a person.
 - Silhouette card for Alice Huang; no image of her.
 """
-import json, os, re, sys
+import json, os, re, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -62,11 +62,17 @@ def load_pools():
         else:
             pools.setdefault("photo_" + pcat.get(v["cat"], "misc"), []).append({"id": k, "kind": "photo", "file": v["file"]})
     for k, v in nasa.items():
-        pools.setdefault("globe" if "globe" in k else ("chip" if "board" in k else "dc"), []).append({"id": k, "kind": "video", "file": v["file"]})
+        v = {**v, **rv.get(k, {})}
+        pools.setdefault("globe" if "globe" in k else ("chip" if "board" in k else "dc"), []).append({"id": k, "kind": "video", "file": v["file"], "clip_starts": v.get("clip_starts")})
+    if "sg" in pools:   # daytime drone shots first; the night skyline (large black sky) last
+        order = {"vid_03": 0, "vid_04": 1, "vid_02": 2, "vid_01": 3}
+        pools["sg"].sort(key=lambda a: order.get(a["id"], 9))
+    if "port" in pools:
+        pools["port"].sort(key=lambda a: a["id"] != "vid_06")
     if "dc" in pools:   # open on the brighter NASA rack footage; the dark aisle clip goes last
         pools["dc"].sort(key=lambda a: (a["id"] == "commons_dc_aisle", a["id"] != "nasa_racks"))
     pools.setdefault("photo_capitol", []).append({"id": "v1_capitol", "kind": "photo", "file": "assets/commons/capitol.jpg", "crop": [300, 80, 1300, 600]})
-    pools.setdefault("photo_sg", []).append({"id": "v1_singapore", "kind": "photo", "file": "assets/commons/singapore.jpg"})
+    pools.setdefault("photo_sg", []).append({"id": "v1_singapore", "kind": "photo", "file": "assets/commons/singapore.jpg", "crop": [0, 330, 1920, 950]})
     return pools
 
 
@@ -93,8 +99,8 @@ def pick(cat):
 
 
 HUANG_OK = {  # 9:16 crops centred on Huang's face (x, y, w, h in source px); audience excluded; brightest first
-    "huang_13": [627, 0, 480, 854], "huang_12": [597, 0, 720, 1280], "huang_03": [0, 0, 1307, 2324],
-    "huang_01": [183, 0, 1440, 2560], "huang_06": [216, 0, 1404, 2497], "huang_11": [240, 0, 1440, 2560],
+    "huang_03": [0, 0, 1307, 2324], "huang_01": [183, 0, 1440, 2560], "huang_06": [216, 0, 1404, 2497],
+    "huang_11": [240, 0, 1440, 2560], "huang_12": [597, 0, 720, 1280], "huang_13": [627, 0, 480, 854],
     "huang_15": [606, 0, 480, 854], "huang_16": [424, 0, 480, 854], "huang_14": [440, 0, 607, 1080]}
 
 
@@ -108,8 +114,8 @@ def huang(i):
 BG = [
     (0, "dc"), (6, "dc"), (11, ("huang", 0), {"desat": 0.75}), (19, ("huang", 1), {"desat": 0.75}), (24, "chip"), (31, "dc"), (38, "chip"),
     (43, "sg"), (48, "sg"), (56, "night"), (62, "kl"), (67, "chip"), (75, "dc"),
-    (79, "port"), (86, "port"), (93, "sg"), (99, "night"), (105, "tower"), (111, "rain"), (116, "tower"),
-    (122, "night"), (129, "dc"), (133, "globe", {"dim": 0.25}), (142, "rain"), (147, "tower"), (152, "night"),
+    (79, "port"), (86, "chip"), (93, "photo_sg"), (99, "night"), (105, "tower"), (111, "rain"), (116, "tower"),
+    (122, "night"), (129, "dc"), (133, "night", {"dim": 0.25}), (142, "rain"), (147, "tower"), (152, "night"),
     (157, "tower"), (165, "dc"), (172, "rain"), (181, "night"), (188, "tower"),
     (194, "tower"), (200, "rain"), (204, "night", {"dim": 0.15}), (212, ("huang", 2), {"desat": 0.5}), (216, "tower"), (222, "rain"),
     (227, "night"), (233, "tower"), (238, "tower"), (242, "dc"), (250, "chip"), (257, "tower"), (264, "rain"),
@@ -117,7 +123,7 @@ BG = [
     (285, "dc"), (291, "night"), (300, "dc"), (305, "tower"), (309, ("huang", 3), {"desat": 0.6}), (314, "tower"), (318, "rain"),
     (322, "tower"), (327, "night"), (331, "market"), (336, "market"), (342, "night"), (348, "market"), (354, "tower"), (360, "night"),
     (367, "capitol"), (374, "capitol"), (379, "capitol"), (384, "capitol"), (390, ("huang", 4), {"desat": 0.4}), (395, "capitol"), (399, "capitol"), (403, "capitol"),
-    (407, "globe", {"dim": 0.3}), (411, "night", {"dim": 0.3}), (415, "dc"), (419, "market"), (424, "tower"), (427, "capitol"),
+    (407, "port", {"dim": 0.3}), (411, "night", {"dim": 0.3}), (415, "dc"), (419, "market"), (424, "tower"), (427, "capitol"),
 ]
 
 # ------------------------------------------------------------------ FRONT groups: (start word, transition, [(cut, at word, opts)])
@@ -232,6 +238,10 @@ def build():
         bg.append(a)
     for j, a in enumerate(bg):
         a["end"] = bg[j + 1]["start"] if j + 1 < len(bg) else end_t
+        if a["kind"] == "video":       # never run past the end of a clip (it would loop back to a title card)
+            dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                        os.path.join(ROOT, a["file"])], capture_output=True, text=True).stdout)
+            a["clip_start"] = round(max(0.0, min(a.get("clip_start") or 0.0, dur - (a["end"] - a["start"]) - 0.3)), 2)
     front = []
     for j, (w0, tr, items) in enumerate(FRONT):
         g = {"start": 0.0 if j == 0 else round(ws(w0) - 0.05, 3), "trans": tr, "trans_d": {"flash": 2 / 30, "whip": 7 / 30, "zoom": 7 / 30, "slide": 8 / 30}.get(tr, 0),

@@ -1,6 +1,6 @@
 {
  "commons_dc_aisle": {
-  "reviewed": true
+  "rejected": "later offsets are dark cabinet-door close-ups (plain surfaces)"
  },
  "huang_04": {
   "rejected": "crowd of unrelated people (faces)"
@@ -23,12 +23,7 @@
   ]
  },
  "vid_02": {
-  "reviewed": true,
-  "clip_starts": [
-   1.0,
-   9.0,
-   15.0
-  ]
+  "rejected": "hazy flat sky covers ~1/3 of the frame (fails full-bleed void check)"
  },
  "vid_03": {
   "reviewed": true,
@@ -69,9 +64,8 @@
  "vid_07": {
   "reviewed": true,
   "clip_starts": [
-   0.5,
    6.0,
-   12.0
+   8.0
   ],
   "note": "Port of Cork footage, used only as generic port imagery (never labelled as an Asian port)"
  },
@@ -90,8 +84,7 @@
  "vid_11": {
   "reviewed": true,
   "clip_starts": [
-   17.0,
-   18.5
+   15.0
   ],
   "note": "only the final dome segment (no people, no logo)"
  },
@@ -104,6 +97,13 @@
    0.5,
    6.0,
    12.0
+  ]
+ },
+ "nasa_boards": {
+  "clip_starts": [
+   12.5,
+   14.5,
+   13.5
   ]
  }
 }

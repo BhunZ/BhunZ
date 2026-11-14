@@ -65,14 +65,14 @@
    ],
    "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_13.jpg",
-    "back_id": "huang_13",
+    "back": "assets2/photos/huang_03.jpg",
+    "back_id": "huang_03",
     "clip_start": null,
     "crop": [
-     627,
      0,
-     480,
-     854
+     0,
+     1307,
+     2324
     ],
     "desat": 0.75
    },
@@ -94,14 +94,14 @@
    ],
    "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_12.jpg",
-    "back_id": "huang_12",
+    "back": "assets2/photos/huang_01.jpg",
+    "back_id": "huang_01",
     "clip_start": null,
     "crop": [
-     597,
+     183,
      0,
-     720,
-     1280
+     1440,
+     2560
     ],
     "desat": 0.75
    },
@@ -118,11 +118,11 @@
    "end": 14.185,
    "narration_words": "The filing gives no reason This is",
    "caption_emphasis": [],
-   "visual_type": "BG video + FRONT 8k_cover (slam at 12.08s, zoom 1.25x); MID printed card huang_11",
+   "visual_type": "BG video + FRONT 8k_cover (slam at 12.08s, zoom 1.25x); MID printed card huang_13",
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_boards.mp4",
     "back_id": "nasa_boards",
-    "clip_start": 1.5,
+    "clip_start": 12.5,
     "crop": null,
     "desat": null
    },
@@ -150,9 +150,9 @@
    ],
    "visual_type": "BG video + FRONT ex991_top (slam at 14.52s); FRONT hl_cbs_investigation (slam at 15.91s)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 1.5,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 5.2,
     "crop": null,
     "desat": null
    },
@@ -173,7 +173,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_boards.mp4",
     "back_id": "nasa_boards",
-    "clip_start": 5.2,
+    "clip_start": 14.5,
     "crop": null,
     "desat": null
    },
@@ -192,9 +192,9 @@
    ],
    "visual_type": "BG video + FRONT hl_cbs_megaspeed (slam at 19.93s, zoom 1.5x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/vid_01.mp4",
-    "back_id": "vid_01",
-    "clip_start": 3.0,
+    "back": "assets2/broll/vid_03.mp4",
+    "back_id": "vid_03",
+    "clip_start": 0.5,
     "crop": null,
     "desat": null
    },
@@ -215,9 +215,9 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/vid_02.mp4",
-    "back_id": "vid_02",
-    "clip_start": 1.0,
+    "back": "assets2/broll/vid_04.mp4",
+    "back_id": "vid_04",
+    "clip_start": 0.5,
     "crop": null,
     "desat": null
    },
@@ -241,7 +241,12 @@
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
     "clip_start": 1.5,
-    "crop": null,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -287,7 +292,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_boards.mp4",
     "back_id": "nasa_boards",
-    "clip_start": 8.9,
+    "clip_start": 13.5,
     "crop": null,
     "desat": null
    },
@@ -308,8 +313,8 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
     "clip_start": 5.2,
     "crop": null,
     "desat": null
@@ -356,9 +361,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/vid_07.mp4",
-    "back_id": "vid_07",
-    "clip_start": 0.5,
+    "back": "assets2/broll/nasa_boards.mp4",
+    "back_id": "nasa_boards",
+    "clip_start": 12.5,
     "crop": null,
     "desat": null
    },
@@ -375,12 +380,17 @@
    "end": 40.03,
    "narration_words": "Singapore police are investigating the company",
    "caption_emphasis": [],
-   "visual_type": "BG video",
+   "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "back": "assets2/broll/vid_03.mp4",
-    "back_id": "vid_03",
-    "clip_start": 0.5,
-    "crop": null,
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 5.2,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: zoom",
@@ -406,8 +416,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 5.2,
-    "crop": null,
+    "clip_start": 8.9,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -428,9 +443,9 @@
    ],
    "visual_type": "BG video + FRONT hl_nbc_megaspeed (slam at 42.44s, zoom 1.6x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
-    "clip_start": 5.2,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 8.9,
     "crop": null,
     "desat": null
    },
@@ -456,9 +471,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 5.2,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 8.9,
     "crop": null,
     "desat": null
    },
@@ -480,7 +495,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_racks.mp4",
     "back_id": "nasa_racks",
-    "clip_start": 8.9,
+    "clip_start": 9.88,
     "crop": null,
     "desat": null
    },
@@ -505,8 +520,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 8.9,
-    "crop": null,
+    "clip_start": 12.600000000000001,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
@@ -534,7 +554,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_cables.mp4",
     "back_id": "nasa_cables",
-    "clip_start": 8.9,
+    "clip_start": 12.6,
     "crop": null,
     "desat": null
    },
@@ -556,12 +576,17 @@
     "HUANG",
     "MEGASPEED"
    ],
-   "visual_type": "BG video + CARD silhouette",
+   "visual_type": "BG photo + CARD silhouette",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_globe.mp4",
-    "back_id": "nasa_globe",
-    "clip_start": 1.5,
-    "crop": null,
+    "back": "assets/commons/singapore.jpg",
+    "back_id": "v1_singapore",
+    "clip_start": 16.3,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
@@ -580,9 +605,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT hl_cbs_investigation (slam at 59.20s, zoom 1.7x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 8.9,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 10.55,
     "crop": null,
     "desat": null
    },
@@ -609,9 +634,9 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 12.600000000000001,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.3,
     "crop": null,
     "desat": null
    },
@@ -641,8 +666,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 12.600000000000001,
-    "crop": null,
+    "clip_start": 20.0,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -662,9 +692,9 @@
    ],
    "visual_type": "BG video + FRONT tc_notunusual (slam at 64.63s, zoom 1.9x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
-    "clip_start": 12.600000000000001,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 10.2,
     "crop": null,
     "desat": null
    },
@@ -693,9 +723,9 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 12.600000000000001,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.04,
     "crop": null,
     "desat": null
    },
@@ -716,7 +746,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_racks.mp4",
     "back_id": "nasa_racks",
-    "clip_start": 16.3,
+    "clip_start": 9.73,
     "crop": null,
     "desat": null
    },
@@ -739,8 +769,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 16.3,
-    "crop": null,
+    "clip_start": 23.700000000000003,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -763,7 +798,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_cables.mp4",
     "back_id": "nasa_cables",
-    "clip_start": 16.3,
+    "clip_start": 15.9,
     "crop": null,
     "desat": null
    },
@@ -784,9 +819,9 @@
    ],
    "visual_type": "BG video + FRONT nv_msg_title (slam at 79.76s, zoom 1.3x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 16.3,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 11.04,
     "crop": null,
     "desat": null
    },
@@ -814,9 +849,9 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 20.0,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.24,
     "crop": null,
     "desat": null
    },
@@ -837,8 +872,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 20.0,
-    "crop": null,
+    "clip_start": 27.400000000000002,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -856,14 +896,14 @@
    "caption_emphasis": [],
    "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_03.jpg",
-    "back_id": "huang_03",
+    "back": "assets2/photos/huang_06.jpg",
+    "back_id": "huang_06",
     "clip_start": null,
     "crop": [
+     216,
      0,
-     0,
-     1307,
-     2324
+     1404,
+     2497
     ],
     "desat": 0.5
    },
@@ -883,9 +923,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT nv_msg_natsec (slam at 86.54s, zoom 1.7x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
-    "clip_start": 20.0,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 11.0,
     "crop": null,
     "desat": null
    },
@@ -904,9 +944,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 20.0,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.47,
     "crop": null,
     "desat": null
    },
@@ -927,8 +967,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 23.700000000000003,
-    "crop": null,
+    "clip_start": 31.1,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -950,7 +995,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_racks.mp4",
     "back_id": "nasa_racks",
-    "clip_start": 23.700000000000003,
+    "clip_start": 10.97,
     "crop": null,
     "desat": null
    },
@@ -977,7 +1022,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_cables.mp4",
     "back_id": "nasa_cables",
-    "clip_start": 23.700000000000003,
+    "clip_start": 16.48,
     "crop": null,
     "desat": null
    },
@@ -996,9 +1041,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT nv_board_noreason (slam at 96.61s, zoom 1.8x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 23.700000000000003,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 11.15,
     "crop": null,
     "desat": null
    },
@@ -1022,7 +1067,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_boards.mp4",
     "back_id": "nasa_boards",
-    "clip_start": 12.600000000000001,
+    "clip_start": 14.5,
     "crop": null,
     "desat": null
    },
@@ -1043,9 +1088,9 @@
    ],
    "visual_type": "BG video + FRONT cbs_pledge (slam at 101.55s, zoom 1.8x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 27.400000000000002,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.51,
     "crop": null,
     "desat": null
    },
@@ -1065,9 +1110,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
-    "clip_start": 27.400000000000002,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 9.23,
     "crop": null,
     "desat": null
    },
@@ -1086,9 +1131,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT nv_indep (slam at 109.24s, zoom 2.2x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 27.400000000000002,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 15.72,
     "crop": null,
     "desat": null
    },
@@ -1117,7 +1162,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_racks.mp4",
     "back_id": "nasa_racks",
-    "clip_start": 31.1,
+    "clip_start": 8.98,
     "crop": null,
     "desat": null
    },
@@ -1140,7 +1185,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_cables.mp4",
     "back_id": "nasa_cables",
-    "clip_start": 31.1,
+    "clip_start": 17.12,
     "crop": null,
     "desat": null
    },
@@ -1164,8 +1209,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 27.400000000000002,
-    "crop": null,
+    "clip_start": 34.800000000000004,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1185,9 +1235,9 @@
    ],
    "visual_type": "BG video + FRONT hl_tc_resigns (slam at 119.17s, zoom 1.3x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 31.1,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 10.56,
     "crop": null,
     "desat": null
    },
@@ -1213,9 +1263,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 34.800000000000004,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 17.25,
     "crop": null,
     "desat": null
    },
@@ -1237,11 +1287,11 @@
    ],
    "visual_type": "BG photo + FRONT 8k_resign (slam at 122.25s, zoom 2.4x)",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_01.jpg",
-    "back_id": "huang_01",
+    "back": "assets2/photos/huang_11.jpg",
+    "back_id": "huang_11",
     "clip_start": null,
     "crop": [
-     183,
+     240,
      0,
      1440,
      2560
@@ -1266,9 +1316,9 @@
    ],
    "visual_type": "BG video + FRONT 8k_kress (slam at 125.36s, zoom 2.5x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
-    "clip_start": 34.800000000000004,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 11.15,
     "crop": null,
     "desat": null
    },
@@ -1296,9 +1346,9 @@
    ],
    "visual_type": "BG video + FRONT 8k_kress_role (slam at 126.44s, zoom 2.5x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 34.800000000000004,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.99,
     "crop": null,
     "desat": null
    },
@@ -1322,7 +1372,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_racks.mp4",
     "back_id": "nasa_racks",
-    "clip_start": 38.5,
+    "clip_start": 10.46,
     "crop": null,
     "desat": null
    },
@@ -1346,8 +1396,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 31.1,
-    "crop": null,
+    "clip_start": 38.5,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1371,7 +1426,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_cables.mp4",
     "back_id": "nasa_cables",
-    "clip_start": 38.5,
+    "clip_start": 14.98,
     "crop": null,
     "desat": null
    },
@@ -1393,9 +1448,9 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 38.5,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 10.7,
     "crop": null,
     "desat": null
    },
@@ -1418,8 +1473,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 34.800000000000004,
-    "crop": null,
+    "clip_start": 42.2,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1437,9 +1497,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT hl_nyt_wallst (slam at 141.15s, zoom 1.4x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 42.2,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.96,
     "crop": null,
     "desat": null
    },
@@ -1460,9 +1520,9 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
-    "clip_start": 42.2,
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 10.2,
     "crop": null,
     "desat": null
    },
@@ -1485,8 +1545,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 38.5,
-    "crop": null,
+    "clip_start": 45.900000000000006,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1508,7 +1573,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/vid_11.mp4",
     "back_id": "vid_11",
-    "clip_start": 17.0,
+    "clip_start": 15.0,
     "crop": null,
     "desat": null
    },
@@ -1558,7 +1623,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/vid_11.mp4",
     "back_id": "vid_11",
-    "clip_start": 18.5,
+    "clip_start": 15.0,
     "crop": null,
     "desat": null
    },
@@ -1607,14 +1672,14 @@
    ],
    "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_06.jpg",
-    "back_id": "huang_06",
+    "back": "assets2/photos/huang_12.jpg",
+    "back_id": "huang_12",
     "clip_start": null,
     "crop": [
-     216,
+     597,
      0,
-     1404,
-     2497
+     720,
+     1280
     ],
     "desat": 0.4
    },
@@ -1636,7 +1701,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/vid_11.mp4",
     "back_id": "vid_11",
-    "clip_start": 17.0,
+    "clip_start": 15.0,
     "crop": null,
     "desat": null
    },
@@ -1681,7 +1746,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/vid_11.mp4",
     "back_id": "vid_11",
-    "clip_start": 18.5,
+    "clip_start": 15.0,
     "crop": null,
     "desat": null
    },
@@ -1702,9 +1767,9 @@
    ],
    "visual_type": "BG video + CARD summary",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_globe.mp4",
-    "back_id": "nasa_globe",
-    "clip_start": 5.2,
+    "back": "assets2/broll/vid_07.mp4",
+    "back_id": "vid_07",
+    "clip_start": 6.0,
     "crop": null,
     "desat": null
    },
@@ -1729,8 +1794,13 @@
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
-    "clip_start": 42.2,
-    "crop": null,
+    "clip_start": 49.6,
+    "crop": [
+     0,
+     330,
+     1920,
+     950
+    ],
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1749,9 +1819,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 42.2,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 17.3,
     "crop": null,
     "desat": null
    },
@@ -1785,7 +1855,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_racks.mp4",
     "back_id": "nasa_racks",
-    "clip_start": 45.900000000000006,
+    "clip_start": 10.06,
     "crop": null,
     "desat": null
    },
@@ -1809,7 +1879,7 @@
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_cables.mp4",
     "back_id": "nasa_cables",
-    "clip_start": 45.900000000000006,
+    "clip_start": 16.9,
     "crop": null,
     "desat": null
    },
