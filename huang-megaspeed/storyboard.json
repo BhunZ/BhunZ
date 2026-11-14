@@ -1,0 +1,1209 @@
+{
+ "fps": 30,
+ "size": [
+  1080,
+  1920
+ ],
+ "duration": 89.1149,
+ "beats": [
+  {
+   "id": "b01",
+   "start": 0.0,
+   "end": 2.938,
+   "dur": 2.938,
+   "narration_words": "Two weeks ago Jensen Huang was running Nvidia",
+   "caption_emphasis": [
+    "Jensen",
+    "Huang",
+    "Nvidia"
+   ],
+   "visual_type": "gpu",
+   "asset_path_or_spec": {
+    "label": "NVIDIA \u00b7 PRESIDENT & CEO",
+    "push_d": 6.0
+   },
+   "motion": "slow 5% push-in on GPU illustration",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "sub_hit",
+     "t": 0.0
+    }
+   ],
+   "ledger_ids": [
+    "B6a"
+   ]
+  },
+  {
+   "id": "b02",
+   "start": 2.938,
+   "end": 4.35,
+   "dur": 1.412,
+   "narration_words": "This week he resigned",
+   "caption_emphasis": [
+    "resigned"
+   ],
+   "visual_type": "gpu",
+   "asset_path_or_spec": {
+    "stamp_at": 0.747,
+    "t_off": 2.94,
+    "push_d": 6.0
+   },
+   "motion": "push continues; RESIGNED stamp slams, image desaturates",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "stamp",
+     "t": 3.685
+    }
+   ],
+   "ledger_ids": [
+    "B6a"
+   ]
+  },
+  {
+   "id": "b03",
+   "start": 4.35,
+   "end": 6.27,
+   "dur": 1.92,
+   "narration_words": "The filing gives no reason",
+   "caption_emphasis": [],
+   "visual_type": "doc8k",
+   "asset_path_or_spec": {
+    "reason_at": 0.835
+   },
+   "motion": "document slides up, 5% push; 'reason: none' tag pops",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 4.35
+    }
+   ],
+   "ledger_ids": [
+    "B6a"
+   ]
+  },
+  {
+   "id": "b04",
+   "start": 6.27,
+   "end": 7.608,
+   "dur": 1.338,
+   "narration_words": "Start with Megaspeed",
+   "caption_emphasis": [
+    "Megaspeed"
+   ],
+   "visual_type": "photo",
+   "asset_path_or_spec": {
+    "img": "singapore.jpg",
+    "kicker": "SINGAPORE",
+    "title": "MEGASPEED INTERNATIONAL",
+    "crop": [
+     500,
+     0,
+     900,
+     1280
+    ],
+    "dim": 0.35,
+    "credit": "Photo: Someformofhuman, CC BY-SA 3.0, Wikimedia Commons"
+   },
+   "motion": "Ken Burns push on skyline; title rises",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 6.27
+    }
+   ],
+   "ledger_ids": [
+    "B1a"
+   ]
+  },
+  {
+   "id": "b05",
+   "start": 7.608,
+   "end": 10.383,
+   "dur": 2.775,
+   "narration_words": "A Singapore cloud firm and Nvidia customer",
+   "caption_emphasis": [
+    "Nvidia"
+   ],
+   "visual_type": "photo",
+   "asset_path_or_spec": {
+    "img": "singapore.jpg",
+    "crop": [
+     900,
+     150,
+     900,
+     1100
+    ],
+    "pan": 0.6,
+    "chips": [
+     "SINGAPORE-BASED",
+     "CLOUD COMPUTING",
+     "NVIDIA CUSTOMER"
+    ],
+    "chip_y": 380,
+    "dim": 0.3,
+    "credit": "Photo: Someformofhuman, CC BY-SA 3.0, Wikimedia Commons"
+   },
+   "motion": "slow pan right; chips pop in",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B1a"
+   ]
+  },
+  {
+   "id": "b06",
+   "start": 10.383,
+   "end": 12.707,
+   "dur": 2.324,
+   "narration_words": "Trade records cited by The New York Times",
+   "caption_emphasis": [
+    "Times"
+   ],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "CITED BY THE NEW YORK TIMES",
+    "title": "TRADE RECORDS",
+    "tsize": 130,
+    "lines": [
+     [
+      "Purchases by Megaspeed's Malaysian affiliate, Speedmatrix",
+      "muted"
+     ]
+    ]
+   },
+   "motion": "card pops in",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "slap",
+     "t": 10.383
+    }
+   ],
+   "ledger_ids": [
+    "B2a"
+   ]
+  },
+  {
+   "id": "b07",
+   "start": 12.707,
+   "end": 14.633,
+   "dur": 1.926,
+   "narration_words": "show its Malaysian affiliate bought at least",
+   "caption_emphasis": [],
+   "visual_type": "map",
+   "asset_path_or_spec": {
+    "stage": 1
+   },
+   "motion": "map: SG pin, arrow draws to Johor",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 12.707
+    }
+   ],
+   "ledger_ids": [
+    "B2a"
+   ]
+  },
+  {
+   "id": "b08",
+   "start": 14.633,
+   "end": 17.67,
+   "dur": 3.037,
+   "narration_words": "four point eight billion dollars of Nvidia-based gear",
+   "caption_emphasis": [],
+   "visual_type": "counter",
+   "asset_path_or_spec": {},
+   "motion": "counter 0\u21924.8B; server racks stack in",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B2a"
+   ]
+  },
+  {
+   "id": "b09",
+   "start": 17.67,
+   "end": 19.808,
+   "dur": 2.138,
+   "narration_words": "Singapore police are investigating",
+   "caption_emphasis": [],
+   "visual_type": "map",
+   "asset_path_or_spec": {
+    "stage": 2
+   },
+   "motion": "camera pulls out; dashed amber arrow to 'China?'",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [],
+   "ledger_ids": [
+    "B2c",
+    "N5"
+   ]
+  },
+  {
+   "id": "b10",
+   "start": 19.808,
+   "end": 21.495,
+   "dur": 1.687,
+   "narration_words": "Megaspeed denies wrongdoing",
+   "caption_emphasis": [
+    "Megaspeed",
+    "denies"
+   ],
+   "visual_type": "denied",
+   "asset_path_or_spec": {
+    "who": "MEGASPEED",
+    "when": "Company statement",
+    "stamp_at": 0.597,
+    "quotes": [
+     "Denies wrongdoing",
+     "Says reviews by U.S. and Malaysian authorities, and by Nvidia, found no violations"
+    ]
+   },
+   "motion": "card slides up; DENIED stamp",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "stamp",
+     "t": 20.405
+    }
+   ],
+   "ledger_ids": [
+    "B2b"
+   ]
+  },
+  {
+   "id": "b11",
+   "start": 21.495,
+   "end": 23.665,
+   "dur": 2.17,
+   "narration_words": "and says it follows export rules",
+   "caption_emphasis": [],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "MEGASPEED STATEMENT",
+    "kcolor": "red",
+    "glow": "red",
+    "lines": [
+     [
+      "\u201cfully within the bounds of all applicable export control regulations\u201d",
+      "quote"
+     ],
+     [
+      "Megaspeed, on its operations",
+      "muted"
+     ]
+    ]
+   },
+   "motion": "quote card pop",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B2b"
+   ]
+  },
+  {
+   "id": "b12",
+   "start": 23.665,
+   "end": 25.865,
+   "dur": 2.2,
+   "narration_words": "On October twenty-ninth the Times reported",
+   "caption_emphasis": [
+    "Times"
+   ],
+   "visual_type": "headline",
+   "asset_path_or_spec": {
+    "outlet": "The New York Times",
+    "date": "Oct 29, 2026",
+    "text": "Reported: U.S. intelligence officials believe a former Megaspeed executive is a Chinese intelligence asset.",
+    "foot": "OUR SUMMARY OF THE REPORT, NOT ITS HEADLINE"
+   },
+   "motion": "paper card slaps in, slight tilt",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [
+    {
+     "sfx": "slap",
+     "t": 23.665
+    }
+   ],
+   "ledger_ids": [
+    "B3a"
+   ]
+  },
+  {
+   "id": "b13",
+   "start": 25.865,
+   "end": 27.902,
+   "dur": 2.037,
+   "narration_words": "that U.S. intelligence officials believe",
+   "caption_emphasis": [],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "ANONYMOUS SOURCES \u00b7 ALLEGED",
+    "kcolor": "amber",
+    "glow": "amber",
+    "title": "U.S. INTELLIGENCE OFFICIALS",
+    "lines": [
+     [
+      "reportedly believe\u2026",
+      "muted"
+     ]
+    ]
+   },
+   "motion": "card pop; glitch on 'intelligence'",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [
+    {
+     "sfx": "glitch",
+     "t": 26.55
+    }
+   ],
+   "ledger_ids": [
+    "B3a"
+   ]
+  },
+  {
+   "id": "b14",
+   "start": 27.902,
+   "end": 29.315,
+   "dur": 1.413,
+   "narration_words": "Alice Huang a former",
+   "caption_emphasis": [
+    "Alice",
+    "Huang"
+   ],
+   "visual_type": "silhouette",
+   "asset_path_or_spec": {
+    "label_at": 0.2
+   },
+   "motion": "neutral silhouette card; label fades in",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 27.902
+    }
+   ],
+   "ledger_ids": [
+    "B3e"
+   ]
+  },
+  {
+   "id": "b15",
+   "start": 29.315,
+   "end": 31.59,
+   "dur": 2.275,
+   "narration_words": "Megaspeed executive and no relation",
+   "caption_emphasis": [
+    "Megaspeed"
+   ],
+   "visual_type": "silhouette",
+   "asset_path_or_spec": {
+    "label_at": -1,
+    "zoom": 1.05
+   },
+   "motion": "tighter reframe of silhouette card",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [],
+   "ledger_ids": [
+    "B3e"
+   ]
+  },
+  {
+   "id": "b16",
+   "start": 31.59,
+   "end": 33.74,
+   "dur": 2.15,
+   "narration_words": "is a Chinese intelligence asset",
+   "caption_emphasis": [],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "ALLEGED",
+    "kcolor": "amber",
+    "glow": "amber",
+    "title": "NOT PROVEN",
+    "tsize": 150,
+    "tcolor": "amber",
+    "lines": [
+     [
+      "The reported view of U.S. intelligence officials, per The New York Times.",
+      "muted"
+     ],
+     [
+      "China denies it.",
+      "body"
+     ]
+    ]
+   },
+   "motion": "type card pop; glitch on 'intelligence'",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [
+    {
+     "sfx": "glitch",
+     "t": 32.4
+    }
+   ],
+   "ledger_ids": [
+    "B3a",
+    "B3c"
+   ]
+  },
+  {
+   "id": "b17",
+   "start": 33.74,
+   "end": 35.953,
+   "dur": 2.213,
+   "narration_words": "It said she was close to Jensen Huang",
+   "caption_emphasis": [
+    "Jensen",
+    "Huang"
+   ],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "ALSO REPORTED BY THE TIMES",
+    "kcolor": "amber",
+    "glow": "amber",
+    "title": "A CLOSE RELATIONSHIP WITH JENSEN HUANG",
+    "tsize": 92
+   },
+   "motion": "type card pop",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [],
+   "ledger_ids": [
+    "B3a"
+   ]
+  },
+  {
+   "id": "b18",
+   "start": 35.953,
+   "end": 38.953,
+   "dur": 3.0,
+   "narration_words": "Nvidia called his interactions not unusual",
+   "caption_emphasis": [
+    "Nvidia",
+    "not",
+    "unusual"
+   ],
+   "visual_type": "denied",
+   "asset_path_or_spec": {
+    "who": "NVIDIA",
+    "when": "Statement \u00b7 Oct 29, 2026",
+    "stamp_at": 1.772,
+    "quotes": [
+     "Interactions \u201cnot unusual\u201d",
+     "Megaspeed is one of many regional cloud customers; diversion claims \u201cinvestigated and debunked\u201d"
+    ]
+   },
+   "motion": "card slides up; DENIED stamp",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 35.953
+    },
+    {
+     "sfx": "stamp",
+     "t": 37.725
+    }
+   ],
+   "ledger_ids": [
+    "B3b"
+   ]
+  },
+  {
+   "id": "b19",
+   "start": 38.953,
+   "end": 41.985,
+   "dur": 3.032,
+   "narration_words": "China's foreign ministry called the claims groundless",
+   "caption_emphasis": [
+    "groundless"
+   ],
+   "visual_type": "denied",
+   "asset_path_or_spec": {
+    "who": "CHINA'S FOREIGN MINISTRY",
+    "when": "Briefing \u00b7 Oct 30, 2026",
+    "stamp_at": 1.972,
+    "quotes": [
+     "\u201cgroundless speculation\u201d",
+     "Says the report aims to smear China"
+    ]
+   },
+   "motion": "card slides up; DENIED stamp",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "stamp",
+     "t": 40.925
+    }
+   ],
+   "ledger_ids": [
+    "B3c"
+   ]
+  },
+  {
+   "id": "b20",
+   "start": 41.985,
+   "end": 44.285,
+   "dur": 2.3,
+   "narration_words": "On November eighth Huang told employees",
+   "caption_emphasis": [
+    "Huang"
+   ],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "NOV 8, 2026",
+    "title": "EMAIL TO NVIDIA EMPLOYEES",
+    "tsize": 104,
+    "lines": [
+     [
+      "Jensen Huang",
+      "muted"
+     ]
+    ]
+   },
+   "motion": "card pop",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 41.985
+    }
+   ],
+   "ledger_ids": [
+    "B4a"
+   ]
+  },
+  {
+   "id": "b21",
+   "start": 44.285,
+   "end": 46.185,
+   "dur": 1.9,
+   "narration_words": "I was unfaithful to my wife",
+   "caption_emphasis": [],
+   "visual_type": "letter",
+   "asset_path_or_spec": {
+    "type_from": 0.06,
+    "type_to": 1.86
+   },
+   "motion": "letter card; quote types on",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "type",
+     "t": 44.345,
+     "t_end": 46.145
+    }
+   ],
+   "ledger_ids": [
+    "B4a"
+   ]
+  },
+  {
+   "id": "b22",
+   "start": 46.185,
+   "end": 47.31,
+   "dur": 1.125,
+   "narration_words": "He named no one",
+   "caption_emphasis": [],
+   "visual_type": "letter",
+   "asset_path_or_spec": {
+    "typed": true,
+    "enter": false,
+    "note": "NAMED NO ONE",
+    "note_at": 0.05
+   },
+   "motion": "note tag pops on letter",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4b"
+   ]
+  },
+  {
+   "id": "b23",
+   "start": 47.31,
+   "end": 49.61,
+   "dur": 2.3,
+   "narration_words": "But he linked it to the national security reports",
+   "caption_emphasis": [],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "IN THE SAME EMAIL",
+    "title": "LINKED IT TO THE NATIONAL-SECURITY CONCERNS IN NEWS REPORTS",
+    "tsize": 82
+   },
+   "motion": "type card pop",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4b"
+   ]
+  },
+  {
+   "id": "b24",
+   "start": 49.61,
+   "end": 51.185,
+   "dur": 1.575,
+   "narration_words": "and pledged to cooperate",
+   "caption_emphasis": [],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "HUANG",
+    "title": "PLEDGED TO COOPERATE",
+    "tsize": 116,
+    "lines": [
+     [
+      "with the board's review",
+      "muted"
+     ]
+    ]
+   },
+   "motion": "type card pop",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4b"
+   ]
+  },
+  {
+   "id": "b25",
+   "start": 51.185,
+   "end": 53.335,
+   "dur": 2.15,
+   "narration_words": "The board opened an independent probe",
+   "caption_emphasis": [],
+   "visual_type": "board",
+   "asset_path_or_spec": {},
+   "motion": "diagram builds top-down",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 51.185
+    }
+   ],
+   "ledger_ids": [
+    "B4c"
+   ]
+  },
+  {
+   "id": "b26",
+   "start": 53.335,
+   "end": 55.035,
+   "dur": 1.7,
+   "narration_words": "It said it has no reason to believe",
+   "caption_emphasis": [],
+   "visual_type": "boardquote",
+   "asset_path_or_spec": {
+    "hl": [],
+    "push_d": 5.3
+   },
+   "motion": "quote card slides in",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4d"
+   ]
+  },
+  {
+   "id": "b27",
+   "start": 55.035,
+   "end": 56.71,
+   "dur": 1.675,
+   "narration_words": "national security or Nvidia",
+   "caption_emphasis": [
+    "Nvidia"
+   ],
+   "visual_type": "boardquote",
+   "asset_path_or_spec": {
+    "hl": [
+     "national",
+     "security"
+    ],
+    "enter": false,
+    "t_off": 1.7,
+    "push_d": 5.3
+   },
+   "motion": "highlight 'national security'",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4d"
+   ]
+  },
+  {
+   "id": "b28",
+   "start": 56.71,
+   "end": 58.655,
+   "dur": 1.945,
+   "narration_words": "secrets were compromised",
+   "caption_emphasis": [],
+   "visual_type": "boardquote",
+   "asset_path_or_spec": {
+    "hl": [
+     "nvidia",
+     "secrets",
+     "compromised"
+    ],
+    "enter": false,
+    "t_off": 3.375,
+    "push_d": 5.3
+   },
+   "motion": "highlight 'NVIDIA secrets \u2026 compromised'",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4d"
+   ]
+  },
+  {
+   "id": "b29",
+   "start": 58.655,
+   "end": 61.38,
+   "dur": 2.725,
+   "narration_words": "The Times reports the Justice Department has taken over a",
+   "caption_emphasis": [
+    "Times"
+   ],
+   "visual_type": "card",
+   "asset_path_or_spec": {
+    "kicker": "REPORTED BY THE NEW YORK TIMES",
+    "kcolor": "amber",
+    "glow": "amber",
+    "title": "JUSTICE DEPARTMENT TAKES OVER FEDERAL MEGASPEED PROBE",
+    "tsize": 84,
+    "lines": [
+     [
+      "DOJ does not comment on ongoing investigations",
+      "muted"
+     ]
+    ]
+   },
+   "motion": "card pop; tension riser starts",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 58.655
+    },
+    {
+     "sfx": "riser",
+     "t": 58.655,
+     "t_end": 63.165
+    }
+   ],
+   "ledger_ids": [
+    "B5b"
+   ]
+  },
+  {
+   "id": "b30",
+   "start": 61.38,
+   "end": 63.105,
+   "dur": 1.725,
+   "narration_words": "federal Megaspeed probe",
+   "caption_emphasis": [
+    "Megaspeed"
+   ],
+   "visual_type": "status",
+   "asset_path_or_spec": {
+    "rows": [
+     [
+      "Singapore police",
+      "Investigation ongoing (MHA)",
+      "green"
+     ],
+     [
+      "U.S. Justice Department",
+      "Criminal inquiry, as reported",
+      "amber"
+     ],
+     [
+      "Charges",
+      "None reported",
+      "muted"
+     ]
+    ]
+   },
+   "motion": "rows slide in",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [],
+   "ledger_ids": [
+    "B2c",
+    "B5b"
+   ]
+  },
+  {
+   "id": "b31",
+   "start": 63.105,
+   "end": 65.142,
+   "dur": 2.037,
+   "narration_words": "On November eleventh the board accepted",
+   "caption_emphasis": [],
+   "visual_type": "doc8k",
+   "asset_path_or_spec": {
+    "date_at": 0.61
+   },
+   "motion": "8-K recreation slides up; date tag",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "sub_hit",
+     "t": 63.105
+    }
+   ],
+   "ledger_ids": [
+    "B6a"
+   ]
+  },
+  {
+   "id": "b32",
+   "start": 65.142,
+   "end": 66.73,
+   "dur": 1.588,
+   "narration_words": "Huang's resignation",
+   "caption_emphasis": [
+    "Huang's",
+    "resignation"
+   ],
+   "visual_type": "doc8k",
+   "asset_path_or_spec": {
+    "highlight_at": 0.0,
+    "stamp_at": 0.473
+   },
+   "motion": "highlight swipe over 'accepted the resignation'; RESIGNED stamp",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "stamp",
+     "t": 65.615
+    }
+   ],
+   "ledger_ids": [
+    "B6a"
+   ]
+  },
+  {
+   "id": "b33",
+   "start": 66.73,
+   "end": 68.042,
+   "dur": 1.312,
+   "narration_words": "CFO Colette Kress",
+   "caption_emphasis": [
+    "CFO",
+    "Colette",
+    "Kress"
+   ],
+   "visual_type": "headline",
+   "asset_path_or_spec": {
+    "outlet": "TechCrunch",
+    "date": "Nov 12, 2026",
+    "text": "\u201cNvidia's Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO\u201d",
+    "foot": "HEADLINE AS PUBLISHED, RECREATED AS TEXT"
+   },
+   "motion": "paper card slaps in",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "slap",
+     "t": 66.73
+    }
+   ],
+   "ledger_ids": [
+    "B6b"
+   ]
+  },
+  {
+   "id": "b34",
+   "start": 68.042,
+   "end": 69.8,
+   "dur": 1.758,
+   "narration_words": "is interim CEO",
+   "caption_emphasis": [
+    "CEO"
+   ],
+   "visual_type": "orgchart",
+   "asset_path_or_spec": {},
+   "motion": "three role cards stack in",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B6a",
+    "B6b",
+    "B6c"
+   ]
+  },
+  {
+   "id": "b35",
+   "start": 69.8,
+   "end": 72.712,
+   "dur": 2.912,
+   "narration_words": "House committees want a closed-door interview in December",
+   "caption_emphasis": [
+    "December"
+   ],
+   "visual_type": "headline",
+   "asset_path_or_spec": {
+    "outlet": "CNN",
+    "date": "Nov 11, 2026",
+    "bgimg": "capitol.jpg",
+    "crop": [
+     400,
+     120,
+     1120,
+     560
+    ],
+    "text": "\u201cJensen Huang summoned to testify before Congress after resigning as Nvidia CEO\u201d",
+    "foot": "HEADLINE AS PUBLISHED, RECREATED AS TEXT"
+   },
+   "motion": "paper card over blurred Capitol",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 69.8
+    },
+    {
+     "sfx": "slap",
+     "t": 69.9
+    }
+   ],
+   "ledger_ids": [
+    "B7b"
+   ]
+  },
+  {
+   "id": "b36",
+   "start": 72.712,
+   "end": 75.25,
+   "dur": 2.538,
+   "narration_words": "Huang reportedly agreed in principle",
+   "caption_emphasis": [
+    "Huang"
+   ],
+   "visual_type": "photo",
+   "asset_path_or_spec": {
+    "img": "capitol.jpg",
+    "crop": [
+     560,
+     150,
+     800,
+     520
+    ],
+    "kicker": "REPORTED",
+    "kcolor": "amber",
+    "title": "AGREED IN PRINCIPLE",
+    "chips": [
+     "CLOSED-DOOR INTERVIEW",
+     "DATE UNDER NEGOTIATION"
+    ],
+    "chip_y": 660,
+    "dim": 0.35,
+    "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"
+   },
+   "motion": "Ken Burns on Capitol dome",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B7c"
+   ]
+  },
+  {
+   "id": "b37",
+   "start": 75.25,
+   "end": 78.02,
+   "dur": 2.77,
+   "narration_words": "Senators from both parties are pressing too",
+   "caption_emphasis": [],
+   "visual_type": "photo",
+   "asset_path_or_spec": {
+    "img": "capitol.jpg",
+    "crop": [
+     180,
+     160,
+     1560,
+     520
+    ],
+    "pan": -0.6,
+    "kicker": "BIPARTISAN PRESSURE",
+    "title": "TESTIMONY EXPECTED",
+    "tsize": 96,
+    "chips": [
+     "HOUSE: INTERVIEW DEMANDED",
+     "SENATE BANKING: REQUEST",
+     "LETTER TO DOJ, COMMERCE, STATE, DNI"
+    ],
+    "chip_y": 650,
+    "dim": 0.4,
+    "credit": "Photo: Architect of the Capitol, public domain, Wikimedia Commons"
+   },
+   "motion": "slow pan across Capitol",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 75.25
+    }
+   ],
+   "ledger_ids": [
+    "B7e"
+   ]
+  },
+  {
+   "id": "b38",
+   "start": 78.02,
+   "end": 80.832,
+   "dur": 2.812,
+   "narration_words": "None of the espionage allegations has been proven",
+   "caption_emphasis": [
+    "None",
+    "proven"
+   ],
+   "visual_type": "alleged",
+   "asset_path_or_spec": {},
+   "motion": "two columns slide in",
+   "overlay": "ALLEGATIONS \u00b7 UNDER INVESTIGATION",
+   "sfx": [
+    {
+     "sfx": "whoosh",
+     "t": 78.02
+    }
+   ],
+   "ledger_ids": [
+    "B3a",
+    "B5b",
+    "B4d"
+   ]
+  },
+  {
+   "id": "b39",
+   "start": 80.832,
+   "end": 81.97,
+   "dur": 1.138,
+   "narration_words": "Here's what to watch",
+   "caption_emphasis": [],
+   "visual_type": "watch",
+   "asset_path_or_spec": {
+    "cards": [
+     [
+      "NOV",
+      "17",
+      "Nvidia earnings",
+      "Q3 fiscal 2027 results",
+      false
+     ],
+     [
+      "EARLY",
+      "DEC",
+      "Congress interview",
+      "Requested; date being negotiated",
+      false
+     ]
+    ],
+    "delay": 0.15
+   },
+   "motion": "calendar cards slide in (dim)",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N3",
+    "B7c"
+   ]
+  },
+  {
+   "id": "b40",
+   "start": 81.97,
+   "end": 84.395,
+   "dur": 2.425,
+   "narration_words": "Nvidia's earnings on November seventeenth",
+   "caption_emphasis": [
+    "Nvidia's"
+   ],
+   "visual_type": "watch",
+   "asset_path_or_spec": {
+    "cards": [
+     [
+      "NOV",
+      "17",
+      "Nvidia earnings",
+      "Q3 fiscal 2027 results",
+      true
+     ],
+     [
+      "EARLY",
+      "DEC",
+      "Congress interview",
+      "Requested; date being negotiated",
+      false
+     ]
+    ]
+   },
+   "motion": "earnings card lights up",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N3"
+   ]
+  },
+  {
+   "id": "b41",
+   "start": 84.395,
+   "end": 86.155,
+   "dur": 1.76,
+   "narration_words": "And Huang's testimony",
+   "caption_emphasis": [
+    "Huang's"
+   ],
+   "visual_type": "watch",
+   "asset_path_or_spec": {
+    "cards": [
+     [
+      "NOV",
+      "17",
+      "Nvidia earnings",
+      "Q3 fiscal 2027 results",
+      false
+     ],
+     [
+      "EARLY",
+      "DEC",
+      "Congress interview",
+      "Requested; date being negotiated",
+      true
+     ]
+    ]
+   },
+   "motion": "testimony card lights up",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B7c"
+   ]
+  },
+  {
+   "id": "b42",
+   "start": 86.155,
+   "end": 89.115,
+   "dur": 2.96,
+   "narration_words": "",
+   "caption_emphasis": [],
+   "visual_type": "end",
+   "asset_path_or_spec": {},
+   "motion": "end card fades in",
+   "overlay": null,
+   "sfx": [
+    {
+     "sfx": "sub_hit",
+     "t": 86.155
+    }
+   ],
+   "ledger_ids": []
+  }
+ ]
+}

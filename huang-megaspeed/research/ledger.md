@@ -40,6 +40,8 @@ Status: ✔ = matches the baseline. Δ = changed or refined. ✖ = could not con
 | N3 | Nvidia reports Q3 FY2027 results on **Nov 17**. | CONFIRMED (company calendar, via search) | https://finance.yahoo.com/quote/NVDA/ · https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm | 2026-11-17 | NEW. Good "what to watch" item. |
 | N4 | Attorney General Todd Blanche said DOJ has reached no conclusion on whether Alice Huang was spying for China. | REPORTED (Reuters, through IBTimes) | https://www.ibtimes.com.au/reuters-jensen-huang-misled-nvidia-leaders-1878552 | 2026-11-13 | NEW ⚠️ Single source. A strong "unproven" line if a second source is found. |
 
+| N5 | U.S. authorities are investigating whether Nvidia chips bought through Megaspeed reached China. *(Used only for the on-screen map label "China? · ALLEGED".)* | ALLEGED (U.S. officials, as reported); DENIED (Megaspeed) | https://www.cnbc.com/2025/10/10/singapore-us-investigate-nvidia-client-megaspeed-export-controls-violation.html · https://fortune.com/2026/11/11/megaspeed-nvidia-chips-china-singapore-malaysia/ · https://www.inquirer.com/news/nation-world/nvidia-investigation-commerce-justice-ai-chinese-spy-megaspeed-jensen-huang-trump-jeff-kessler-lutnick-20261109.html | 2025-10 → 2026-11 | NEW (added at the storyboard stage) |
+
 ## Excluded on purpose (not for narration)
 
 | ID | Item | Reason |
