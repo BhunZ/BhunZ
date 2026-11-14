@@ -141,10 +141,11 @@ class Comp:
             rrect(c, -w / 2 - bw + 14, -h / 2 - bw + 22, w + 2 * bw, h + 2 * bw + 36, 4, (0, 0, 0), 0.55, blur=22)
             rrect(c, -w / 2 - bw, -h / 2 - bw, w + 2 * bw, h + 2 * bw + 36, 4, (0.97, 0.96, 0.93))
             draw_cover(c, im, (-w / 2, -h / 2, w, h), src=m.get("crop"))
+            r = c.getTotalMatrix().mapRect(skia.Rect.MakeXYWH(-w / 2 - bw, -h / 2 - bw, w + 2 * bw, h + 2 * bw + 36))
+            self.layer_rects.append((r.left(), r.top(), r.width(), r.height()))
             if m.get("caption"):
                 draw_text(c, m["caption"], -w / 2, h / 2 + 30, font("monor", 22), (0.25, 0.25, 0.25))
             c.restore()
-            self.layer_rects.append((cx - w / 2 - bw, cy - h / 2 - bw, w + 2 * bw, h + 2 * bw + 36))
 
     # ---------- FRONT (document stacks)
     def group_at(self, t):
@@ -221,6 +222,8 @@ class Comp:
         c.translate(x + dw / 2, y + dh / 2); c.rotate(rot); c.scale(sc, sc)
         if lt < 0.12:
             c.translate(0, -60 * (1 - land))
+        r = c.getTotalMatrix().mapRect(skia.Rect.MakeXYWH(-dw / 2, -dh / 2, dw, dh))
+        self.layer_rects.append((r.left(), r.top(), r.width(), r.height()))
         c.drawRect(skia.Rect.MakeXYWH(-dw / 2 + 12, -dh / 2 + 20, dw, dh), paint((0, 0, 0), 0.6 * land, blur=26))
         c.drawImageRect(im, skia.Rect.MakeXYWH(-dw / 2, -dh / 2, dw, dh),
                         skia.SamplingOptions(skia.FilterMode.kLinear, skia.MipmapMode.kLinear))
@@ -240,7 +243,6 @@ class Comp:
             colr = {"green": GREEN, "amber": AMBER}.get(it.get("stamp_color"), RED)
             stamp(c, it["stamp"], dw * 0.36, dh * 0.5 + 6, 70, colr, prog(lt, it.get("stamp_at", 0.25), 0.3), rot=-9, under=(0.95, 0.95, 0.93))
         c.restore()
-        self.layer_rects.append((x, y, dw, dh))
 
     # ---------- allowed drawn cards
     def draw_cards(self, c, t):
@@ -331,7 +333,7 @@ class Comp:
                 pill(c, o["text"], 540, 150, f, AMBER, AMBER, 1, pad=(24, 12), outline=True, align="center")
         g = self.group_at(t)
         if g:
-            items = [it for it in g["items"] if it["at"] <= t]
+            items = [it for it in g["items"] if it["at"] <= t and it["cut"] != "__stamp__"]
             if items:
                 cut = self.cuts[items[-1]["cut"]]
                 tag = f"{cut['outlet']} · {cut['date']}"

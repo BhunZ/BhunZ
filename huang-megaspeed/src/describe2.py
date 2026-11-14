@@ -1,5 +1,9 @@
 """Write out/description.txt for the v2 cut (sources + full attributions from credits.json)."""
-import json, os
+import json, os, re
+
+
+def clean_author(a):
+    return re.sub(r"\s*\(talk[^)]*\)", "", a or "").strip()
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 cred = json.load(open(os.path.join(ROOT, "out", "credits.json")))
 src = [
@@ -52,7 +56,7 @@ for a in cred["assets"]:
     if key in seen:
         continue
     seen.add(key)
-    lines.append(f"{a.get('title') or a['file']} by {a.get('author') or 'NASA'}, {a.get('license')}: {key}")
+    lines.append(f"{a.get('title') or a['file']} by {clean_author(a.get('author')) or 'NASA'}, {a.get('license')}: {key}")
 lines += ["", "Document and headline images are cropped screenshots of the publicly available pages listed above, shown for news commentary.",
           "", "This video uses AI-generated narration and graphics."]
 open(os.path.join(ROOT, "out", "description.txt"), "w").write("\n".join(lines) + "\n")

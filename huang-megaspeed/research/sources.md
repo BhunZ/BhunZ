@@ -41,3 +41,33 @@ Retrieved 2026-11-14.
 - HackerNoon timeline (the only source for the "normal" Bloomberg quote): https://hackernoon.com/jensen-huang-affair-timeline-every-date-interview-and-megaspeed-mention-from-2024-to-now
 - IBTimes (Reuters rewrite): https://www.ibtimes.com.au/reuters-jensen-huang-misled-nvidia-leaders-1878552
 - Wikipedia, "Nvidia alleged spying scandal" (used only as an index): https://en.wikipedia.org/wiki/Nvidia_alleged_spying_scandal
+
+---
+
+## v2 additions (2026-11-14): pages read directly and screenshotted with a real browser
+Captured with Playwright/Chromium at DSF 2. sec.gov was accessed with the owner-approved declared User-Agent, per the SEC fair-access policy.
+
+### Primary
+- Nvidia Form 8-K (verbatim: "effective immediately"; Kress "interim Chief Executive Officer"): https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm
+- Ex. 99.1 press release (also: Nov. 17 earnings date; "first-ever Chair"): https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm
+- Nvidia newsroom, "A Message to Our Company" (Huang's email; verbatim quote): https://nvidianews.nvidia.com/news/a-message-to-our-company
+- Nvidia newsroom, board statement, Nov 8: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors
+- Nvidia newsroom, independent directors (Wachtell Lipton), Nov 10: https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board
+- Nvidia newsroom, CEO transition: https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+- China MFA transcript, Oct 30 ("unsubstantiated … nothing but smears against China"): https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/202610/t20261030_12050434.html
+- China MFA transcript, Nov 9: https://www.fmprc.gov.cn/eng/xw/fyrbt/202611/t20261109_12056171.html
+- House committees' letter, Nov 4 (PDF): https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/nvidia-letter-pdf.pdf
+
+### Outlets screenshotted (masthead, headline and byline only; article photos cropped out)
+- NYT, Oct 29, 2026: https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html
+- NYT, Oct 9, 2025: https://www.nytimes.com/2025/10/09/technology/nvidia-chips-china-megaspeed.html
+- NYT, Nov 13 (Wall Street): https://www.nytimes.com/2026/11/13/business/jensen-huang-nvidia-wall-street.html
+- NYT interactive, Nov 13 (title, plus the "$4.8 billion" sentence quoted in the ledger): https://www.nytimes.com/interactive/2026/11/13/technology/nvidia-jensen-huang.html
+- CBS News (Megaspeed, investigation, stock / "without interruption"): see sources above
+- NBC News (Megaspeed pledges to cooperate): https://www.nbcnews.com/tech/tech-news/megaspeed-statement-nvidia-jensen-huang-alice-us-exports-chips-china-rcna608939
+- TechCrunch (resigns; testify; timeline with Nvidia's "not unusual or unexpected"): see description.txt
+- Fox Business, Nov 12: https://www.foxbusiness.com/markets/colette-kress-named-nvidia-interim-ceo-jensen-huangs-abrupt-resignation-raises-investor-concerns
+- Yahoo Finance / Motley Fool, Nov 12 close: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-12-221840920.html
+
+### Blocked automation (not screenshotted; not recreated)
+CNBC, SCMP, Fortune, Axios, Reuters, AP, Singapore MHA, The Hill and Forbes. CNN live pages did not render a headline.

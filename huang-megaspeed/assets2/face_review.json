@@ -1,0 +1,19 @@
+{
+ "_note": "Haar false positives verified by eye on the trial render (2026-11-14): no person visible in these assets.",
+ "nasa_racks": "server racks / cable bundles only",
+ "nasa_boards": "server boards only",
+ "nasa_cables": "cables only",
+ "vid_02": "Singapore apartment blocks (window patterns)",
+ "vid_01": "night skyline",
+ "vid_03": "aerial, no people visible",
+ "vid_04": "aerial, no people visible",
+ "vid_05": "skyline in rain",
+ "vid_06": "port aerial",
+ "vid_07": "port aerial at night",
+ "commons_dc_aisle": "empty server aisle",
+ "nasa_globe": "Earth render",
+ "v1_singapore": "skyline",
+ "v1_capitol": "building, cropped above steps",
+ "vid_11": "dome interior, no people",
+ "vid_13": "monument timelapse, no people"
+}

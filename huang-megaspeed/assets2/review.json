@@ -74,5 +74,36 @@
    12.0
   ],
   "note": "Port of Cork footage, used only as generic port imagery (never labelled as an Asian port)"
+ },
+ "vid_09": {
+  "rejected": "military vessel; off-topic"
+ },
+ "vid_10": {
+  "rejected": "January 6 riot footage featuring a named senator: misleading association + unrelated named person"
+ },
+ "vid_14": {
+  "rejected": "ceremony with identifiable unrelated people"
+ },
+ "vid_15": {
+  "rejected": "ceremony with identifiable unrelated people"
+ },
+ "vid_11": {
+  "reviewed": true,
+  "clip_starts": [
+   17.0,
+   18.5
+  ],
+  "note": "only the final dome segment (no people, no logo)"
+ },
+ "vid_12": {
+  "rejected": "burned-in Google watermark"
+ },
+ "vid_13": {
+  "reviewed": true,
+  "clip_starts": [
+   0.5,
+   6.0,
+   12.0
+  ]
  }
 }

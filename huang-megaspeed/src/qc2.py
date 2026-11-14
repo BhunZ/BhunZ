@@ -74,8 +74,10 @@ for fn in sorted(os.listdir(tmp)):
         t = (int(fn[1:5]) - 1) / 2
         bg = seg_at(t, plan["bg"]); mid = seg_at(t, plan["mid"])
         huang = (bg and bg.get("pool") == "huang") or bool(mid)
-        faces.append({"t": t, "bg": bg and bg["id"], "mid": mid and mid["id"], "n": len(d),
-                      "class": "Jensen Huang photo (allowed beat)" if huang else "REVIEW: not a Huang photo segment"})
+        fr = json.load(open(os.path.join(A2, "face_review.json")))
+        cls = ("Jensen Huang photo (allowed beat)" if huang else
+               f"false positive (eye-checked: {fr[bg['id']]})" if bg and bg["id"] in fr else "REVIEW: not a Huang photo segment")
+        faces.append({"t": t, "bg": bg and bg["id"], "mid": mid and mid["id"], "n": len(d), "class": cls})
 unexplained = [f for f in faces if f["class"].startswith("REVIEW")]
 # NYT 'Spy Plot' headline must never share the frame with a person photo
 spy_conflict = []
@@ -92,7 +94,7 @@ huang_in_alice = [b["id"] for b in plan["bg"] if b.get("pool") == "huang" and b[
                  [m["id"] for m in plan["mid"] if m["start"] < t1 and m["end"] > t0]
 banned = re.compile(r"\b(spy|spies|agent|honeytrap|honey trap|seduc\w*|slept|affair|mistress|lover)\b", re.I)
 item("3_no_faces_people_family_or_insinuation", not unexplained and not spy_conflict and not huang_in_alice and not banned.findall(spoken),
-     {"face_hits_2fps": len(faces), "explained_as_huang_photo": len(faces) - len(unexplained), "unexplained": unexplained,
+     {"face_hits_2fps": len(faces), "explained": len(faces) - len(unexplained), "unexplained": unexplained,
       "nyt_spy_headline_over_person": spy_conflict, "huang_photo_during_alice_lines": huang_in_alice,
       "banned_words_spoken": banned.findall(spoken), "no_alice_huang_image": "silhouette card only",
       "note": "Only family reference is Huang's own quoted sentence (required); the memo crop excludes the following lines about his family."})

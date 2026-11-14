@@ -1,5 +1,9 @@
 """Write out/credits.json for the v2 cut from the asset registries and the plan."""
-import json, os
+import json, os, re
+
+
+def clean_author(a):
+    return re.sub(r"\s*\(talk[^)]*\)", "", a or "").strip()
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 A2, B = os.path.join(ROOT, "assets2"), os.path.join(ROOT, "build")
 plan = json.load(open(os.path.join(B, "plan2.json")))
@@ -27,7 +31,7 @@ for cid in used_cuts:
 for k, a in used_bg.items():
     if k in com:
         v = com[k]
-        assets.append({"file": v["file"], "type": "Wikimedia Commons " + v["kind"], "title": v["title"], "author": v.get("author"),
+        assets.append({"file": v["file"], "type": "Wikimedia Commons " + v["kind"], "title": v["title"], "author": clean_author(v.get("author")),
                        "license": v.get("license"), "license_url": v.get("license_url"), "source_url": v.get("page"),
                        "download_url": v.get("src"), "segment_or_crop": v.get("segment") or v.get("note") or a.get("crop"),
                        "license_verified_via": "Commons API extmetadata (LicenseShortName), 2026-11-14"})
@@ -46,7 +50,7 @@ for k, a in used_bg.items():
                        "source_url": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_in_the_evening_-_20101120.jpg"})
     elif a.get("file", "").startswith("assets2/photos/"):
         v = com.get(k, {})
-        assets.append({"file": a["file"], "type": "Wikimedia Commons photo", "title": v.get("title"), "author": v.get("author"),
+        assets.append({"file": a["file"], "type": "Wikimedia Commons photo", "title": v.get("title"), "author": clean_author(v.get("author")),
                        "license": v.get("license"), "source_url": v.get("page")})
 
 out = {"project": "Huang / Megaspeed documentary explainer (v2)", "as_of": "2026-11-14", "assets": assets,

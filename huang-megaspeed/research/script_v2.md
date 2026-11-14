@@ -37,7 +37,7 @@ As of 2026-11-14. Target length about 3:00. The tags refer to `research/ledger.m
 22. Then, on November 11, three days after that pledge, the board accepted his resignation. [B6a, N6]
 23. Chief financial officer Colette Kress became interim CEO. [B6b]
 24. Longtime director Harvey Jones became Nvidia's first-ever board chair. [B6c]
-25. On November 12, Nvidia's shares fell as much as fourteen percent before closing down about four percent. [N8]
+25. On November 12, CNBC reported, Nvidia's shares fell as much as fourteen percent before closing down about four percent. [N8] *("CNBC reported" added at QC: N8 is class REPORTED)*
 26. A day later, its market value closed below four trillion dollars for the first time since July 2025. [N8]
 
 **PART 5: WASHINGTON**
@@ -72,7 +72,7 @@ These are unchanged from v1's ledger "X" rows: the Reuters report about Huang mi
 
 **S4 admission:** Ten days later, on November eighth, Huang emailed Nvidia's employees. "I was unfaithful to my wife," he wrote. He named no one. But he addressed "the national security concerns raised in news reports." And said he would cooperate fully. The same day, Nvidia's board opened an independent investigation. It said it had no reason to believe national security, or Nvidia secrets, were compromised. A company spokesperson said Huang was committed to continuing as C-E-O, without interruption. Two days later, the board's independent directors hired the law firm Wachtell Lipton to investigate.
 
-**S5 fall:** The Times reported that the Justice Department had taken over a federal probe of Megaspeed. Then, on November eleventh, three days after that pledge, the board accepted his resignation. Chief financial officer Colette Kress became interim C-E-O. Longtime director Harvey Jones became Nvidia's first-ever board chair. On November twelfth, Nvidia's shares fell as much as fourteen percent, before closing down about four percent. A day later, its market value closed below four trillion dollars, for the first time since July twenty twenty-five.
+**S5 fall:** The Times reported that the Justice Department had taken over a federal probe of Megaspeed. Then, on November eleventh, three days after that pledge, the board accepted his resignation. Chief financial officer Colette Kress became interim C-E-O. Longtime director Harvey Jones became Nvidia's first-ever board chair. On November twelfth, CNBC reported, Nvidia's shares fell as much as fourteen percent, before closing down about four percent. A day later, its market value closed below four trillion dollars, for the first time since July twenty twenty-five.
 
 **S6 Washington:** On November fourth, the Republican chairs of three House committees had asked Huang for a closed-door briefing. House committees want a closed-door interview. Huang reportedly agreed. The date is still being negotiated. Senators from both parties are reportedly pressing too.
 

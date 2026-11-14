@@ -2,85 +2,96 @@
  "1_ledger_mapping_and_attribution": {
   "pass": true,
   "detail": {
-   "sentences": 20,
-   "script_vs_spoken_similarity": 0.971,
+   "sentences": 31,
+   "script_vs_spoken": 0.957,
    "rows": [
     {
-     "sentence": "Two weeks ago, Jensen Huang was running Nvidia.",
+     "sentence": "On November 11, Nvidia's board accepted Jensen Huang's resignation, effective immediately.",
      "ids": [
       "B6a"
      ],
-     "classes": [
-      "CONFIRMED (SEC 8-K)"
-     ],
      "attribution_needed": false,
-     "attribution_found": false,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "This week, he resigned. The filing gives no reason.",
+     "sentence": "He co-founded the company in 1993 and ran it for thirty-three years.",
+     "ids": [
+      "N10"
+     ],
+     "attribution_needed": false,
+     "found": false,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "The filing gives no reason.",
      "ids": [
       "B6a"
      ],
-     "classes": [
-      "CONFIRMED (SEC 8-K)"
-     ],
      "attribution_needed": false,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "Start with Megaspeed: a Singapore cloud firm and Nvidia customer.",
+     "sentence": "This is what is confirmed, what has been reported, and what is only alleged.",
+     "ids": [],
+     "attribution_needed": false,
+     "found": true,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "The story runs through Megaspeed, a Singapore-based cloud company and an Nvidia customer.",
      "ids": [
       "B1a"
      ],
-     "classes": [
-      "CONFIRMED (Nvidia statement)"
-     ],
      "attribution_needed": false,
-     "attribution_found": false,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": false,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "Trade records cited by The New York Times show its Malaysian affiliate bought at least $4.8 billion of Nvidia-based gear.",
+     "sentence": "According to The New York Times, Megaspeed's Malaysian affiliate has spent $4.8 billion on A.I. chips since June 2024.",
      "ids": [
       "B2a"
      ],
-     "classes": [
-      "REPORTED (NYT)"
-     ],
      "attribution_needed": true,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "Singapore police are investigating.",
+     "sentence": "U.S. officials have been investigating whether some of that hardware ended up in China.",
+     "ids": [
+      "N5"
+     ],
+     "attribution_needed": true,
+     "found": true,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "Singapore police are investigating the company for suspected breaches of local law.",
      "ids": [
       "B2c"
      ],
-     "classes": [
-      "CONFIRMED (SPF/MHA)"
-     ],
      "attribution_needed": false,
-     "attribution_found": false,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": false,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "Megaspeed denies wrongdoing and says it follows export rules.",
+     "sentence": "Megaspeed denies wrongdoing. It says it takes export rules \"extremely seriously\" and will cooperate with U.S. authorities.",
      "ids": [
-      "B2b"
-     ],
-     "classes": [
-      "DENIED (Megaspeed)"
+      "B2b",
+      "N9"
      ],
      "attribution_needed": false,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
@@ -89,147 +100,191 @@
       "B3a",
       "B3e"
      ],
-     "classes": [
-      "ALLEGED (anonymous U.S. intelligence sources, as REPORTED by NYT/FT)",
-      "REPORTED"
-     ],
      "attribution_needed": true,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "It said she was close to Jensen Huang.",
+     "sentence": "The Times also reported she was close to Jensen Huang.",
      "ids": [
       "B3a"
      ],
-     "classes": [
-      "ALLEGED (anonymous U.S. intelligence sources, as REPORTED by NYT/FT)"
-     ],
      "attribution_needed": true,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "Nvidia called his interactions \"not unusual.\"",
+     "sentence": "An Nvidia spokesperson said his interactions with her were \"not unusual or unexpected,\" and that meetings with customers are part of a CEO's job.",
      "ids": [
       "B3b"
      ],
-     "classes": [
-      "DENIED (Nvidia)"
-     ],
      "attribution_needed": false,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "China's foreign ministry called the claims groundless.",
+     "sentence": "China's foreign ministry called the report \"unsubstantiated\" and \"nothing but smears against China.\"",
      "ids": [
       "B3c"
      ],
-     "classes": [
-      "DENIED (China MFA)"
-     ],
      "attribution_needed": false,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "On November 8, Huang told employees: \"I was unfaithful to my wife.\"",
+     "sentence": "Ten days later, on November 8, Huang emailed Nvidia's employees.",
      "ids": [
       "B4a"
      ],
-     "classes": [
-      "CONFIRMED (admitted)"
-     ],
      "attribution_needed": false,
-     "attribution_found": false,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": false,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "He named no one, but linked it to the national-security reports, and pledged to cooperate.",
+     "sentence": "\"I was unfaithful to my wife,\" he wrote.",
+     "ids": [
+      "B4a"
+     ],
+     "attribution_needed": false,
+     "found": false,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "He named no one. But he addressed \"the national security concerns raised in news reports,\" and said he would cooperate fully.",
      "ids": [
       "B4b"
      ],
-     "classes": [
-      "CONFIRMED (memo)"
-     ],
      "attribution_needed": false,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "The board opened an independent probe, saying it has no reason to believe national security or Nvidia secrets were compromised.",
+     "sentence": "The same day, Nvidia's board opened an independent investigation.",
      "ids": [
-      "B4c",
+      "B4c"
+     ],
+     "attribution_needed": false,
+     "found": false,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "It said it had no reason to believe national security or Nvidia secrets were compromised.",
+     "ids": [
       "B4d"
      ],
-     "classes": [
-      "CONFIRMED (board statement)",
-      "CONFIRMED (board statement) \u2014 **counterpoint 1**"
-     ],
      "attribution_needed": false,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "The Times reports the Justice Department has taken over a federal Megaspeed probe.",
+     "sentence": "A company spokesperson said Huang was committed to continuing as CEO without interruption.",
+     "ids": [
+      "N6"
+     ],
+     "attribution_needed": false,
+     "found": true,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "Two days later, the board's independent directors hired the law firm Wachtell Lipton to investigate.",
+     "ids": [
+      "B5a"
+     ],
+     "attribution_needed": false,
+     "found": false,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "The Times reported that the Justice Department had taken over a federal probe of Megaspeed.",
      "ids": [
       "B5b"
      ],
-     "classes": [
-      "REPORTED (NYT, people familiar)"
-     ],
      "attribution_needed": true,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "On November 11, the board accepted Huang's resignation.",
+     "sentence": "Then, on November 11, three days after that pledge, the board accepted his resignation.",
      "ids": [
-      "B6a"
-     ],
-     "classes": [
-      "CONFIRMED (SEC 8-K)"
+      "B6a",
+      "N6"
      ],
      "attribution_needed": false,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "CFO Colette Kress is interim CEO.",
+     "sentence": "Chief financial officer Colette Kress became interim CEO.",
      "ids": [
       "B6b"
      ],
-     "classes": [
-      "CONFIRMED (8-K, press release)"
-     ],
      "attribution_needed": false,
-     "attribution_found": false,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": false,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "House committees want a closed-door interview in December; Huang reportedly agreed in principle.",
+     "sentence": "Longtime director Harvey Jones became Nvidia's first-ever board chair.",
+     "ids": [
+      "B6c"
+     ],
+     "attribution_needed": false,
+     "found": false,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "On November 12, CNBC reported, Nvidia's shares fell as much as fourteen percent before closing down about four percent.",
+     "ids": [
+      "N8"
+     ],
+     "attribution_needed": true,
+     "found": true,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "A day later, its market value closed below four trillion dollars for the first time since July 2025.",
+     "ids": [
+      "N8"
+     ],
+     "attribution_needed": true,
+     "found": false,
+     "inherited": true,
+     "ok": true
+    },
+    {
+     "sentence": "On November 4, the Republican chairs of three House committees had asked Huang for a closed-door briefing.",
+     "ids": [
+      "B7a"
+     ],
+     "attribution_needed": false,
+     "found": false,
+     "inherited": false,
+     "ok": true
+    },
+    {
+     "sentence": "House committees want a closed-door interview. Huang reportedly agreed; the date is still being negotiated.",
      "ids": [
       "B7b",
       "B7c"
      ],
-     "classes": [
-      "REPORTED",
-      "REPORTED (NBC, through an aggregator)"
-     ],
      "attribution_needed": true,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
@@ -237,12 +292,9 @@
      "ids": [
       "B7e"
      ],
-     "classes": [
-      "REPORTED"
-     ],
      "attribution_needed": true,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
@@ -251,28 +303,22 @@
       "B3a",
       "B5b"
      ],
-     "classes": [
-      "ALLEGED (anonymous U.S. intelligence sources, as REPORTED by NYT/FT)",
-      "REPORTED (NYT, people familiar)"
-     ],
      "attribution_needed": true,
-     "attribution_found": true,
-     "attribution_inherited_from_earlier_sentence": false,
+     "found": true,
+     "inherited": false,
      "ok": true
     },
     {
-     "sentence": "Here's what to watch: Nvidia's earnings on November 17, and Huang's testimony.",
+     "sentence": "Here's what to watch: Nvidia's earnings on November 17, the board's investigation, and Huang's testimony.",
      "ids": [
       "N3",
+      "B4c",
+      "B5a",
       "B7c"
      ],
-     "classes": [
-      "CONFIRMED (company calendar, via search)",
-      "REPORTED (NBC, through an aggregator)"
-     ],
      "attribution_needed": true,
-     "attribution_found": false,
-     "attribution_inherited_from_earlier_sentence": true,
+     "found": false,
+     "inherited": true,
      "ok": true
     }
    ]
@@ -281,92 +327,127 @@
  "2_four_counterpoints": {
   "pass": true,
   "detail": {
-   "board_no_reason_to_believe": true,
+   "board_no_reason": true,
    "huang_cooperate": true,
-   "china_groundless": true,
+   "china_unsubstantiated": true,
    "megaspeed_denies": true
   }
  },
  "3_no_faces_people_family_or_insinuation": {
   "pass": true,
   "detail": {
-   "face_detections_at_2fps": [
-    {
-     "frame": "f0031.png",
-     "t": 15.0,
-     "beat": "b08",
-     "visual_type": "counter",
-     "boxes": [
-      [
-       262,
-       180,
-       88,
-       88
-      ]
-     ],
-     "counts": false,
-     "classification": "false positive: beat contains only generated typography/graphics"
-    }
-   ],
-   "frames_scanned": 180,
-   "banned_words_on_screen": [],
+   "face_hits_2fps": 47,
+   "explained": 47,
+   "unexplained": [],
+   "nyt_spy_headline_over_person": [],
+   "huang_photo_during_alice_lines": [],
    "banned_words_spoken": [],
-   "note": "The only family reference is Huang's own quoted sentence, required by the brief. No family member is named or shown."
+   "no_alice_huang_image": "silhouette card only",
+   "note": "Only family reference is Huang's own quoted sentence (required); the memo crop excludes the following lines about his family."
   }
  },
  "4_assets_licensed_and_credited": {
   "pass": true,
   "detail": {
-   "assets_on_disk": [
-    "assets/commons/capitol.jpg",
-    "assets/commons/singapore.jpg",
-    "assets/data/countries-10m.json"
-   ],
+   "assets_used": 53,
    "uncredited": [],
-   "licenses": {
-    "assets/commons/capitol.jpg": "Public domain",
-    "assets/commons/singapore.jpg": "CC BY-SA 3.0",
-    "assets/data/countries-10m.json": "ISC (package); Natural Earth data is public domain"
-   },
-   "scraped_news_tv_film": "none (no yt-dlp or similar used; no agency photos; headline cards are typographic)"
+   "licence_not_allowed": []
   }
  },
- "5_caption_sync_and_safe_zones": {
+ "8_no_recreated_or_lookalike_documents": {
   "pass": true,
   "detail": {
-   "caption_offset_ms": 60.0,
-   "frame_quantisation_max_ms": 16.6,
-   "energy_onset_check": {
-    "n": 16,
+   "document_cuts_used": 31,
+   "all_from_real_screenshots": true,
+   "recreated": [],
+   "drawn_cards": [
+    "end",
+    "silhouette",
+    "summary"
+   ]
+  }
+ },
+ "5_caption_sync_and_safe_zone": {
+  "pass": true,
+  "detail": {
+   "onset_check": {
+    "n": 34,
     "median_ms": 16,
-    "p90_ms": 33,
-    "max_ms": 72
+    "max_ms": 67
    },
-   "whisper_final_mix_check": {
-    "n": 212,
-    "median_ms": 80,
-    "p90_ms": 180
-   },
-   "safe_zone_frames_checked": 1347,
-   "safe_zone_violations": [],
-   "criterion": "max drift <= 80 ms against acoustic word onsets (energy onset after silence, the direct measurement); Whisper word timestamps reported as a secondary check (known early bias; they disagree with onsets by ~60 ms)"
+   "caption_centre_y": 1056,
+   "caption_bottom_y_max": 1123,
+   "ui_safe_limit_y": 1574
   }
  },
  "6_loudness": {
   "pass": true,
   "detail": {
-   "integrated_lufs": -14.0,
-   "true_peak_dbtp": -1.5
+   "integrated_lufs": -14.1,
+   "true_peak_dbtp": -1.3
   }
  },
  "7_duration_and_format": {
   "pass": true,
   "detail": {
-   "duration_s": 89.81,
+   "duration_s": 180.7,
    "size": "1080x1920",
-   "fps": "30/1",
-   "min_beat_s": 1.125,
-   "beats": 43
+   "fps": "30/1"
+  }
+ },
+ "9_full_bleed_max_15pct_empty": {
+  "pass": false,
+  "detail": {
+   "frames_checked": 176,
+   "worst_empty_frac": 0.701,
+   "violations": [
+    {
+     "t": 0.0,
+     "empty_frac": 0.384
+    },
+    {
+     "t": 1.0,
+     "empty_frac": 0.469
+    },
+    {
+     "t": 2.0,
+     "empty_frac": 0.399
+    },
+    {
+     "t": 3.0,
+     "empty_frac": 0.232
+    },
+    {
+     "t": 7.0,
+     "empty_frac": 0.168
+    },
+    {
+     "t": 8.0,
+     "empty_frac": 0.29
+    },
+    {
+     "t": 9.0,
+     "empty_frac": 0.283
+    },
+    {
+     "t": 10.0,
+     "empty_frac": 0.356
+    },
+    {
+     "t": 11.0,
+     "empty_frac": 0.288
+    },
+    {
+     "t": 12.0,
+     "empty_frac": 0.191
+    }
+   ]
+  }
+ },
+ "10_scene_cuts_ge_45": {
+  "pass": true,
+  "detail": {
+   "scene_changes_gt_0.25": 85
   }
  }
 }

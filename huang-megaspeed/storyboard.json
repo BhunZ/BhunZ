@@ -4,7 +4,7 @@
   1080,
   1920
  ],
- "duration": 179.8649,
+ "duration": 180.6899,
  "beats": [
   {
    "id": "s01",
@@ -17,8 +17,8 @@
    ],
    "visual_type": "BG video + FRONT 8k_cover (slam at 0.67s); FRONT 8k_resign (slam at 2.79s, zoom 2.4x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 1.5,
     "crop": null,
     "desat": null
@@ -42,8 +42,8 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
     "clip_start": 1.5,
     "crop": null,
     "desat": null
@@ -68,10 +68,15 @@
     "back": "assets2/photos/huang_13.jpg",
     "back_id": "huang_13",
     "clip_start": null,
-    "crop": null,
+    "crop": [
+     627,
+     0,
+     480,
+     854
+    ],
     "desat": 0.75
    },
-   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
    "overlay": null,
    "sfx": [],
    "ledger_ids": [
@@ -89,10 +94,15 @@
    ],
    "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_14.jpg",
-    "back_id": "huang_14",
+    "back": "assets2/photos/huang_12.jpg",
+    "back_id": "huang_12",
     "clip_start": null,
-    "crop": null,
+    "crop": [
+     597,
+     0,
+     720,
+     1280
+    ],
     "desat": 0.75
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -108,7 +118,7 @@
    "end": 14.185,
    "narration_words": "The filing gives no reason This is",
    "caption_emphasis": [],
-   "visual_type": "BG video + FRONT 8k_cover (slam at 12.08s, zoom 1.25x); MID printed card huang_06",
+   "visual_type": "BG video + FRONT 8k_cover (slam at 12.08s, zoom 1.25x); MID printed card huang_11",
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_boards.mp4",
     "back_id": "nasa_boards",
@@ -140,8 +150,8 @@
    ],
    "visual_type": "BG video + FRONT ex991_top (slam at 14.52s); FRONT hl_cbs_investigation (slam at 15.91s)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
     "clip_start": 1.5,
     "crop": null,
     "desat": null
@@ -252,8 +262,8 @@
    ],
    "visual_type": "BG video + FRONT cbs_48 (slam at 27.84s, zoom 1.9x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/vid_03.mp4",
-    "back_id": "vid_03",
+    "back": "assets2/broll/vid_05.mp4",
+    "back_id": "vid_05",
     "clip_start": 0.5,
     "crop": null,
     "desat": null
@@ -298,8 +308,8 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 5.2,
     "crop": null,
     "desat": null
@@ -319,9 +329,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT __stamp__ (slam at 33.97s, zoom 1.8x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 5.2,
+    "back": "assets2/broll/vid_06.mp4",
+    "back_id": "vid_06",
+    "clip_start": 0.5,
     "crop": null,
     "desat": null
    },
@@ -346,9 +356,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
-    "clip_start": 5.2,
+    "back": "assets2/broll/vid_07.mp4",
+    "back_id": "vid_07",
+    "clip_start": 0.5,
     "crop": null,
     "desat": null
    },
@@ -367,9 +377,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/vid_01.mp4",
-    "back_id": "vid_01",
-    "clip_start": 8.0,
+    "back": "assets2/broll/vid_03.mp4",
+    "back_id": "vid_03",
+    "clip_start": 0.5,
     "crop": null,
     "desat": null
    },
@@ -418,9 +428,9 @@
    ],
    "visual_type": "BG video + FRONT hl_nbc_megaspeed (slam at 42.44s, zoom 1.6x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 8.9,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 5.2,
     "crop": null,
     "desat": null
    },
@@ -446,9 +456,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 8.9,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 5.2,
     "crop": null,
     "desat": null
    },
@@ -468,8 +478,8 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 8.9,
     "crop": null,
     "desat": null
@@ -522,9 +532,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT hl_cbs_investigation (slam at 53.52s, zoom 1.5x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 12.600000000000001,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 8.9,
     "crop": null,
     "desat": null
    },
@@ -570,9 +580,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT hl_cbs_investigation (slam at 59.20s, zoom 1.7x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 12.600000000000001,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 8.9,
     "crop": null,
     "desat": null
    },
@@ -599,8 +609,8 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 12.600000000000001,
     "crop": null,
     "desat": null
@@ -652,9 +662,9 @@
    ],
    "visual_type": "BG video + FRONT tc_notunusual (slam at 64.63s, zoom 1.9x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 16.3,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 12.600000000000001,
     "crop": null,
     "desat": null
    },
@@ -683,9 +693,9 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 16.3,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 12.600000000000001,
     "crop": null,
     "desat": null
    },
@@ -704,8 +714,8 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 16.3,
     "crop": null,
     "desat": null
@@ -751,9 +761,9 @@
    ],
    "visual_type": "BG video + FRONT hl_nbc_megaspeed (slam at 76.48s)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 20.0,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 16.3,
     "crop": null,
     "desat": null
    },
@@ -774,9 +784,9 @@
    ],
    "visual_type": "BG video + FRONT nv_msg_title (slam at 79.76s, zoom 1.3x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 20.0,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 16.3,
     "crop": null,
     "desat": null
    },
@@ -804,8 +814,8 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 20.0,
     "crop": null,
     "desat": null
@@ -846,10 +856,15 @@
    "caption_emphasis": [],
    "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_12.jpg",
-    "back_id": "huang_12",
+    "back": "assets2/photos/huang_03.jpg",
+    "back_id": "huang_03",
     "clip_start": null,
-    "crop": null,
+    "crop": [
+     0,
+     0,
+     1307,
+     2324
+    ],
     "desat": 0.5
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: flash",
@@ -868,9 +883,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT nv_msg_natsec (slam at 86.54s, zoom 1.7x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 23.700000000000003,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 20.0,
     "crop": null,
     "desat": null
    },
@@ -889,9 +904,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 23.700000000000003,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 20.0,
     "crop": null,
     "desat": null
    },
@@ -933,8 +948,8 @@
    ],
    "visual_type": "BG video + FRONT nv_board_title (slam at 92.75s, zoom 1.2x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 23.700000000000003,
     "crop": null,
     "desat": null
@@ -960,9 +975,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT nv_board_inv (slam at 94.36s, zoom 1.6x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 27.400000000000002,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 23.700000000000003,
     "crop": null,
     "desat": null
    },
@@ -981,9 +996,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT nv_board_noreason (slam at 96.61s, zoom 1.8x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 27.400000000000002,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 23.700000000000003,
     "crop": null,
     "desat": null
    },
@@ -1028,8 +1043,8 @@
    ],
    "visual_type": "BG video + FRONT cbs_pledge (slam at 101.55s, zoom 1.8x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 27.400000000000002,
     "crop": null,
     "desat": null
@@ -1050,9 +1065,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 31.1,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 27.400000000000002,
     "crop": null,
     "desat": null
    },
@@ -1071,9 +1086,9 @@
    "caption_emphasis": [],
    "visual_type": "BG video + FRONT nv_indep (slam at 109.24s, zoom 2.2x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 31.1,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 27.400000000000002,
     "crop": null,
     "desat": null
    },
@@ -1100,8 +1115,8 @@
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 31.1,
     "crop": null,
     "desat": null
@@ -1116,16 +1131,16 @@
   {
    "id": "s47",
    "start": 113.765,
-   "end": 115.365,
+   "end": 115.34,
    "narration_words": "The Times reported that the Justice",
    "caption_emphasis": [
     "REPORTED"
    ],
-   "visual_type": "BG video + FRONT tc_doj (slam at 114.88s, zoom 1.8x)",
+   "visual_type": "BG video + FRONT tc_doj (slam at 114.86s, zoom 1.8x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 34.800000000000004,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 31.1,
     "crop": null,
     "desat": null
    },
@@ -1139,8 +1154,8 @@
   },
   {
    "id": "s48",
-   "start": 115.365,
-   "end": 118.603,
+   "start": 115.34,
+   "end": 118.528,
    "narration_words": "Department had taken over a federal probe of Megaspeed",
    "caption_emphasis": [
     "MEGASPEED"
@@ -1162,17 +1177,17 @@
   },
   {
    "id": "s49",
-   "start": 118.603,
-   "end": 120.765,
+   "start": 118.528,
+   "end": 120.665,
    "narration_words": "Then on November eleventh three",
    "caption_emphasis": [
     "NOV. 11"
    ],
-   "visual_type": "BG video + FRONT hl_tc_resigns (slam at 119.25s, zoom 1.3x)",
+   "visual_type": "BG video + FRONT hl_tc_resigns (slam at 119.17s, zoom 1.3x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 34.800000000000004,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 31.1,
     "crop": null,
     "desat": null
    },
@@ -1181,7 +1196,7 @@
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 118.603
+     "t": 118.528
     }
    ],
    "ledger_ids": [
@@ -1192,14 +1207,14 @@
   },
   {
    "id": "s50",
-   "start": 120.765,
-   "end": 122.215,
+   "start": 120.665,
+   "end": 122.115,
    "narration_words": "days after that pledge",
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 34.800000000000004,
     "crop": null,
     "desat": null
@@ -1214,18 +1229,23 @@
   },
   {
    "id": "s51",
-   "start": 122.215,
-   "end": 124.615,
+   "start": 122.115,
+   "end": 124.515,
    "narration_words": "the board accepted his resignation",
    "caption_emphasis": [
     "RESIGNATION"
    ],
-   "visual_type": "BG photo + FRONT 8k_resign (slam at 122.34s, zoom 2.4x)",
+   "visual_type": "BG photo + FRONT 8k_resign (slam at 122.25s, zoom 2.4x)",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_03.jpg",
-    "back_id": "huang_03",
+    "back": "assets2/photos/huang_01.jpg",
+    "back_id": "huang_01",
     "clip_start": null,
-    "crop": null,
+    "crop": [
+     183,
+     0,
+     1440,
+     2560
+    ],
     "desat": 0.6
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1238,17 +1258,17 @@
   },
   {
    "id": "s52",
-   "start": 124.615,
-   "end": 126.19,
+   "start": 124.515,
+   "end": 126.065,
    "narration_words": "Chief financial officer Colette",
    "caption_emphasis": [
     "COLETTE"
    ],
-   "visual_type": "BG video + FRONT 8k_kress (slam at 125.46s, zoom 2.5x)",
+   "visual_type": "BG video + FRONT 8k_kress (slam at 125.36s, zoom 2.5x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 38.5,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 34.800000000000004,
     "crop": null,
     "desat": null
    },
@@ -1257,7 +1277,7 @@
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 124.615
+     "t": 124.515
     }
    ],
    "ledger_ids": [
@@ -1268,17 +1288,17 @@
   },
   {
    "id": "s53",
-   "start": 126.19,
-   "end": 128.052,
+   "start": 126.065,
+   "end": 127.778,
    "narration_words": "Kress became interim C-E-O.",
    "caption_emphasis": [
     "KRESS"
    ],
-   "visual_type": "BG video + FRONT 8k_kress_role (slam at 126.62s, zoom 2.5x)",
+   "visual_type": "BG video + FRONT 8k_kress_role (slam at 126.44s, zoom 2.5x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 38.5,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 34.800000000000004,
     "crop": null,
     "desat": null
    },
@@ -1291,17 +1311,17 @@
   },
   {
    "id": "s54",
-   "start": 128.052,
-   "end": 130.44,
+   "start": 127.778,
+   "end": 130.015,
    "narration_words": "Longtime director Harvey Jones became",
    "caption_emphasis": [
     "HARVEY",
     "JONES"
    ],
-   "visual_type": "BG video + FRONT 8k_jones (slam at 129.04s, zoom 2.5x); MID printed card huang_11",
+   "visual_type": "BG video + FRONT 8k_jones (slam at 128.77s, zoom 2.5x); MID printed card huang_15",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_cables.mp4",
-    "back_id": "nasa_cables",
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
     "clip_start": 38.5,
     "crop": null,
     "desat": null
@@ -1316,13 +1336,13 @@
   },
   {
    "id": "s55",
-   "start": 130.44,
-   "end": 132.865,
+   "start": 130.015,
+   "end": 132.34,
    "narration_words": "Nvidia's first-ever board chair",
    "caption_emphasis": [
     "NVIDIA'S"
    ],
-   "visual_type": "BG photo + MID printed card huang_11",
+   "visual_type": "BG photo + MID printed card huang_15",
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
@@ -1339,18 +1359,19 @@
   },
   {
    "id": "s56",
-   "start": 132.865,
-   "end": 135.052,
-   "narration_words": "On November twelfth Nvidia's shares",
+   "start": 132.34,
+   "end": 136.065,
+   "narration_words": "On November twelfth CNBC reported Nvidia's shares",
    "caption_emphasis": [
     "NOV. 12",
+    "REPORTED",
     "NVIDIA'S"
    ],
-   "visual_type": "BG video + FRONT hl_yahoo_1112 (slam at 133.03s, zoom 1.4x)",
+   "visual_type": "BG video + FRONT hl_yahoo_1112 (slam at 132.51s, zoom 1.4x)",
    "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 42.2,
+    "back": "assets2/broll/nasa_cables.mp4",
+    "back_id": "nasa_cables",
+    "clip_start": 38.5,
     "crop": null,
     "desat": null
    },
@@ -1364,17 +1385,17 @@
   },
   {
    "id": "s57",
-   "start": 135.052,
-   "end": 137.14,
+   "start": 136.065,
+   "end": 138.065,
    "narration_words": "fell as much as fourteen percent",
    "caption_emphasis": [
     "14%"
    ],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 42.2,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 38.5,
     "crop": null,
     "desat": null
    },
@@ -1387,13 +1408,13 @@
   },
   {
    "id": "s58",
-   "start": 137.14,
-   "end": 140.04,
+   "start": 138.065,
+   "end": 140.865,
    "narration_words": "before closing down about four percent",
    "caption_emphasis": [
     "4%"
    ],
-   "visual_type": "BG photo + FRONT yahoo_close (slam at 137.17s, zoom 1.9x)",
+   "visual_type": "BG photo + FRONT yahoo_close (slam at 138.09s, zoom 1.9x)",
    "asset_path_or_spec": {
     "back": "assets/commons/singapore.jpg",
     "back_id": "v1_singapore",
@@ -1410,11 +1431,34 @@
   },
   {
    "id": "s59",
-   "start": 140.04,
-   "end": 141.777,
+   "start": 140.865,
+   "end": 142.602,
    "narration_words": "A day later its market value",
    "caption_emphasis": [],
-   "visual_type": "BG video + FRONT hl_nyt_wallst (slam at 140.32s, zoom 1.4x)",
+   "visual_type": "BG video + FRONT hl_nyt_wallst (slam at 141.15s, zoom 1.4x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 42.2,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "N8"
+   ]
+  },
+  {
+   "id": "s60",
+   "start": 142.602,
+   "end": 145.102,
+   "narration_words": "closed below four trillion dollars for",
+   "caption_emphasis": [
+    "$4 TRILLION"
+   ],
+   "visual_type": "BG video",
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_cables.mp4",
     "back_id": "nasa_cables",
@@ -1430,32 +1474,9 @@
    ]
   },
   {
-   "id": "s60",
-   "start": 141.777,
-   "end": 144.277,
-   "narration_words": "closed below four trillion dollars for",
-   "caption_emphasis": [
-    "$4 TRILLION"
-   ],
-   "visual_type": "BG video",
-   "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 45.900000000000006,
-    "crop": null,
-    "desat": null
-   },
-   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
-   "overlay": null,
-   "sfx": [],
-   "ledger_ids": [
-    "N8"
-   ]
-  },
-  {
    "id": "s61",
-   "start": 144.277,
-   "end": 147.41,
+   "start": 145.102,
+   "end": 148.235,
    "narration_words": "the first time since July twenty twenty-five",
    "caption_emphasis": [
     "JULY 2025"
@@ -1477,23 +1498,18 @@
   },
   {
    "id": "s62",
-   "start": 147.41,
-   "end": 149.873,
+   "start": 148.235,
+   "end": 150.697,
    "narration_words": "On November fourth the Republican chairs of",
    "caption_emphasis": [
     "NOV. 4"
    ],
-   "visual_type": "BG photo + FRONT house_letter_top (slam at 147.55s, zoom 1.9x)",
+   "visual_type": "BG video + FRONT house_letter_top (slam at 148.38s, zoom 1.9x)",
    "asset_path_or_spec": {
-    "back": "assets/commons/capitol.jpg",
-    "back_id": "v1_capitol",
-    "clip_start": 1.5,
-    "crop": [
-     300,
-     80,
-     1300,
-     600
-    ],
+    "back": "assets2/broll/vid_11.mp4",
+    "back_id": "vid_11",
+    "clip_start": 17.0,
+    "crop": null,
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: whip",
@@ -1501,7 +1517,7 @@
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 147.41
+     "t": 148.235
     }
    ],
    "ledger_ids": [
@@ -1511,21 +1527,16 @@
   },
   {
    "id": "s63",
-   "start": 149.873,
-   "end": 151.422,
+   "start": 150.697,
+   "end": 152.248,
    "narration_words": "three House committees had asked",
    "caption_emphasis": [],
-   "visual_type": "BG photo + FRONT house_letter_date (slam at 150.91s, zoom 2.0x)",
+   "visual_type": "BG video + FRONT house_letter_date (slam at 151.74s, zoom 2.0x)",
    "asset_path_or_spec": {
-    "back": "assets/commons/capitol.jpg",
-    "back_id": "v1_capitol",
-    "clip_start": 5.2,
-    "crop": [
-     300,
-     80,
-     1300,
-     600
-    ],
+    "back": "assets2/broll/vid_13.mp4",
+    "back_id": "vid_13",
+    "clip_start": 0.5,
+    "crop": null,
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1537,23 +1548,18 @@
   },
   {
    "id": "s64",
-   "start": 151.422,
-   "end": 153.672,
+   "start": 152.248,
+   "end": 154.498,
    "narration_words": "Huang for a closed-door briefing",
    "caption_emphasis": [
     "HUANG"
    ],
-   "visual_type": "BG photo",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets/commons/capitol.jpg",
-    "back_id": "v1_capitol",
-    "clip_start": 8.9,
-    "crop": [
-     300,
-     80,
-     1300,
-     600
-    ],
+    "back": "assets2/broll/vid_11.mp4",
+    "back_id": "vid_11",
+    "clip_start": 18.5,
+    "crop": null,
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1565,21 +1571,16 @@
   },
   {
    "id": "s65",
-   "start": 153.672,
-   "end": 156.197,
+   "start": 154.498,
+   "end": 157.022,
    "narration_words": "House committees want a closed-door interview",
    "caption_emphasis": [],
-   "visual_type": "BG photo + FRONT hl_tc_testify (slam at 153.99s, zoom 2.0x)",
+   "visual_type": "BG video + FRONT hl_tc_testify (slam at 154.81s, zoom 2.0x)",
    "asset_path_or_spec": {
-    "back": "assets/commons/capitol.jpg",
-    "back_id": "v1_capitol",
-    "clip_start": 12.600000000000001,
-    "crop": [
-     300,
-     80,
-     1300,
-     600
-    ],
+    "back": "assets2/broll/vid_13.mp4",
+    "back_id": "vid_13",
+    "clip_start": 6.0,
+    "crop": null,
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: slide",
@@ -1587,7 +1588,7 @@
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 153.672
+     "t": 154.498
     }
    ],
    "ledger_ids": [
@@ -1598,18 +1599,23 @@
   },
   {
    "id": "s66",
-   "start": 156.197,
-   "end": 158.56,
+   "start": 157.022,
+   "end": 159.385,
    "narration_words": "Huang reportedly agreed The date",
    "caption_emphasis": [
     "HUANG"
    ],
    "visual_type": "BG photo",
    "asset_path_or_spec": {
-    "back": "assets2/photos/huang_01.jpg",
-    "back_id": "huang_01",
+    "back": "assets2/photos/huang_06.jpg",
+    "back_id": "huang_06",
     "clip_start": null,
-    "crop": null,
+    "crop": [
+     216,
+     0,
+     1404,
+     2497
+    ],
     "desat": 0.4
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1622,21 +1628,16 @@
   },
   {
    "id": "s67",
-   "start": 158.56,
-   "end": 160.485,
+   "start": 159.385,
+   "end": 161.31,
    "narration_words": "is still being negotiated",
    "caption_emphasis": [],
-   "visual_type": "BG photo",
+   "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets/commons/capitol.jpg",
-    "back_id": "v1_capitol",
-    "clip_start": 16.3,
-    "crop": [
-     300,
-     80,
-     1300,
-     600
-    ],
+    "back": "assets2/broll/vid_11.mp4",
+    "back_id": "vid_11",
+    "clip_start": 17.0,
+    "crop": null,
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1649,21 +1650,16 @@
   },
   {
    "id": "s68",
-   "start": 160.485,
-   "end": 162.022,
+   "start": 161.31,
+   "end": 162.847,
    "narration_words": "Senators from both parties",
    "caption_emphasis": [],
-   "visual_type": "BG photo + MID printed card huang_15",
+   "visual_type": "BG video + MID printed card huang_16",
    "asset_path_or_spec": {
-    "back": "assets/commons/capitol.jpg",
-    "back_id": "v1_capitol",
-    "clip_start": 20.0,
-    "crop": [
-     300,
-     80,
-     1300,
-     600
-    ],
+    "back": "assets2/broll/vid_13.mp4",
+    "back_id": "vid_13",
+    "clip_start": 12.0,
+    "crop": null,
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax; transition in: cut",
@@ -1677,21 +1673,16 @@
   },
   {
    "id": "s69",
-   "start": 162.022,
-   "end": 164.405,
+   "start": 162.847,
+   "end": 165.23,
    "narration_words": "are reportedly pressing too",
    "caption_emphasis": [],
-   "visual_type": "BG photo + MID printed card huang_15",
+   "visual_type": "BG video + MID printed card huang_16",
    "asset_path_or_spec": {
-    "back": "assets/commons/capitol.jpg",
-    "back_id": "v1_capitol",
-    "clip_start": 23.700000000000003,
-    "crop": [
-     300,
-     80,
-     1300,
-     600
-    ],
+    "back": "assets2/broll/vid_11.mp4",
+    "back_id": "vid_11",
+    "clip_start": 18.5,
+    "crop": null,
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
@@ -1703,8 +1694,8 @@
   },
   {
    "id": "s70",
-   "start": 164.405,
-   "end": 165.48,
+   "start": 165.23,
+   "end": 166.305,
    "narration_words": "None of the espionage",
    "caption_emphasis": [
     "NONE"
@@ -1728,8 +1719,8 @@
   },
   {
    "id": "s71",
-   "start": 165.48,
-   "end": 167.392,
+   "start": 166.305,
+   "end": 168.217,
    "narration_words": "allegations has been proven",
    "caption_emphasis": [
     "PROVEN"
@@ -1752,15 +1743,15 @@
   },
   {
    "id": "s72",
-   "start": 167.392,
-   "end": 168.792,
+   "start": 168.217,
+   "end": 169.617,
    "narration_words": "Here's what to watch",
    "caption_emphasis": [],
    "visual_type": "BG video",
    "asset_path_or_spec": {
-    "back": "assets2/broll/nasa_racks.mp4",
-    "back_id": "nasa_racks",
-    "clip_start": 45.900000000000006,
+    "back": "assets2/broll/commons_dc_aisle.mp4",
+    "back_id": "commons_dc_aisle",
+    "clip_start": 42.2,
     "crop": null,
     "desat": null
    },
@@ -1769,7 +1760,7 @@
    "sfx": [
     {
      "sfx": "whoosh",
-     "t": 167.392
+     "t": 168.217
     }
    ],
    "ledger_ids": [
@@ -1783,14 +1774,38 @@
   },
   {
    "id": "s73",
-   "start": 168.792,
-   "end": 171.43,
+   "start": 169.617,
+   "end": 172.255,
    "narration_words": "Nvidia's earnings on November seventeenth",
    "caption_emphasis": [
     "NVIDIA'S",
     "NOV. 17"
    ],
-   "visual_type": "BG video + FRONT nv_earnings (slam at 168.82s, zoom 1.9x)",
+   "visual_type": "BG video + FRONT nv_earnings (slam at 169.65s, zoom 1.9x)",
+   "asset_path_or_spec": {
+    "back": "assets2/broll/nasa_racks.mp4",
+    "back_id": "nasa_racks",
+    "clip_start": 45.900000000000006,
+    "crop": null,
+    "desat": null
+   },
+   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
+   "overlay": null,
+   "sfx": [],
+   "ledger_ids": [
+    "B4c",
+    "B5a",
+    "B7c",
+    "N3"
+   ]
+  },
+  {
+   "id": "s74",
+   "start": 172.255,
+   "end": 174.055,
+   "narration_words": "The board's investigation",
+   "caption_emphasis": [],
+   "visual_type": "BG video + FRONT nv_indep (slam at 172.28s)",
    "asset_path_or_spec": {
     "back": "assets2/broll/nasa_cables.mp4",
     "back_id": "nasa_cables",
@@ -1809,48 +1824,19 @@
    ]
   },
   {
-   "id": "s74",
-   "start": 171.43,
-   "end": 173.23,
-   "narration_words": "The board's investigation",
-   "caption_emphasis": [],
-   "visual_type": "BG video + FRONT nv_indep (slam at 171.46s)",
-   "asset_path_or_spec": {
-    "back": "assets2/broll/commons_dc_aisle.mp4",
-    "back_id": "commons_dc_aisle",
-    "clip_start": 49.6,
-    "crop": null,
-    "desat": null
-   },
-   "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",
-   "overlay": null,
-   "sfx": [],
-   "ledger_ids": [
-    "B4c",
-    "B5a",
-    "B7c",
-    "N3"
-   ]
-  },
-  {
    "id": "s75",
-   "start": 173.23,
-   "end": 175.205,
+   "start": 174.055,
+   "end": 176.03,
    "narration_words": "And Huang's testimony",
    "caption_emphasis": [
     "HUANG'S"
    ],
-   "visual_type": "BG photo + FRONT hl_tc_testify (slam at 173.44s)",
+   "visual_type": "BG video + FRONT hl_tc_testify (slam at 174.26s)",
    "asset_path_or_spec": {
-    "back": "assets/commons/capitol.jpg",
-    "back_id": "v1_capitol",
-    "clip_start": 27.400000000000002,
-    "crop": [
-     300,
-     80,
-     1300,
-     600
-    ],
+    "back": "assets2/broll/vid_13.mp4",
+    "back_id": "vid_13",
+    "clip_start": 0.5,
+    "crop": null,
     "desat": null
    },
    "motion": "slow push 4.5% + drift; mid 1.5x / front 2x parallax",

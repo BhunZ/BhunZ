@@ -15,8 +15,18 @@ WJ = json.load(open(os.path.join(ROOT, "build", "words2.json")))
 WORDS, DUR = WJ["words"], WJ["duration"]
 
 
+SHIFT = [(334, 2)]   # words inserted after anchors were authored ("CNBC reported" before old word 334)
+
+
+def W(i):
+    for at, n in SHIFT:
+        if i >= at:
+            i += n
+    return i
+
+
 def ws(i):
-    return WORDS[i]["s"]
+    return WORDS[W(i)]["s"]
 
 
 # ------------------------------------------------------------------ asset pools
@@ -53,6 +63,8 @@ def load_pools():
             pools.setdefault("photo_" + pcat.get(v["cat"], "misc"), []).append({"id": k, "kind": "photo", "file": v["file"]})
     for k, v in nasa.items():
         pools.setdefault("globe" if "globe" in k else ("chip" if "board" in k else "dc"), []).append({"id": k, "kind": "video", "file": v["file"]})
+    if "dc" in pools:   # open on the brighter NASA rack footage; the dark aisle clip goes last
+        pools["dc"].sort(key=lambda a: (a["id"] == "commons_dc_aisle", a["id"] != "nasa_racks"))
     pools.setdefault("photo_capitol", []).append({"id": "v1_capitol", "kind": "photo", "file": "assets/commons/capitol.jpg", "crop": [300, 80, 1300, 600]})
     pools.setdefault("photo_sg", []).append({"id": "v1_singapore", "kind": "photo", "file": "assets/commons/singapore.jpg"})
     return pools
@@ -80,8 +92,10 @@ def pick(cat):
     raise RuntimeError("no assets")
 
 
-HUANG_OK = {"huang_13": None, "huang_14": None, "huang_12": None, "huang_03": None, "huang_01": None,
-            "huang_06": None, "huang_11": None, "huang_15": [700, 0, 900, 1150], "huang_16": [600, 0, 900, 1150]}
+HUANG_OK = {  # 9:16 crops centred on Huang's face (x, y, w, h in source px); audience excluded; brightest first
+    "huang_13": [627, 0, 480, 854], "huang_12": [597, 0, 720, 1280], "huang_03": [0, 0, 1307, 2324],
+    "huang_01": [183, 0, 1440, 2560], "huang_06": [216, 0, 1404, 2497], "huang_11": [240, 0, 1440, 2560],
+    "huang_15": [606, 0, 480, 854], "huang_16": [424, 0, 480, 854], "huang_14": [440, 0, 607, 1080]}
 
 
 def huang(i):
@@ -109,6 +123,7 @@ BG = [
 # ------------------------------------------------------------------ FRONT groups: (start word, transition, [(cut, at word, opts)])
 FRONT = [
     (0, None, [("8k_cover", 1, {"zoom": 1.0, "w": 0.92}), ("8k_resign", 5, {"zoom": 2.4, "rot": -1.5, "w": 0.94})]),
+    (11, "flash", []),                                       # clear documents: full-bleed Huang photo (tenure)
     (24, "whip", [("8k_cover", 25, {"zoom": 1.25, "w": 0.9}),
                   ("ex991_top", 33, {"zoom": 1.0, "w": 0.9, "stamp": "CONFIRMED", "stamp_color": "green"}),
                   ("hl_cbs_investigation", 37, {"zoom": 1.0, "w": 0.88, "rot": 2.0, "stamp": "REPORTED", "stamp_color": "amber"}),
