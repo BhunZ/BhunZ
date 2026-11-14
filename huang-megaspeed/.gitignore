@@ -1,1 +1,4 @@
 build/
+assets2/broll/
+assets2/**/*_full.png
+assets2/**/*_view.png

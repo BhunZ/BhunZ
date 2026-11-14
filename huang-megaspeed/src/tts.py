@@ -42,6 +42,7 @@ SECTIONS = {
 
 
 def gen(pipe, sec):
+    global SPEED, OUT
     audio, words, offset = [], [], 0.0
     for r in pipe(SECTIONS[sec], voice=VOICE, speed=SPEED, split_pattern=r"\n+"):
         a = r.audio.numpy()
@@ -61,7 +62,24 @@ def gen(pipe, sec):
     print(f"{sec}: {len(a)/SR:.2f}s, {len(words)} words")
 
 
+def load_v2():
+    """VO text for the v2 documentary cut, read from research/script_v2.md (section B)."""
+    import re
+    t = open(os.path.join(ROOT, "research", "script_v2.md")).read().split("## B.")[1]
+    out = {}
+    for ln in t.splitlines():
+        m = re.match(r"\*\*(S\d)[^*]*\*\*\s*(.+)", ln)
+        if m:
+            out[m.group(1)] = m.group(2).strip()
+    return out
+
+
 if __name__ == "__main__":
+    if "--v2" in sys.argv:
+        sys.argv.remove("--v2")
+        SECTIONS.clear(); SECTIONS.update(load_v2())
+        SPEED = 1.05
+        OUT = os.path.join(ROOT, "build", "vo2"); os.makedirs(OUT, exist_ok=True)
     pipe = KPipeline(lang_code="a", repo_id="hexgrad/Kokoro-82M")
     for sec in (sys.argv[1:] or list(SECTIONS)):
         gen(pipe, sec)

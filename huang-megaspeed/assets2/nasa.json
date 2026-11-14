@@ -1,0 +1,58 @@
+{
+ "nasa_racks": {
+  "kind": "video",
+  "cat": "datacenter",
+  "nasa_id": "ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "title": "Ames Research Center Unveils New Modular Supercomputing Facility (B-roll resource reel)",
+  "segment": "74.5s +13.0s",
+  "center": "ARC",
+  "file": "assets2/broll/nasa_racks.mp4",
+  "page": "https://images.nasa.gov/details/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "src": "https://images-assets.nasa.gov/video/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb~medium.mp4",
+  "license": "Public domain (NASA media, not subject to U.S. copyright)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "author": "NASA Ames Research Center"
+ },
+ "nasa_cables": {
+  "kind": "video",
+  "cat": "datacenter",
+  "nasa_id": "ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "title": "Ames Research Center Unveils New Modular Supercomputing Facility (B-roll resource reel)",
+  "segment": "104.0s +19.0s",
+  "center": "ARC",
+  "file": "assets2/broll/nasa_cables.mp4",
+  "page": "https://images.nasa.gov/details/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "src": "https://images-assets.nasa.gov/video/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb~medium.mp4",
+  "license": "Public domain (NASA media, not subject to U.S. copyright)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "author": "NASA Ames Research Center"
+ },
+ "nasa_boards": {
+  "kind": "video",
+  "cat": "datacenter",
+  "nasa_id": "ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "title": "Ames Research Center Unveils New Modular Supercomputing Facility (B-roll resource reel)",
+  "segment": "183.0s +19.0s",
+  "center": "ARC",
+  "file": "assets2/broll/nasa_boards.mp4",
+  "page": "https://images.nasa.gov/details/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "src": "https://images-assets.nasa.gov/video/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb~medium.mp4",
+  "license": "Public domain (NASA media, not subject to U.S. copyright)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "author": "NASA Ames Research Center"
+ },
+ "nasa_globe": {
+  "kind": "video",
+  "cat": "datacenter",
+  "nasa_id": "ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "title": "Ames Research Center Unveils New Modular Supercomputing Facility (B-roll resource reel)",
+  "segment": "204.5s +8.5s",
+  "center": "ARC",
+  "file": "assets2/broll/nasa_globe.mp4",
+  "page": "https://images.nasa.gov/details/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+  "src": "https://images-assets.nasa.gov/video/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb~medium.mp4",
+  "license": "Public domain (NASA media, not subject to U.S. copyright)",
+  "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "author": "NASA Ames Research Center"
+ }
+}

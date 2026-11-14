@@ -1,0 +1,1046 @@
+[
+ {
+  "id": "8k_cover",
+  "src": "docs/sec_8k_full.png",
+  "rect": [
+   0,
+   0,
+   900,
+   420
+  ],
+  "focus": null,
+  "outlet": "SEC / Nvidia Form 8-K",
+  "date": "Nov 12, 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/8k_cover.png",
+  "px": [
+   1800,
+   840
+  ]
+ },
+ {
+  "id": "8k_resign",
+  "src": "docs/sec_8k_full.png",
+  "rect": [
+   0,
+   1051,
+   900,
+   110
+  ],
+  "focus": [
+   369,
+   1121,
+   441,
+   30
+  ],
+  "outlet": "SEC / Nvidia Form 8-K",
+  "date": "Nov 12, 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/8k_resign.png",
+  "px": [
+   1800,
+   220
+  ],
+  "focus_px": [
+   738,
+   140,
+   882,
+   60
+  ]
+ },
+ {
+  "id": "8k_kress",
+  "src": "docs/sec_8k_full.png",
+  "rect": [
+   0,
+   1144,
+   900,
+   70
+  ],
+  "focus": [
+   65,
+   1169,
+   757,
+   30
+  ],
+  "outlet": "SEC / Nvidia Form 8-K",
+  "date": "Nov 12, 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/8k_kress.png",
+  "px": [
+   1800,
+   140
+  ],
+  "focus_px": [
+   130,
+   50,
+   1514,
+   60
+  ]
+ },
+ {
+  "id": "8k_jones",
+  "src": "docs/sec_8k_full.png",
+  "rect": [
+   0,
+   1212,
+   900,
+   60
+  ],
+  "focus": [
+   278,
+   1232,
+   99,
+   15
+  ],
+  "outlet": "SEC / Nvidia Form 8-K",
+  "date": "Nov 12, 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/8k_jones.png",
+  "px": [
+   1800,
+   120
+  ],
+  "focus_px": [
+   556,
+   40,
+   198,
+   30
+  ]
+ },
+ {
+  "id": "ex991_top",
+  "src": "docs/sec_ex991_full.png",
+  "rect": [
+   0,
+   14,
+   900,
+   316
+  ],
+  "focus": [
+   37,
+   259,
+   183,
+   16
+  ],
+  "outlet": "Nvidia press release (Ex. 99.1)",
+  "date": "Nov 12, 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/ex991_top.png",
+  "px": [
+   1800,
+   632
+  ],
+  "focus_px": [
+   74,
+   490,
+   366,
+   32
+  ]
+ },
+ {
+  "id": "nv_msg_title",
+  "src": "docs/nv_message_full.png",
+  "rect": [
+   0,
+   190,
+   600,
+   270
+  ],
+  "focus": null,
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 8, 2026",
+  "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+  "kind": "doc",
+  "note": "title, intro and date only",
+  "file": "assets2/cuts/nv_msg_title.png",
+  "px": [
+   1200,
+   540
+  ]
+ },
+ {
+  "id": "nv_msg_quote",
+  "src": "docs/nv_message_full.png",
+  "rect": [
+   7,
+   804,
+   197,
+   34
+  ],
+  "focus": [
+   15,
+   812,
+   184,
+   19
+  ],
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 8, 2026",
+  "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+  "kind": "doc",
+  "note": "cropped to the quoted sentence only; the rest of the paragraph is excluded",
+  "file": "assets2/cuts/nv_msg_quote.png",
+  "px": [
+   394,
+   68
+  ],
+  "focus_px": [
+   16,
+   16,
+   368,
+   38
+  ]
+ },
+ {
+  "id": "nv_msg_natsec",
+  "src": "docs/nv_message_full.png",
+  "rect": [
+   0,
+   1164,
+   600,
+   106
+  ],
+  "focus": [
+   118,
+   1196,
+   151,
+   69
+  ],
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 8, 2026",
+  "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/nv_msg_natsec.png",
+  "px": [
+   1200,
+   212
+  ],
+  "focus_px": [
+   236,
+   64,
+   302,
+   138
+  ]
+ },
+ {
+  "id": "nv_board_title",
+  "src": "docs/nv_board_full.png",
+  "rect": [
+   0,
+   190,
+   600,
+   150
+  ],
+  "focus": null,
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 8, 2026",
+  "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/nv_board_title.png",
+  "px": [
+   1200,
+   300
+  ]
+ },
+ {
+  "id": "nv_board_inv",
+  "src": "docs/nv_board_full.png",
+  "rect": [
+   0,
+   684,
+   600,
+   104
+  ],
+  "focus": [
+   246,
+   718,
+   182,
+   19
+  ],
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 8, 2026",
+  "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/nv_board_inv.png",
+  "px": [
+   1200,
+   208
+  ],
+  "focus_px": [
+   492,
+   68,
+   364,
+   38
+  ]
+ },
+ {
+  "id": "nv_board_noreason",
+  "src": "docs/nv_board_full.png",
+  "rect": [
+   0,
+   903,
+   600,
+   110
+  ],
+  "focus": [
+   15,
+   937,
+   556,
+   44
+  ],
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 8, 2026",
+  "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/nv_board_noreason.png",
+  "px": [
+   1200,
+   220
+  ],
+  "focus_px": [
+   30,
+   68,
+   1112,
+   88
+  ]
+ },
+ {
+  "id": "nv_indep",
+  "src": "docs/nv_independent_full.png",
+  "rect": [
+   0,
+   190,
+   600,
+   644
+  ],
+  "focus": [
+   521,
+   744,
+   61,
+   19
+  ],
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 10, 2026",
+  "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+  "kind": "doc",
+  "note": "title, date and statement; Nvidia logo panel in between is part of the page",
+  "file": "assets2/cuts/nv_indep.png",
+  "px": [
+   1200,
+   1288
+  ],
+  "focus_px": [
+   1042,
+   1108,
+   122,
+   38
+  ]
+ },
+ {
+  "id": "nv_transition",
+  "src": "docs/nv_transition_full.png",
+  "rect": [
+   0,
+   190,
+   600,
+   330
+  ],
+  "focus": [
+   234,
+   557,
+   214,
+   19
+  ],
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 12, 2026",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/nv_transition.png",
+  "px": [
+   1200,
+   660
+  ],
+  "focus_px": [
+   468,
+   734,
+   428,
+   38
+  ]
+ },
+ {
+  "id": "mfa_answer",
+  "src": "docs/mfa_1030_full.png",
+  "rect": [
+   0,
+   4353,
+   600,
+   95
+  ],
+  "focus": [
+   219,
+   4367,
+   318,
+   65
+  ],
+  "outlet": "China MFA transcript",
+  "date": "Oct 30, 2026",
+  "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/202610/t20261030_12050434.html",
+  "kind": "doc",
+  "note": "spokesperson's answer only",
+  "file": "assets2/cuts/mfa_answer.png",
+  "px": [
+   1200,
+   190
+  ],
+  "focus_px": [
+   438,
+   28,
+   636,
+   130
+  ]
+ },
+ {
+  "id": "house_letter_top",
+  "src": "docs/house_letter_1104-1.png",
+  "rect": [
+   83,
+   28,
+   683,
+   458
+  ],
+  "focus": [
+   100,
+   464,
+   650,
+   22
+  ],
+  "outlet": "U.S. House committees",
+  "date": "Nov 4, 2026",
+  "url": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/nvidia-letter-pdf.pdf",
+  "kind": "doc",
+  "note": "letterhead to first sentence; following lines that name a third party are excluded",
+  "file": "assets2/cuts/house_letter_top.png",
+  "px": [
+   1366,
+   916
+  ],
+  "focus_px": [
+   34,
+   872,
+   1300,
+   44
+  ]
+ },
+ {
+  "id": "house_letter_date",
+  "src": "docs/house_letter_1104-1.png",
+  "rect": [
+   83,
+   647,
+   683,
+   56
+  ],
+  "focus": [
+   100,
+   675,
+   301,
+   22
+  ],
+  "outlet": "U.S. House committees",
+  "date": "Nov 4, 2026",
+  "url": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/nvidia-letter-pdf.pdf",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/house_letter_date.png",
+  "px": [
+   1366,
+   112
+  ],
+  "focus_px": [
+   34,
+   56,
+   602,
+   44
+  ]
+ },
+ {
+  "id": "hl_nyt_1029",
+  "src": "headlines/hl_nyt_1029_desk_full.png",
+  "rect": [
+   60,
+   0,
+   580,
+   594
+  ],
+  "focus": [
+   99,
+   487,
+   443,
+   105
+  ],
+  "outlet": "The New York Times",
+  "date": "Oct 29, 2026",
+  "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+  "kind": "headline",
+  "note": "masthead + headline; photo and dek excluded",
+  "file": "assets2/cuts/hl_nyt_1029.png",
+  "px": [
+   1160,
+   1188
+  ],
+  "focus_px": [
+   78,
+   974,
+   886,
+   210
+  ]
+ },
+ {
+  "id": "hl_nyt_2025",
+  "src": "headlines/hl_nyt_2025_full.png",
+  "rect": [
+   0,
+   0,
+   600,
+   266
+  ],
+  "focus": [
+   20,
+   186,
+   560,
+   72
+  ],
+  "outlet": "The New York Times",
+  "date": "Oct 9, 2025",
+  "url": "https://www.nytimes.com/2025/10/09/technology/nvidia-chips-china-megaspeed.html",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/hl_nyt_2025.png",
+  "px": [
+   1200,
+   532
+  ],
+  "focus_px": [
+   40,
+   372,
+   1120,
+   144
+  ]
+ },
+ {
+  "id": "hl_nyt_wallst",
+  "src": "headlines/hl_nyt_wallst_full.png",
+  "rect": [
+   0,
+   0,
+   600,
+   328
+  ],
+  "focus": [
+   20,
+   186,
+   560,
+   72
+  ],
+  "outlet": "The New York Times",
+  "date": "Nov 13, 2026",
+  "url": "https://www.nytimes.com/2026/11/13/business/jensen-huang-nvidia-wall-street.html",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/hl_nyt_wallst.png",
+  "px": [
+   1200,
+   656
+  ],
+  "focus_px": [
+   40,
+   372,
+   1120,
+   144
+  ]
+ },
+ {
+  "id": "hl_cbs_megaspeed",
+  "src": "headlines/hl_cbs_megaspeed_full.png",
+  "rect": [
+   0,
+   0,
+   600,
+   358
+  ],
+  "focus": [
+   20,
+   178,
+   560,
+   60
+  ],
+  "outlet": "CBS News",
+  "date": "Nov 13, 2026",
+  "url": "https://www.cbsnews.com/news/megaspeed-nvidia-china-ties/",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/hl_cbs_megaspeed.png",
+  "px": [
+   1200,
+   716
+  ],
+  "focus_px": [
+   40,
+   356,
+   1120,
+   120
+  ]
+ },
+ {
+  "id": "hl_cbs_investigation",
+  "src": "headlines/hl_cbs_investigation_full.png",
+  "rect": [
+   0,
+   0,
+   600,
+   346
+  ],
+  "focus": [
+   20,
+   141,
+   560,
+   90
+  ],
+  "outlet": "CBS News",
+  "date": "Nov 9, 2026",
+  "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-investigation-china-intelligence/",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/hl_cbs_investigation.png",
+  "px": [
+   1200,
+   692
+  ],
+  "focus_px": [
+   40,
+   282,
+   1120,
+   180
+  ]
+ },
+ {
+  "id": "hl_cbs_stock",
+  "src": "headlines/hl_cbs_stock_full.png",
+  "rect": [
+   0,
+   0,
+   600,
+   344
+  ],
+  "focus": [
+   20,
+   169,
+   560,
+   60
+  ],
+  "outlet": "CBS News",
+  "date": "Nov 9, 2026",
+  "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-stock-board-investigation-spy/",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/hl_cbs_stock.png",
+  "px": [
+   1200,
+   688
+  ],
+  "focus_px": [
+   40,
+   338,
+   1120,
+   120
+  ]
+ },
+ {
+  "id": "hl_nbc_megaspeed",
+  "src": "headlines/hl_nbc_megaspeed_full.png",
+  "rect": [
+   0,
+   0,
+   600,
+   269
+  ],
+  "focus": [
+   20,
+   135,
+   560,
+   64
+  ],
+  "outlet": "NBC News",
+  "date": "Nov 12, 2026",
+  "url": "https://www.nbcnews.com/tech/tech-news/megaspeed-statement-nvidia-jensen-huang-alice-us-exports-chips-china-rcna608939",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/hl_nbc_megaspeed.png",
+  "px": [
+   1200,
+   538
+  ],
+  "focus_px": [
+   40,
+   270,
+   1120,
+   128
+  ]
+ },
+ {
+  "id": "hl_yahoo_1112",
+  "src": "headlines/hl_yahoo_1112_full.png",
+  "rect": [
+   0,
+   0,
+   600,
+   262
+  ],
+  "focus": [
+   16,
+   194,
+   568,
+   58
+  ],
+  "outlet": "Yahoo Finance / The Motley Fool",
+  "date": "Nov 12, 2026",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-12-221840920.html",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/hl_yahoo_1112.png",
+  "px": [
+   1200,
+   524
+  ],
+  "focus_px": [
+   32,
+   388,
+   1136,
+   116
+  ]
+ },
+ {
+  "id": "hl_tc_resigns",
+  "src": "headlines/hl_techcrunch_resigns_full.png",
+  "rect": [
+   0,
+   603,
+   600,
+   291
+  ],
+  "focus": [
+   16,
+   673,
+   568,
+   106
+  ],
+  "outlet": "TechCrunch",
+  "date": "Nov 12, 2026",
+  "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+  "kind": "headline",
+  "note": "headline panel; photo above excluded",
+  "file": "assets2/cuts/hl_tc_resigns.png",
+  "px": [
+   1200,
+   582
+  ],
+  "focus_px": [
+   32,
+   140,
+   1136,
+   212
+  ]
+ },
+ {
+  "id": "hl_tc_testify",
+  "src": "headlines/hl_techcrunch_testify_full.png",
+  "rect": [
+   0,
+   722,
+   600,
+   150
+  ],
+  "focus": [
+   17,
+   738,
+   566,
+   22
+  ],
+  "outlet": "TechCrunch",
+  "date": "Nov 12, 2026",
+  "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+  "kind": "headline",
+  "note": "headline and lede; photo above excluded",
+  "file": "assets2/cuts/hl_tc_testify.png",
+  "px": [
+   1200,
+   300
+  ],
+  "focus_px": [
+   34,
+   32,
+   1132,
+   44
+  ]
+ },
+ {
+  "id": "hl_fox_kress",
+  "src": "headlines/hl_fox_kress_full.png",
+  "rect": [
+   0,
+   207,
+   600,
+   323
+  ],
+  "focus": [
+   16,
+   257,
+   568,
+   108
+  ],
+  "outlet": "Fox Business",
+  "date": "Nov 12, 2026",
+  "url": "https://www.foxbusiness.com/markets/colette-kress-named-nvidia-interim-ceo-jensen-huangs-abrupt-resignation-raises-investor-concerns",
+  "kind": "headline",
+  "note": "dateline to byline; video thumbnails excluded",
+  "file": "assets2/cuts/hl_fox_kress.png",
+  "px": [
+   1200,
+   646
+  ],
+  "focus_px": [
+   32,
+   100,
+   1136,
+   216
+  ]
+ },
+ {
+  "id": "cbs_48",
+  "src": "headlines/hl_cbs_megaspeed_full.png",
+  "rect": [
+   0,
+   3012,
+   600,
+   110
+  ],
+  "focus": [
+   224,
+   3052,
+   93,
+   23
+  ],
+  "outlet": "CBS News",
+  "date": "Nov 13, 2026",
+  "url": "https://www.cbsnews.com/news/megaspeed-nvidia-china-ties/",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/cbs_48.png",
+  "px": [
+   1200,
+   220
+  ],
+  "focus_px": [
+   448,
+   80,
+   186,
+   46
+  ]
+ },
+ {
+  "id": "nyt_fall_title",
+  "src": "headlines/hl_nyt_fall_full.png",
+  "rect": [
+   0,
+   157,
+   600,
+   150
+  ],
+  "focus": null,
+  "outlet": "The New York Times",
+  "date": "Nov 13, 2026",
+  "url": "https://www.nytimes.com/interactive/2026/11/13/technology/nvidia-jensen-huang.html",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/nyt_fall_title.png",
+  "px": [
+   1200,
+   300
+  ]
+ },
+ {
+  "id": "yahoo_close",
+  "src": "headlines/hl_yahoo_1112_full.png",
+  "rect": [
+   0,
+   837,
+   600,
+   90
+  ],
+  "focus": [
+   16,
+   867,
+   510,
+   51
+  ],
+  "outlet": "Yahoo Finance / The Motley Fool",
+  "date": "Nov 12, 2026",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-12-221840920.html",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/yahoo_close.png",
+  "px": [
+   1200,
+   180
+  ],
+  "focus_px": [
+   32,
+   60,
+   1020,
+   102
+  ]
+ },
+ {
+  "id": "cbs_pledge",
+  "src": "headlines/hl_cbs_stock_full.png",
+  "rect": [
+   0,
+   1238,
+   600,
+   92
+  ],
+  "focus": [
+   20,
+   1270,
+   540,
+   50
+  ],
+  "outlet": "CBS News",
+  "date": "Nov 9, 2026",
+  "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-stock-board-investigation-spy/",
+  "kind": "headline",
+  "note": "Nvidia spokesperson quote as published by CBS",
+  "file": "assets2/cuts/cbs_pledge.png",
+  "px": [
+   1200,
+   184
+  ],
+  "focus_px": [
+   40,
+   64,
+   1080,
+   100
+  ]
+ },
+ {
+  "id": "tc_doj",
+  "src": "headlines/hl_techcrunch_resigns_full.png",
+  "rect": [
+   0,
+   9018,
+   600,
+   96
+  ],
+  "focus": [
+   32,
+   9028,
+   533,
+   72
+  ],
+  "outlet": "TechCrunch (citing NYT)",
+  "date": "Nov 12, 2026",
+  "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+  "kind": "headline",
+  "note": "",
+  "file": "assets2/cuts/tc_doj.png",
+  "px": [
+   1200,
+   192
+  ],
+  "focus_px": [
+   64,
+   20,
+   1066,
+   144
+  ]
+ },
+ {
+  "id": "nv_earnings",
+  "src": "docs/nv_transition_full.png",
+  "rect": [
+   0,
+   1414,
+   600,
+   92
+  ],
+  "focus": [
+   15,
+   1444,
+   522,
+   44
+  ],
+  "outlet": "Nvidia newsroom",
+  "date": "Nov 12, 2026",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "kind": "doc",
+  "note": "",
+  "file": "assets2/cuts/nv_earnings.png",
+  "px": [
+   1200,
+   184
+  ],
+  "focus_px": [
+   30,
+   60,
+   1044,
+   88
+  ]
+ },
+ {
+  "id": "tc_notunusual",
+  "src": "headlines/hl_tc_timeline_full.png",
+  "rect": [
+   0,
+   10190,
+   600,
+   96
+  ],
+  "focus": [
+   393,
+   10224,
+   103,
+   19
+  ],
+  "outlet": "TechCrunch (Nvidia statement)",
+  "date": "Nov 13, 2026",
+  "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+  "kind": "headline",
+  "note": "Nvidia spokesperson quote as published by TechCrunch",
+  "file": "assets2/cuts/tc_notunusual.png",
+  "px": [
+   1200,
+   192
+  ],
+  "focus_px": [
+   786,
+   68,
+   206,
+   38
+  ]
+ }
+]

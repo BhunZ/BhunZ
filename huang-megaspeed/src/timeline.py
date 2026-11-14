@@ -3,7 +3,7 @@
 Writes build/narration.wav (48 kHz mono) and build/words.json.
 Each section is trimmed to its speech span (+pad) and placed after a fixed gap.
 """
-import json, os
+import json, os, sys
 import numpy as np, soundfile as sf
 from scipy.signal import resample_poly
 
@@ -17,13 +17,16 @@ END_CARD = 3.2       # seconds after last word
 SECS = ["S1", "S2", "S3", "S4", "S5", "S6", "S7"]
 
 
+VO_DIR, NAR, WJ = "vo", "narration.wav", "words.json"
+
+
 def build():
     out, words, t = [], [], LEAD
     out.append(np.zeros(int(LEAD * SR), np.float32))
     sec_spans = {}
     for i, s in enumerate(SECS):
-        meta = json.load(open(os.path.join(B, "vo", f"{s}.json")))
-        a, sr = sf.read(os.path.join(B, "vo", f"{s}.wav"), dtype="float32")
+        meta = json.load(open(os.path.join(B, VO_DIR, f"{s}.json")))
+        a, sr = sf.read(os.path.join(B, VO_DIR, f"{s}.wav"), dtype="float32")
         a = resample_poly(a, 2, 1).astype(np.float32)  # 24k -> 48k
         w0, w1 = meta["words"][0]["s"] - PAD, meta["words"][-1]["e"] + PAD
         w0 = max(0.0, w0)
@@ -42,13 +45,16 @@ def build():
             out.append(np.zeros(int(GAP * SR), np.float32)); t += GAP
     out.append(np.zeros(int(END_CARD * SR), np.float32)); t += END_CARD
     nar = np.concatenate(out)
-    sf.write(os.path.join(B, "narration.wav"), nar, SR, subtype="PCM_24")
+    sf.write(os.path.join(B, NAR), nar, SR, subtype="PCM_24")
     json.dump({"duration": round(len(nar) / SR, 4), "sections": sec_spans, "words": words},
-              open(os.path.join(B, "words.json"), "w"), indent=1)
+              open(os.path.join(B, WJ), "w"), indent=1)
     return len(nar) / SR, words, sec_spans
 
 
 if __name__ == "__main__":
+    if "--v2" in sys.argv:
+        GAP, END_CARD, LEAD = 0.45, 5.0, 0.5
+        VO_DIR, NAR, WJ = "vo2", "narration2.wav", "words2.json"
     d, words, spans = build()
     print("duration", round(d, 2), "words", len(words))
     print(spans)
