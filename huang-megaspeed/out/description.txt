@@ -34,22 +34,20 @@ The Hill: Senate pressure on the Megaspeed probe: https://thehill.com/policy/tec
 
 Footage and photos (Wikimedia Commons / NASA; licences as listed):
 Ames Research Center Unveils New Modular Supercomputing Facility (B-roll resource reel) by NASA Ames Research Center, Public domain (NASA media, not subject to U.S. copyright): https://images.nasa.gov/details/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb
-File:Jensen Huang at Computex Taipei 20160531c.jpg by NVIDIA Taiwan, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg
-File:11.09 總統出席「第一屆李國鼎獎頒獎典禮」 - 53319959776.jpg by 總統府, CC BY 2.0: https://commons.wikimedia.org/wiki/File:11.09_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E7%AC%AC%E4%B8%80%E5%B1%86%E6%9D%8E%E5%9C%8B%E9%BC%8E%E7%8D%8E%E9%A0%92%E7%8D%8E%E5%85%B8%E7%A6%AE%E3%80%8D_-_53319959776.jpg
-File:Data Center Tour & Technical Deep Dive into the Power, Data and Cooling Infrastructure!.webm by Lawrence Systems, CC BY 3.0: https://commons.wikimedia.org/wiki/File:Data_Center_Tour_%26_Technical_Deep_Dive_into_the_Power,_Data_and_Cooling_Infrastructure!.webm
-File:Singapore Skyline - Earth Hour, 2011.webm by Richard Bradbury, CC BY 3.0: https://commons.wikimedia.org/wiki/File:Singapore_Skyline_-_Earth_Hour,_2011.webm
-File:Tampines West.Singapore Skyline.Earth Hour 2016. - Time Lapse 19th March 2016 -.webm by vicsonhuang, CC BY 3.0: https://commons.wikimedia.org/wiki/File:Tampines_West.Singapore_Skyline.Earth_Hour_2016._-_Time_Lapse_19th_March_2016_-.webm
+File:Jensen Huang Stanford 2026-04-30 010 (cropped).jpg by Anderseidesvik, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg
+File:Jensen huang stanford 2026-04-30 007.jpg by Anders Eidesvik, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_007.jpg
+File:DJI Mavic Pro in Marina Bay Singapore 2017 Awesome 4k view.webm by Timberland Pham, CC BY 3.0: https://commons.wikimedia.org/wiki/File:DJI_Mavic_Pro_in_Marina_Bay_Singapore_2017_Awesome_4k_view.webm
+File:A drone video in Singapore.webm by Exec8, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:A_drone_video_in_Singapore.webm
 Marina Bay Sands in the evening - 20101120.jpg by Someformofhuman, CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_in_the_evening_-_20101120.jpg
 File:Thunderstorm Kuala Lumpur skyline.webm by Pradana Aumars, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Thunderstorm_Kuala_Lumpur_skyline.webm
 File:Aerial views of a container terminal at the Port of Cork, Cork, Ireland.webm by FILMING CORK, CC BY 3.0: https://commons.wikimedia.org/wiki/File:Aerial_views_of_a_container_terminal_at_the_Port_of_Cork,_Cork,_Ireland.webm
-File:Aerial views at night of Cork Container Terminal (CCT) in Ringaskiddy, County Cork, Ireland.webm by FILMING CORK, CC BY 3.0: https://commons.wikimedia.org/wiki/File:Aerial_views_at_night_of_Cork_Container_Terminal_(CCT)_in_Ringaskiddy,_County_Cork,_Ireland.webm
-File:DJI Mavic Pro in Marina Bay Singapore 2017 Awesome 4k view.webm by Timberland Pham, CC BY 3.0: https://commons.wikimedia.org/wiki/File:DJI_Mavic_Pro_in_Marina_Bay_Singapore_2017_Awesome_4k_view.webm
-File:Jensen Huang Stanford 2026-04-30 010 (cropped).jpg by Anderseidesvik, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg
-File:Jensen huang stanford 2026-04-30 007.jpg by Anders Eidesvik, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_007.jpg
-File:Time Lapse of Capitol Rotunda Preparations for Capitol Dome Project.webm by U.S. Capitol, Public domain: https://commons.wikimedia.org/wiki/File:Time_Lapse_of_Capitol_Rotunda_Preparations_for_Capitol_Dome_Project.webm
-File:Washington monument timelapse.webm by Jonmallard, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Washington_monument_timelapse.webm
 File:Jensen huang stanford 2026-04-30 005.jpg by Anders Eidesvik, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_005.jpg
 File:Jensen huang stanford 2026-04-30 036.jpg by Anders Eidesvik, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_036.jpg
+File:Time Lapse of Capitol Rotunda Preparations for Capitol Dome Project.webm by U.S. Capitol, Public domain: https://commons.wikimedia.org/wiki/File:Time_Lapse_of_Capitol_Rotunda_Preparations_for_Capitol_Dome_Project.webm
+File:Washington monument timelapse.webm by Jonmallard, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Washington_monument_timelapse.webm
+File:11.09 總統出席「第一屆李國鼎獎頒獎典禮」 - 53319959776.jpg by 總統府, CC BY 2.0: https://commons.wikimedia.org/wiki/File:11.09_%E7%B8%BD%E7%B5%B1%E5%87%BA%E5%B8%AD%E3%80%8C%E7%AC%AC%E4%B8%80%E5%B1%86%E6%9D%8E%E5%9C%8B%E9%BC%8E%E7%8D%8E%E9%A0%92%E7%8D%8E%E5%85%B8%E7%A6%AE%E3%80%8D_-_53319959776.jpg
+File:Aerial views at night of Cork Container Terminal (CCT) in Ringaskiddy, County Cork, Ireland.webm by FILMING CORK, CC BY 3.0: https://commons.wikimedia.org/wiki/File:Aerial_views_at_night_of_Cork_Container_Terminal_(CCT)_in_Ringaskiddy,_County_Cork,_Ireland.webm
+File:Jensen Huang at Computex Taipei 20160531c.jpg by NVIDIA Taiwan, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg
 File:Jensen Huang at Computex Taipei 20160531b.jpg by NVIDIA Taiwan, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531b.jpg
 File:Jensen Huang at Computex Taipei 20160531a.jpg by NVIDIA Taiwan, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531a.jpg
 
